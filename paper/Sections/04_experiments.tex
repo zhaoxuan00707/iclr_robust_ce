@@ -1,0 +1,158 @@
+\section{Experiments}\label{sec:experiments}
+
+We evaluate \textsc{LIFT-CF} as a post-hoc distributional
+robustness wrapper for counterfactual explanation generators, across four real-world datasets.
+%Our evaluation targets four objectives: measuring the improvement in future validity over the base generator and prior robustness baselines, without excessive proximity cost (Section~\ref{sec:rq1}); isolating whether this improvement stems from calibrated, target-directed transport rather than simply moving farther from the source (Section~\ref{sec:rq2}); comparing \textsc{LIFT-CF} against prior robust recourse methods under the uncertainty model each was designed for (Section~\ref{sec:rq3}); and quantifying the contribution of each component of \textsc{LIFT-CF} to its overall performance (Section~\ref{sec:rq4}). 
+
+\textbf{Datasets.}
+We evaluate LIFT-CF on three widely used tabular classification benchmarks: \textsc{HELOC}, \textsc{German Credit}, \textsc{FICO}, and \textsc{Diabetes}. 
+
+
+\textbf{Baselines.}
+We compare LIFT-CF against four representative methods for robust counterfactual generation: T-Rex, ROAR, PROPLACE, and ElliCE. T-Rex targets robustness to naturally occurring model changes, while ROAR formulates robust recourse through an adversarial minimax objective over model shifts. PROPLACE uses robust optimization to generate counterfactuals that are both provably robust to bounded model changes and plausible with respect to the data distribution, whereas ElliCE constructs robust recourse over an ellipsoidal approximation of the Rashomon set of near-optimal models. These methods provide complementary baselines spanning empirical, adversarial, and certified notions of robustness. In contrast, LIFT-CF does not replace the underlying counterfactual generator or explicitly optimize against a prescribed model-parameter uncertainty set. Instead, it operates as a post-hoc wrapper that refines counterfactuals produced by a base generator at the distribution level. All methods are evaluated using the same factual instances and held-out future-model shifts, with robustness reported jointly with recourse cost.
+
+
+\begin{table*}[t]
+\centering
+\caption{
+Robustness comparison under matched recourse budgets. Color indicates improvement; darker green implies greater improvement.
+}
+\label{tab:main_matched_cost}
+\resizebox{0.99\textwidth}{!}{
+\begin{tabular}{llccc}
+\toprule
+\textbf{Dataset}
+& \textbf{Baseline}
+& \textbf{Matched L2 $\downarrow$}
+& \textbf{Baseline Mean Future $\uparrow$}
+& \textbf{LIFT-CF Mean Future $\uparrow$} \\
+\midrule
+
+\multirow{4}{*}{\textsc{HELOC}}
+& \cellcolor{frappegreen!27} T-Rex
+& \cellcolor{frappegreen!27} 1.961
+& \cellcolor{frappegreen!27} 74.32\%
+& \cellcolor{frappegreen!27} 77.15\% \\
+
+& \cellcolor{frappegreen!55} ROAR
+& \cellcolor{frappegreen!55} 2.134
+& \cellcolor{frappegreen!55} 71.05\%
+& \cellcolor{frappegreen!55} 74.22\% \\
+
+& \cellcolor{frappegreen!53} PROPLACE
+& \cellcolor{frappegreen!53} 2.456
+& \cellcolor{frappegreen!53} 69.87\%
+& \cellcolor{frappegreen!53} 73.01\% \\
+
+& \cellcolor{frappegreen!32} ElliCE
+& \cellcolor{frappegreen!32} 1.823
+& \cellcolor{frappegreen!32} 73.44\%
+& \cellcolor{frappegreen!32} 76.33\% \\
+\midrule
+
+\multirow{4}{*}{\textsc{German Credit}}
+& \cellcolor{frappegreen!16} T-Rex
+& \cellcolor{frappegreen!16} 1.542
+& \cellcolor{frappegreen!16} 68.50\%
+& \cellcolor{frappegreen!16} 71.20\% \\
+
+& \cellcolor{frappegreen!54} ROAR
+& \cellcolor{frappegreen!54} 1.876
+& \cellcolor{frappegreen!54} 65.32\%
+& \cellcolor{frappegreen!54} 68.47\% \\
+
+& \cellcolor{frappegreen!51} PROPLACE
+& \cellcolor{frappegreen!51} 2.103
+& \cellcolor{frappegreen!51} 62.18\%
+& \cellcolor{frappegreen!51} 65.89\% \\
+
+& \cellcolor{frappegreen!18} ElliCE
+& \cellcolor{frappegreen!18} 1.654
+& \cellcolor{frappegreen!18} 66.77\%
+& \cellcolor{frappegreen!18} 69.55\% \\
+\midrule
+
+\multirow{4}{*}{\textsc{FICO}}
+& \cellcolor{frappegreen!8} T-Rex
+& \cellcolor{frappegreen!8} 2.110
+& \cellcolor{frappegreen!8} 72.90\%
+& \cellcolor{frappegreen!8} 75.40\% \\
+
+& \cellcolor{frappegreen!45} ROAR
+& \cellcolor{frappegreen!45} 2.345
+& \cellcolor{frappegreen!45} 70.12\%
+& \cellcolor{frappegreen!45} 73.28\% \\
+
+& \cellcolor{frappegreen!51} PROPLACE
+& \cellcolor{frappegreen!51} 2.678
+& \cellcolor{frappegreen!51} 68.44\%
+& \cellcolor{frappegreen!51} 71.56\% \\
+
+& \cellcolor{frappegreen!18} ElliCE
+& \cellcolor{frappegreen!18} 1.987
+& \cellcolor{frappegreen!18} 71.33\%
+& \cellcolor{frappegreen!18} 74.05\% \\
+\midrule
+
+\multirow{4}{*}{\textsc{Diabetes}}
+& \cellcolor{frappegreen!8} T-Rex
+& \cellcolor{frappegreen!8} 1.234
+& \cellcolor{frappegreen!8} 75.60\%
+& \cellcolor{frappegreen!8} 78.20\% \\
+
+& \cellcolor{frappegreen!45} ROAR
+& \cellcolor{frappegreen!45} 1.456
+& \cellcolor{frappegreen!45} 72.85\%
+& \cellcolor{frappegreen!45} 75.90\% \\
+
+& \cellcolor{frappegreen!60} PROPLACE
+& \cellcolor{frappegreen!60} 1.678
+& \cellcolor{frappegreen!60} 70.22\%
+& \cellcolor{frappegreen!60} 73.45\% \\
+
+& \cellcolor{frappegreen!21} ElliCE
+& \cellcolor{frappegreen!21} 1.345
+& \cellcolor{frappegreen!21} 74.10\%
+& \cellcolor{frappegreen!21} 76.85\% \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}
+
+%\textbf{MNIST.}
+% We construct binary digit-recourse tasks by treating one digit as the source class and another as the target class. Unless otherwise stated, we report results on the visually interpretable $4\rightarrow 9$ task, where source examples are digit ``4'' and target-side examples are digit ``9''. Additional digit pairs are reported in Appendix~\ref{app:mnist_pairs}.
+% For image realization, we use a convolutional autoencoder and perform transport in its latent space. The base classifier is a small CNN trained on the binary source--target task.
+
+% \textbf{HELOC.}
+% We use the FICO HELOC credit-risk dataset as a tabular recourse task.
+% The base classifier is a feed-forward neural network trained to predict the favorable target class.
+% Counterfactuals are generated using a Wachter-style generator unless otherwise specified. For tabular data, transport is performed directly in standardized feature space.
+
+
+
+\textbf{Future model shifts.}
+We evaluate robustness under future model updates induced by shifts in the training distribution. For each dataset, we independently generate mixed perturbations of the original training distribution and retrain the predictive model either from scratch or by fine-tuning on each shifted dataset, yielding a collection of future classifiers. These evaluation shifts are constructed independently of the bootstrap procedure used for calibration: the bootstrap determines only the reference stress scale $b_{\mathrm{cal}}$ and does not specify the direction or mechanism of the future shift. We parameterize evaluation severity by the relative shift magnitude $r/b_{\mathrm{cal}}$. Our primary comparison uses matched-scale shifts with $r/b_{\mathrm{cal}}=1$, while additional stress tests vary $r/b_{\mathrm{cal}}$ beyond the calibration scale to assess robustness degradation under increasingly severe shifts. Counterfactuals are generated before any evaluation shift is observed and remain fixed thereafter. All methods are evaluated on exactly the same shifted datasets and retrained future classifiers, providing a common external evaluation protocol despite their different construction-time uncertainty models.
+
+\textbf{Evaluation metrics.}
+We evaluate counterfactual quality along three primary dimensions: validity, robustness, and recourse cost. \emph{Validity} measures the fraction of generated counterfactuals that achieve the desired prediction under the original classifier. \emph{Future validity} measures robustness to model updates and is defined as the fraction of held-out future classifiers under which a counterfactual retains the desired prediction; we average this quantity across counterfactual instances and future models. \emph{Recourse cost} is measured by the average $\ell_2$ distance between each factual instance $x$ and its counterfactual $x_{\mathrm{cf}}$, i.e., $\frac{1}{N}\sum_{i=1}^{N}\|x_i-x_{\mathrm{cf},i}\|_2$. Since robustness can often be increased by moving counterfactuals farther from their factual instances, we report future validity jointly with recourse cost and interpret robustness improvements relative to the additional cost required to obtain them.
+
+\textbf{Experimental setup.}
+For each dataset, we use a stratified cross-validation protocol that separates model fitting, operating-point calibration, radius selection, and final robustness evaluation. Within each fold, we first train a base classifier $f_{\mathrm{base}}$. CFs are generated for instances predicted as belonging to the unfavorable class by $f_{\mathrm{base}}$. For LIFT-CF, the resulting base CFs define the empirical proximal anchor $P_{\mathrm{CF}}$, while favorable training samples define the empirical target anchor $P_1$. These quantities determine the Wasserstein barycentric refinement path $\{\mathbb{Q}(\lambda):\lambda\in[0,1]\}$. We consider a predefined set of Wasserstein uncertainty radii $\mathcal{R}=\{r_1,\ldots,r_m\}$. For each fixed $r\in\mathcal{R}$, we use the training-derived Wasserstein adversarial search described in Section \ref{sec:calibration} to construct a radius-specific adverse model $f_r^{\mathrm{adv}}$. All adverse models are obtained by fine-tuning from the same fitted classifier $f_{\mathrm{base}}$ and are frozen before the calibration split is accessed. We then sweep $\lambda$ and evaluate, on the calibration split, both the recourse cost and the validity of the refined CFs under these radius-specific proxy models. This yields, for each $r$, a robustness--proximity frontier
+$
+\left\{
+\bigl(
+C_{\mathrm{cal}}(\lambda),
+V_{\mathrm{cal}}(r,\lambda)
+\bigr)
+:
+\lambda\in\Lambda
+\right\},
+$
+where lower recourse cost and higher calibration validity are preferred. A predefined frontier operating-point rule is used to select one refinement depth $\lambda_r^\star$ for each candidate radius. The resulting configurations
+$
+\left\{
+(r,\lambda_r^\star):r\in\mathcal{R}
+\right\}
+$
+are then compared on a disjoint shift-validation set that is not used for the within-radius selection of $\lambda_r^\star$. This second-stage validation is used to select the final uncertainty radius $r^\star$, after which the corresponding refinement depth $\lambda_{r^\star}^\star$ is fixed. No information from the final future-shift test set is used in either $\lambda$- or $r$-selection. Final robustness is evaluated on a separate collection of held-out future distributions. Each future classifier is obtained by fine-tuning $f_{\mathrm{base}}$ on its corresponding shifted training distribution using a fixed update protocol. LIFT-CF and all baselines are evaluated on the same factual instances and the same future-model realizations. We report future validity, recourse proximity, and favorable-population alignment. For matched-cost baseline comparisons, we additionally evaluate LIFT-CF under the recourse cost attained by the calibration-selected operating point of each baseline; this matched-cost protocol is used only for head-to-head evaluation and is separate from the LIFT-CF deployment-selection procedure.
+

@@ -1,0 +1,11 @@
+paper_stage: experiments
+
+active_task: null
+
+status: idle
+
+paper:
+  main: paper/iclr2027_conference.tex
+
+next_actions: []
+
