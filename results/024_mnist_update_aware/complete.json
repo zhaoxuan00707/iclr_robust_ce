@@ -1,0 +1,8 @@
+{
+  "all_input_hashes_unchanged": true,
+  "selection_frozen_before_final_scoring": true,
+  "no_current_validity_repair": true,
+  "one_CF_per_factual": true,
+  "method": "PDF Section 3 update-aware surrogate",
+  "selected_test_feasible": true
+}

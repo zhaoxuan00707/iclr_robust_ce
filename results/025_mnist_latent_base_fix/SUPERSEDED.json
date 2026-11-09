@@ -1,0 +1,6 @@
+{
+  "valid_for_smooth_hinge_method": false,
+  "reason": "Preparation used smooth hinge but optimization inadvertently used hard-hinge defaults. All metrics/figures from this attempt are excluded from smooth-method evidence.",
+  "replacement": "results/026_mnist_smooth_hinge/",
+  "source_run": "/home/xu.zhao/robust_ce_results/iclr_runs/mnist_latent_base_fix/20260924_smooth_v1"
+}

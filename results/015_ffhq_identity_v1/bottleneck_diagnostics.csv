@@ -1,0 +1,2 @@
+smile_probe_u,smile_probe_u_balanced,smile_probe_v,smile_probe_v_balanced,task_dimension,content_dimension,latent_dimensions,gradient_energy,calibration_majority_accuracy,reconstruction_error,reconstruction_max_error,reconstruction_latent_max_error
+0.765625,0.765625,0.5625,0.5625,29,483,512,0.9507440640551782,0.5,0.0,0.0,0.0

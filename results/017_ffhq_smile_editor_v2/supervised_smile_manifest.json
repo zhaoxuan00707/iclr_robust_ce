@@ -1,0 +1,16 @@
+{
+  "checkpoint": "/tmp/ffhq_lennon_state.pt",
+  "source": "https://huggingface.co/AiresPucrs/LeNNon-Smile-Detector",
+  "revision": "e34d94965363927f60dea5a5b76770a8966048c5",
+  "model_card_mapping": "argmax(logits)>0 means smiling; ten-logit head retained",
+  "validation": "first32 annotated eurecom-ds/celeba test rows; diagnostic sample, overlap with training unknown",
+  "role": "diagnostic only; never changes original classifier or selection objective",
+  "converted_state_sha256": "c024c004569e8d409d663a90ed051d9bf43e2000dd30acfa6755214cfd50f2eb",
+  "original_checkpoint_sha256": "61da9befc0b3f13b22ae3b4a380a0b6c9d5ac8e7b73a2aeac7c594db21470030",
+  "conversion": "weights_only load with audited module/standard nn allowlist, then state_dict; inference keys loaded strictly",
+  "source_sample_accuracy": 0.96875,
+  "source_positive_count": 14,
+  "source_extra_class_predictions": 0,
+  "small_nonindependent_source_audit_not_generalization_estimate": true,
+  "validation_dataset_revision": "e9092e921951927418a9e8f87822020206b292ce"
+}

@@ -1,0 +1,13 @@
+{
+  "run": "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1",
+  "completed_workers": 7,
+  "checks": 625,
+  "all_passed": true,
+  "pending": "heloc_mlp and final reporting",
+  "final": false,
+  "checked_at_utc": "2026-09-25T23:53:48.446566+00:00",
+  "controller_pid": 452394,
+  "remaining_worker_pid": 452399,
+  "postprocessor_pid": 456931,
+  "focused_tests_passed": 3
+}

@@ -1,0 +1,5 @@
+,,FV,FV,proximity,proximity,current_validity,current_validity
+,,mean,std,mean,std,mean,std
+dataset,variant,,,,,,
+german,individual,0.9560185273488363,0.012848801499106652,2.3490914503733316,0.10058277215046563,1.0,0.0
+german,population,0.9650463064511617,0.004464657113267308,2.39189076423645,0.0613840230426444,1.0,0.0

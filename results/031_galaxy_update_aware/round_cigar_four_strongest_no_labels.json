@@ -1,0 +1,59 @@
+{
+  "raw_run": "/home/xu.zhao/robust_ce_results/iclr_runs/galaxy_update_aware/20260924_v1",
+  "source_sha256": {
+    "/home/xu.zhao/robust_ce_results/iclr_runs/galaxy_update_aware/20260924_v1/population.pt": "9c661c6f1364e07e26f89b91b0b28ec8279d1ec7f7a2bff4bd8f340ae1904cca",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/galaxy_update_aware/20260924_v1/round_cigar/frozen_test_images.pt": "86b66bfb0642eafed87ab3e39f05184e1a8ee384f17724bc784acba30db4b468",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/galaxy_update_aware/20260924_v1/round_cigar/selection.json": "c2903ab94bb044d35394ab7d414eaf6371ba32e5048bc344fa2bbd057f47dc27"
+  },
+  "selected_method": "r0.25_beta1.02",
+  "r": 0.25,
+  "beta": 1.02,
+  "indices": [
+    3,
+    7,
+    12,
+    14
+  ],
+  "factual_ids": [
+    "/mnt/big_disk/z.cao/Galaxy10/image_data_test/ans_2/img_3099.jpeg",
+    "/mnt/big_disk/z.cao/Galaxy10/image_data_test/ans_2/img_3008.jpeg",
+    "/mnt/big_disk/z.cao/Galaxy10/image_data_test/ans_2/img_3035.jpeg",
+    "/mnt/big_disk/z.cao/Galaxy10/image_data_test/ans_2/img_3190.jpeg"
+  ],
+  "ranking": "post-hoc descending full RGB L2 selected-minus-Base; tie index",
+  "scores_all": [
+    1.6996067175126943,
+    1.6890824385472276,
+    0.9227675377702806,
+    8.227138987987868,
+    1.1248429157790523,
+    1.7312390761484282,
+    1.686339114621469,
+    2.262005145104491,
+    0.9744695230506164,
+    0.8993328321181744,
+    1.7235121668753663,
+    1.96434982331324,
+    2.1137605440599776,
+    0.7910671127130602,
+    2.08767952279354,
+    1.1554529357529935
+  ],
+  "columns": [
+    "Factual",
+    "Base",
+    "Selected",
+    "Mean RGB absolute selected-minus-Base"
+  ],
+  "heatmap_limits": [
+    0,
+    0.26927223801612854
+  ],
+  "scale": "shared linear absolute scale across all16 test cases; no per-image normalization",
+  "title": false,
+  "column_names": false,
+  "legend": false,
+  "inputs_unchanged": true,
+  "caveat": "Largest differences are illustrative, not representative; inherited Base artifacts remain visible, especially ID3.",
+  "figure": "/home/xu.zhao/iclr_robust_ce/figures/galaxy_update_aware/round_cigar_four_strongest_no_labels.pdf"
+}

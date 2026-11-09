@@ -1,0 +1,9 @@
+calibration_index,observation
+0,"Factual already has an open, smile-like mouth; edit strengthens it. Both classifiers are questionable as annotations of a non-smiling factual."
+1,"Numerical CLIP pass, but little clear visible smile change in selected independent edits."
+2,"Mouth corners appear more raised; subtle smile-like change, supervised classifier remains negative."
+3,"More teeth visible and mouth shape changes, supervised classifier remains negative; no definitive semantic label assigned."
+4,Visible mouth/teeth change despite original CLIP failure; change could be expression other than smiling.
+5,"Mouth changes visibly; independent model labels factual and edits smiling, while original CLIP fails."
+6,Four-channel edit appears more smile-like and independent model becomes positive; eight-channel selected edit is less clear and independent model stays negative.
+7,Four-channel edit exposes teeth and looks more smile-like; independent model becomes positive. Eight-channel change is subtler.

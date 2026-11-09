@@ -1,0 +1,18 @@
+[
+  {
+    "split": "cal",
+    "nominal": 0.017451206222176552,
+    "sensitivity": 1.6141586303710938,
+    "directional_autograd": 0.12035836279392242,
+    "finite_difference": 0.12212246656417847,
+    "relative_error": 0.014657093444155108
+  },
+  {
+    "split": "test",
+    "nominal": 0.01386812049895525,
+    "sensitivity": 1.2401543855667114,
+    "directional_autograd": 0.1089249923825264,
+    "finite_difference": 0.10808557271957397,
+    "relative_error": 0.007706400933263519
+  }
+]

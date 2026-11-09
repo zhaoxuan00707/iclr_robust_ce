@@ -1,0 +1,10 @@
+{
+ "task":"tasks/019_text_toxicity_update_aware.md", "seed":1901,
+ "assets":"/home/xu.zhao/robust_ce_data/text019_assets_v1",
+ "splits":{"fit":2000,"validation":256,"nominal":128,"cal_future":256,"test_future":256,"cal":256,"test":256},
+ "n":8,"r_grid":[0,0.05,0.25,1],"beta_grid":[1.02,1.1],
+ "update":{"steps":3,"lr":0.5,"n":128},
+ "generator":{"steps":300,"batch":16,"lr":0.0001,"max_length":96,"beams":8,"samples":16},
+ "solver":{"sweeps":10,"improvement":1e-10,"geometry_tolerance":1e-8},
+ "future":{"severities":[0.5,1,1.5,2],"reps":2,"families":["length","error","topic"]}
+}

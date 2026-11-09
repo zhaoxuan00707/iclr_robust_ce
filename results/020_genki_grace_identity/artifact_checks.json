@@ -1,0 +1,14 @@
+{
+  "pdf_page_counts": {
+    "qualitative.pdf": 2,
+    "qualitative_all_betas.pdf": 4,
+    "shift_severity.pdf": 1
+  },
+  "all_eight_cases_in_both_qualitative_pdfs": true,
+  "selected_pdf_both_pages_visually_inspected": true,
+  "shift_curve_visually_inspected": true,
+  "seven_focused_tests_previously_passed": true,
+  "final_all_beta_pdf": "figures/genki_grace_identity/qualitative_all_betas_v2.pdf",
+  "final_all_beta_pages": 4,
+  "all_beta_layout_visually_checked": true
+}

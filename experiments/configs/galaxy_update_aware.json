@@ -1,0 +1,63 @@
+{
+  "task": "tasks/017_galaxy_update_aware.md",
+  "seed": 1701,
+  "parents": {
+    "merging_round": "/home/xu.zhao/robust_ce_results/galaxy_grace_v1/20260916_pairs_merging_round_v1",
+    "round_cigar": "/home/xu.zhao/robust_ce_results/galaxy_grace_v1/20260916_pairs_round_cigar_v1"
+  },
+  "targets": {
+    "merging_round": 2,
+    "round_cigar": 4
+  },
+  "sources": {
+    "merging_round": 1,
+    "round_cigar": 2
+  },
+  "train_per_class": 4,
+  "r_grid": [
+    0,
+    0.25,
+    1,
+    4
+  ],
+  "beta_grid": [
+    1.02,
+    1.1
+  ],
+  "update": {
+    "steps": 3,
+    "lr": 0.0001,
+    "parameters": "net.classifier.6 weight and bias",
+    "loss": "multiclass cross entropy"
+  },
+  "temperature": 0.05,
+  "microbatch": 2,
+  "solver": {
+    "steps": 160,
+    "primal_lr": 5,
+    "rho": 1,
+    "feas_relative": 1e-05,
+    "gradient_clip": 0.2
+  },
+  "future": {
+    "severities": [
+      0.5,
+      1,
+      1.5,
+      2
+    ],
+    "realizations": 2,
+    "cal_seed": 171000,
+    "test_seed": 181000
+  },
+  "gpu_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "zero_edit_max_error": 0.0,
+  "autograd_directional_derivative": 0.026443906128406525,
+  "finite_difference_derivative": 0.02551693469285965,
+  "passed": true
+}

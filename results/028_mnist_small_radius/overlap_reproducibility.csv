@@ -1,0 +1,13 @@
+split,method,max_Q_difference
+cal,r0_beta1,0.0
+cal,r0_beta1.05,0.0
+cal,r0.25_beta1.05,0.00356292724609375
+cal,r0_beta1.1,0.0
+cal,r0.25_beta1,0.0
+cal,r0.25_beta1.1,0.0
+test,r0_beta1,0.0
+test,r0_beta1.05,0.0
+test,r0.25_beta1.05,0.0
+test,r0_beta1.1,0.0
+test,r0.25_beta1,0.0
+test,r0.25_beta1.1,0.0014128684997558594

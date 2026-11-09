@@ -1,0 +1,33 @@
+{
+  "comparisons": [
+    {
+      "method": "F_beta100",
+      "direct_Q_construction_hinge": 0.488633826401808,
+      "best_path_training_hinge": 0.4804607618687233,
+      "best_path_training_lambda": 0.55,
+      "difference": 0.00817306453308475
+    },
+    {
+      "method": "F_beta105",
+      "direct_Q_construction_hinge": 0.4880298425307232,
+      "best_path_training_hinge": 0.4806107921644206,
+      "best_path_training_lambda": 0.55,
+      "difference": 0.007419050366302582
+    },
+    {
+      "method": "F_beta110",
+      "direct_Q_construction_hinge": 0.4844518730805502,
+      "best_path_training_hinge": 0.4798538158949224,
+      "best_path_training_lambda": 0.6,
+      "difference": 0.004598057185627835
+    },
+    {
+      "method": "F_beta120",
+      "direct_Q_construction_hinge": 0.4761400710996823,
+      "best_path_training_hinge": 0.4732295008687798,
+      "best_path_training_lambda": 0.7,
+      "difference": 0.0029105702309025205
+    }
+  ],
+  "interpretation": "Continuous edge interpolation creates support points outside the graph-node decision parameterization. Lower risk along the realized path than at its learned control illustrates representation/local solver limitations; it is not a global optimum or a change to the direct-Q objective."
+}

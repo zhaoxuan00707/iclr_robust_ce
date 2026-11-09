@@ -1,0 +1,10 @@
+# Additional pinned runtime dependencies for the original LeapFactual ODE generator.
+# Install into a task-local directory and add it to PYTHONPATH; do not replace torch.
+torchdyn==1.0.6
+torchdiffeq==0.2.5
+torchcde==0.2.5
+torchsde==0.2.6
+trampoline==0.1.2
+pytorch-lightning==2.5.0
+lightning-utilities==0.12.0
+torchmetrics==1.6.1

@@ -1,0 +1,22 @@
+{
+  "status": "passed_with_documented_precision_followup",
+  "completed_worker_jobs": 18,
+  "attempted_worker_jobs": 19,
+  "eight_gpus_used": true,
+  "dataset_images": 4000,
+  "all_dataset_and_parent_hashes_verified": true,
+  "no_exact_duplicate_cross_split_overlap": true,
+  "selection_recomputed_using_validation_only": true,
+  "test_evaluation_after_selection_freeze": true,
+  "held_out_test_predictions_independently_recomputed": true,
+  "adapter_gradient_checks_passed": 8,
+  "maximum_adapter_gradient_relative_error": 0.0143101468860048,
+  "original_cuda_float32_gradient_checks_passed": 5,
+  "supplemental_cpu_float64_gradient_checks_passed": 8,
+  "original_evaluation_failure_preserved": true,
+  "focused_tests_passed": 3,
+  "new_counterfactuals_generated": false,
+  "FFHQ_test_accessed": false,
+  "GRACE_started": false,
+  "semantic_transfer_accuracy_established": false
+}

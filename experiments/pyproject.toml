@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iclr-robust-ce-experiments"
+version = "0.1.0"
+description = "Repository-local LIFT-CF core experiments"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2", "torchvision>=0.17", "numpy>=1.26", "pandas>=2.1", "scipy>=1.11", "matplotlib>=3.8", "PyYAML>=6.0", "tqdm>=4.66", "scikit-learn>=1.5", "h5py>=3.10", "POT>=0.9"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+baselines = ["gurobipy>=11", "pyscipopt>=5", "lime>=0.2"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

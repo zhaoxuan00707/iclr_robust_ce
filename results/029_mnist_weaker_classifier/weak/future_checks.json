@@ -1,0 +1,6 @@
+{
+  "cal_unique": 28,
+  "test_unique": 28,
+  "cross_split_identical": 4,
+  "scenarios_per_split": 36
+}

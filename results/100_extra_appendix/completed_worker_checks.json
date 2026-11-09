@@ -1,0 +1,3728 @@
+[
+  {
+    "worker": "diabetes_logistic",
+    "check": "split_and_freeze",
+    "passed": true,
+    "cal_unique_models": 29,
+    "test_unique_models": 31,
+    "shared_cal_test_models": 8
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 0,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 1,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 2,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 3,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 4,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 5,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 6,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 7,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 8,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 9,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 10,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 11,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 12,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 13,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 14,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 15,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 16,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 17,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 18,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 19,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 20,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 21,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 22,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 23,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 24,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 25,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 26,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 27,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 28,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 29,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 30,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 31,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 32,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 33,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 34,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 35,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 36,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 37,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 38,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 39,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 40,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 41,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 42,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 43,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "future_reconstruction",
+    "index": 44,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "output_metrics",
+    "method": "wachter",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "output_metrics",
+    "method": "grace_wachter",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "output_metrics",
+    "method": "trex",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "output_metrics",
+    "method": "roar",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "output_metrics",
+    "method": "proplace",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "output_metrics",
+    "method": "ellice",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_wachter_0.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_trex_0.2.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_trex_0.4.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_trex_0.6.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_roar_0.005.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_roar_0.01.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_roar_0.05.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_proplace_0.001.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_proplace_0.005.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_proplace_0.01.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_ellice_0.005.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_ellice_0.01.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_ellice_0.05.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "ellice_native_robustness_measured",
+    "passed": true,
+    "robust_count": 47,
+    "total": 47
+  },
+  {
+    "worker": "diabetes_logistic",
+    "check": "calibration_selection",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "split_and_freeze",
+    "passed": true,
+    "cal_unique_models": 29,
+    "test_unique_models": 31,
+    "shared_cal_test_models": 8
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 0,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 1,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 2,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 3,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 4,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 5,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 6,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 7,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 8,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 9,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 10,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 11,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 12,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 13,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 14,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 15,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 16,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 17,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 18,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 19,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 20,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 21,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 22,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 23,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 24,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 25,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 26,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 27,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 28,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 29,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 30,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 31,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 32,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 33,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 34,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 35,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 36,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 37,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 38,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 39,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 40,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 41,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 42,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 43,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "future_reconstruction",
+    "index": 44,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "output_metrics",
+    "method": "wachter",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "output_metrics",
+    "method": "grace_wachter",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "output_metrics",
+    "method": "trex",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "output_metrics",
+    "method": "roar",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "output_metrics",
+    "method": "proplace",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "output_metrics",
+    "method": "ellice",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "output_metrics",
+    "method": "dice",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "output_metrics",
+    "method": "grace_dice",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_wachter_0.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_trex_0.2.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_trex_0.4.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_trex_0.6.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_roar_0.005.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_roar_0.01.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_roar_0.05.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_proplace_0.001.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_proplace_0.005.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_proplace_0.01.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_ellice_0.005.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_ellice_0.01.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_ellice_0.05.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_dice_0.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.05_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.05_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.05_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.05_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.1_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.1_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.1_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.1_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.2_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.2_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.2_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.2_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "ellice_native_robustness_measured",
+    "passed": true,
+    "robust_count": 50,
+    "total": 50
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "calibration_selection",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "timed_output_metrics",
+    "method": "wachter",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "timed_output_metrics",
+    "method": "trex",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "timed_output_metrics",
+    "method": "roar",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "timed_output_metrics",
+    "method": "proplace",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "timed_output_metrics",
+    "method": "ellice",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "timed_output_metrics",
+    "method": "grace_wachter",
+    "passed": true
+  },
+  {
+    "worker": "diabetes_mlp",
+    "check": "fresh_ten_cf_population",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "split_and_freeze",
+    "passed": true,
+    "cal_unique_models": 29,
+    "test_unique_models": 31,
+    "shared_cal_test_models": 8
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 0,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 1,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 2,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 3,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 4,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 5,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 6,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 7,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 8,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 9,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 10,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 11,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 12,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 13,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 14,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 15,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 16,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 17,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 18,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 19,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 20,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 21,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 22,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 23,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 24,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 25,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 26,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 27,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 28,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 29,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 30,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 31,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 32,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 33,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 34,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 35,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 36,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 37,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 38,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 39,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 40,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 41,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 42,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 43,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "future_reconstruction",
+    "index": 44,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "output_metrics",
+    "method": "wachter",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "output_metrics",
+    "method": "grace_wachter",
+    "realization": "relaxed",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "output_metrics",
+    "method": "grace_wachter",
+    "realization": "hard",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "output_metrics",
+    "method": "trex",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "output_metrics",
+    "method": "roar",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "output_metrics",
+    "method": "proplace",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "output_metrics",
+    "method": "ellice",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_wachter_0.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_trex_0.2.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_trex_0.4.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_trex_0.6.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_roar_0.005.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_roar_0.01.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_roar_0.05.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_proplace_0.001.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_proplace_0.005.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_proplace_0.01.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_ellice_0.005.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_ellice_0.01.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_ellice_0.05.pt",
+    "passed": true
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "ellice_native_robustness_measured",
+    "passed": true,
+    "robust_count": 128,
+    "total": 128
+  },
+  {
+    "worker": "fico_logistic",
+    "check": "calibration_selection",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "split_and_freeze",
+    "passed": true,
+    "cal_unique_models": 29,
+    "test_unique_models": 31,
+    "shared_cal_test_models": 8
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 0,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 1,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 2,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 3,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 4,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 5,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 6,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 7,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 8,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 9,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 10,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 11,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 12,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 13,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 14,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 15,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 16,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 17,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 18,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 19,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 20,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 21,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 22,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 23,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 24,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 25,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 26,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 27,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 28,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 29,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 30,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 31,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 32,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 33,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 34,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 35,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 36,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 37,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 38,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 39,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 40,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 41,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 42,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 43,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "future_reconstruction",
+    "index": 44,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "output_metrics",
+    "method": "wachter",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "output_metrics",
+    "method": "grace_wachter",
+    "realization": "relaxed",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "output_metrics",
+    "method": "grace_wachter",
+    "realization": "hard",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "output_metrics",
+    "method": "trex",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "output_metrics",
+    "method": "roar",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "output_metrics",
+    "method": "proplace",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "output_metrics",
+    "method": "ellice",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_wachter_0.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_trex_0.2.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_trex_0.4.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_trex_0.6.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_roar_0.005.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_roar_0.01.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_roar_0.05.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_proplace_0.001.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_proplace_0.005.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_proplace_0.01.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_ellice_0.005.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_ellice_0.01.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_ellice_0.05.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_logistic",
+    "check": "ellice_native_robustness_measured",
+    "passed": true,
+    "robust_count": 0,
+    "total": 43
+  },
+  {
+    "worker": "german_logistic",
+    "check": "calibration_selection",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "split_and_freeze",
+    "passed": true,
+    "cal_unique_models": 29,
+    "test_unique_models": 31,
+    "shared_cal_test_models": 8
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 0,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 1,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 2,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 3,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 4,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 5,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 6,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 7,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 8,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 9,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 10,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 11,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 12,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 13,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 14,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 15,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 16,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 17,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 18,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 19,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 20,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 21,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 22,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 23,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 24,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 25,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 26,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 27,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 28,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 29,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 30,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 31,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 32,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 33,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 34,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 35,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 36,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 37,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 38,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 39,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 40,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 41,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 42,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 43,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "future_reconstruction",
+    "index": 44,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "output_metrics",
+    "method": "wachter",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "output_metrics",
+    "method": "grace_wachter",
+    "realization": "relaxed",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "output_metrics",
+    "method": "grace_wachter",
+    "realization": "hard",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "output_metrics",
+    "method": "trex",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "output_metrics",
+    "method": "roar",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "output_metrics",
+    "method": "proplace",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "output_metrics",
+    "method": "ellice",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "output_metrics",
+    "method": "dice",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "output_metrics",
+    "method": "grace_dice",
+    "realization": "relaxed",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "output_metrics",
+    "method": "grace_dice",
+    "realization": "hard",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_wachter_0.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_trex_0.2.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_trex_0.4.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_trex_0.6.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_roar_0.005.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_roar_0.01.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_roar_0.05.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_proplace_0.001.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_proplace_0.005.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_proplace_0.01.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_ellice_0.005.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_ellice_0.01.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_ellice_0.05.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_dice_0.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.05_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.05_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.05_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.05_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.1_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.1_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.1_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.1_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.2_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.2_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.2_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_output",
+    "artifact": "cal_grace_dice_b1.2_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "ellice_native_robustness_measured",
+    "passed": true,
+    "robust_count": 37,
+    "total": 37
+  },
+  {
+    "worker": "german_mlp",
+    "check": "calibration_selection",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "timed_output_metrics",
+    "method": "wachter",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "timed_output_metrics",
+    "method": "trex",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "timed_output_metrics",
+    "method": "roar",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "timed_output_metrics",
+    "method": "proplace",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "timed_output_metrics",
+    "method": "ellice",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "timed_output_metrics",
+    "method": "grace_wachter",
+    "passed": true
+  },
+  {
+    "worker": "german_mlp",
+    "check": "fresh_ten_cf_population",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "split_and_freeze",
+    "passed": true,
+    "cal_unique_models": 29,
+    "test_unique_models": 31,
+    "shared_cal_test_models": 8
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 0,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 1,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 2,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 3,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 4,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 5,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 6,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 7,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 8,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 9,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 10,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 11,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 12,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 13,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 14,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 15,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 16,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 17,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 18,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 19,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 20,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 21,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 22,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 23,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 24,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 25,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 26,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 27,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 28,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 29,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 30,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 31,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 32,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 33,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 34,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 35,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 36,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 37,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 38,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 39,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 40,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 41,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 42,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 43,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "future_reconstruction",
+    "index": 44,
+    "error": 0.0,
+    "device": "cuda:0",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "output_metrics",
+    "method": "wachter",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "output_metrics",
+    "method": "grace_wachter",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "output_metrics",
+    "method": "trex",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "output_metrics",
+    "method": "roar",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "output_metrics",
+    "method": "proplace",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "output_metrics",
+    "method": "ellice",
+    "realization": "native",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_wachter_0.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.05_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.1_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r0.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r0.25.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r1.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_grace_wachter_b1.2_r3.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_trex_0.2.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_trex_0.4.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_trex_0.6.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_roar_0.005.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_roar_0.01.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_roar_0.05.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_proplace_0.001.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_proplace_0.005.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_proplace_0.01.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_ellice_0.005.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_ellice_0.01.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_output",
+    "artifact": "cal_ellice_0.05.pt",
+    "passed": true
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "ellice_native_robustness_measured",
+    "passed": true,
+    "robust_count": 128,
+    "total": 128
+  },
+  {
+    "worker": "heloc_logistic",
+    "check": "calibration_selection",
+    "passed": true
+  }
+]

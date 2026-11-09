@@ -1,0 +1,16 @@
+{
+  "candidate_origins": {
+    "1.0": "geodesic0.5",
+    "1.05": "geodesic0.5",
+    "1.1": "geodesic0.5",
+    "1.2": "geodesic0.5"
+  },
+  "identical_beta_outputs": true,
+  "no_observed_benefit_from_extra_beta": true,
+  "selected_pixel224_cost_ratio_to_Base": 2.398142819489171,
+  "Base_generator_worker_seconds_both_splits": 254.70296335220337,
+  "LeapFactual_generator_worker_seconds_both_splits": 390.88114047050476,
+  "identity_metric": "unavailable",
+  "qualitative_review": "Substantial changes in facial appearance, hair, clothing and background; visual grid does not establish identity preservation.",
+  "shift_result": "Selected GRACE1.0 on all brightness/noise levels,0.875 at strongest blur; Base noise validity rises with severity, so severity is not monotonic damage under this projection update."
+}

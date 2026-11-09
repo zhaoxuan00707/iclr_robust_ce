@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "focused_editor_tests_passed": 4,
+  "gradient_checks_passed": 8,
+  "annotation_ids_verified": 16,
+  "pdf_pages": 2,
+  "pdf_pages_visually_inspected": 2,
+  "csv_export_checked_with_mock_browser_apis": true,
+  "full_browser_ui_tested": false,
+  "missing_annotations_export_blocked": true,
+  "quoted_rater_id_escaping_passed": true,
+  "source_and_artifact_hashes_verified": true,
+  "human_labels_available": false
+}

@@ -1,0 +1,7 @@
+# Keep local operational instructions/state out of source release archives.
+# These files remain in the working repository for historical workflow compatibility.
+/AGENTS.md export-ignore
+/.agent export-ignore
+/.agents export-ignore
+/.codex export-ignore
+/.release-private export-ignore

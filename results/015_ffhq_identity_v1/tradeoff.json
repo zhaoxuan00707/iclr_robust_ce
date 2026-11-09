@@ -1,0 +1,11 @@
+{
+  "selected_r": 2.0,
+  "selected_beta": 1.05,
+  "task_dimension": 29,
+  "full_FV_gain_over_base": 0.5416666666666667,
+  "bottleneck_FV_gain_over_base": 0.5416666666666667,
+  "retained_fraction_of_full_FV_gain": 1.0,
+  "identity_similarity_gain_vs_full": 0.03702594339847559,
+  "LPIPS_reduction_vs_full": -0.10731776058673859,
+  "hard_content_max_drift": 1.029543798578266e-07
+}

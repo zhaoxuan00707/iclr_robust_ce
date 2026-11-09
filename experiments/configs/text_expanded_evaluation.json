@@ -1,0 +1,28 @@
+{
+  "task": "tasks/021_text_expanded_evaluation.md",
+  "seed": 2101,
+  "n": 64,
+  "population_size": 8,
+  "parent": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2",
+  "original": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_update_aware/20260924_v1",
+  "assets": "/home/xu.zhao/robust_ce_data/text019_assets_v1",
+  "r_grid": [
+    0,
+    0.25
+  ],
+  "beta": 1.5,
+  "update": {
+    "steps": 30,
+    "lr": 0.5
+  },
+  "gpu_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ]
+}

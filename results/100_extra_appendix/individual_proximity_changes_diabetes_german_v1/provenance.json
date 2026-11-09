@@ -1,0 +1,23 @@
+{
+  "raw_run": "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1",
+  "raw_sha256": {
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/diabetes_mlp/prepared.pt": "f218afd9610111a3efa43c9d2a20c5c216b85383a688dc11b29c276bbea06d7c",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/diabetes_mlp/test_wachter.pt": "7907bd3304b1a3a625e248dfecdb29ede0a9599414131f0a36bb7f22964b8f02",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/diabetes_mlp/test_grace_wachter.pt": "4da7b9b99d1472e0ec3382f7dd2df8c4ded3870bf273b6f7670af0d31e35dbfb",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/diabetes_logistic/prepared.pt": "9f63c0687a4e030223442c6c2bc30a69e684ae5c34d14ac064dde0a123f4b007",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/diabetes_logistic/test_wachter.pt": "db706965560ad34d10cf330211c8bcf86d83d4feb0a5c4be71273bd8b1174e95",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/diabetes_logistic/test_grace_wachter.pt": "064140edfc18a7fed34fedb1ffda2f4f3ac4aae54c2ff60a34b5e1ba44166962",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/german_mlp/prepared.pt": "0f3311e96cf47475307b776227822d23de1ac27e750313cb9d4b5d32cebe4bd3",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/german_mlp/test_wachter.pt": "d85157d438c66e5c8fda0b36d0cc5567e874fad8cda1efc695aa7a93369317b0",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/german_mlp/test_grace_wachter.pt": "1fb9329546e04a01a1ef0ecc6dccca42a87bd6cb37dc7aac5e8183a6c7bb5b41",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/german_logistic/prepared.pt": "171acf0d450fc18cf919e85fef893baae2715412e0bc2a3736d0682cfe346c4c",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/german_logistic/test_wachter.pt": "23d99f386bba28893730e36419042d6e0b4f986329448cd8183179ca9ccac4fc",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/german_logistic/test_grace_wachter.pt": "b9a0c507a1f4c9c2982450f6e37b5afc8392a57eccf5387579c0fb095deff7c7"
+  },
+  "method": "GRACE-Wachter",
+  "split": "test",
+  "definition": "delta_i = ||assigned_GRACE_i - factual_i||_2 - ||Wachter_Base_i - factual_i||_2",
+  "units": "Original standardized-feature Euclidean L2",
+  "quantile": "NumPy linear interpolation; quantiles of paired signed changes, not differences of marginal quantiles",
+  "checks": "Cohort sizes match original saved results; permutation and assignment exact; mean costs match original report within1e-5; original files unchanged"
+}

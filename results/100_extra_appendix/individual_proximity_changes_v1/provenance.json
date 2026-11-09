@@ -1,0 +1,23 @@
+{
+  "raw_run": "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1",
+  "raw_sha256": {
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/heloc_mlp/prepared.pt": "6a4c76ca34cb3f648d1749ec0f64498a7243937d97ad77793eefd251545f083e",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/heloc_mlp/test_wachter.pt": "a9d5233119f4ac5cc6341caaf041eed7314de37b6c0737e7efb7b259e4a3306e",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/heloc_mlp/test_grace_wachter.pt": "2c8195a5b39acc617f9839ed71e3744ccbfde4944f4abca593a986518de5f7e9",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/heloc_logistic/prepared.pt": "be9683ab3c27ece1c2804557210b97acfa453db004443d8cd4ade71a1cea909d",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/heloc_logistic/test_wachter.pt": "91845b6db15d369e61b546c8387709a5b29d8a93b5f9425ec2f4a6b2d50dcc5e",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/heloc_logistic/test_grace_wachter.pt": "dde4bb7532f0b2f0cb031de87411929dc19e9c76db9187cf5793b1837695ce8f",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/fico_mlp/prepared.pt": "3b332217e353223ad437774c91a7eac5d13ad79e6887273ce4cb26c36383f008",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/fico_mlp/test_wachter.pt": "c0137711c94fa87e481b32220a81636e9d22dffa9ecf0d3b4d1f70b9dc5b9c2e",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/fico_mlp/test_grace_wachter.pt": "b980193b3bd205f6524283806fb8d78e2213f3739fdb8b36062aada2f44e07c1",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/fico_logistic/prepared.pt": "16ea4d0f02cb7e1c22c451abe6fe4071b6b6499fed2fa1c07de19709f1d01f27",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/fico_logistic/test_wachter.pt": "b563623125d06b3d5c70f292608579dba7f6d71d92417bab47a87910479dec89",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/fico_logistic/test_grace_wachter.pt": "c258b9f7517de43d290906629888c4f89d94823707c2eca00970efae2f1ed847"
+  },
+  "method": "GRACE-Wachter",
+  "split": "test",
+  "definition": "delta_i = ||assigned_GRACE_i - factual_i||_2 - ||Wachter_Base_i - factual_i||_2",
+  "units": "Original standardized-feature Euclidean L2",
+  "quantile": "NumPy linear interpolation; quantiles of paired signed changes, not differences of marginal quantiles",
+  "checks": "128 factuals per worker; permutation and assignment exact; mean costs match original report within1e-5; original files unchanged"
+}

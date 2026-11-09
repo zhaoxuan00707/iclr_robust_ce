@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "jobs": 18,
+  "calibration_images": 8,
+  "evaluated_edits": 192,
+  "gpu_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "source_hashes_unchanged": true,
+  "training_only_controls": true,
+  "numerical_gate_recomputed": true,
+  "identity_cosines_recomputed": true,
+  "zero_edit_identity_check_passed": true,
+  "missing_arcface_pairs": 0,
+  "missing_facenet_pairs": 0,
+  "final_test_accessed": false,
+  "future_models_accessed": false
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "split": "cal",
+    "replay_vs_historical_image_max_error": 0.0,
+    "historical_Base_replaced_by_explicit_generator_replay": true,
+    "decode_original_image_max_error": 0.0,
+    "current_validity": 1.0,
+    "nominal_hinge": 0.017451206222176552,
+    "sensitivity": 1.6141586303710938,
+    "r05_objective": 0.8245305418968201,
+    "r05_gradient_norm": 0.5464478731155396,
+    "finite_difference": 0.5587935447692871,
+    "analytic_directional": 0.5464478731155396,
+    "relative_error": 0.022592587987138566
+  },
+  {
+    "split": "test",
+    "replay_vs_historical_image_max_error": 0.0005847811698913574,
+    "historical_Base_replaced_by_explicit_generator_replay": true,
+    "decode_original_image_max_error": 0.0,
+    "current_validity": 1.0,
+    "nominal_hinge": 0.01386812049895525,
+    "sensitivity": 1.2401543855667114,
+    "r05_objective": 0.6339452862739563,
+    "r05_gradient_norm": 0.4940522313117981,
+    "finite_difference": 0.49185752868652344,
+    "analytic_directional": 0.4940522313117981,
+    "relative_error": 0.004442248179807478
+  }
+]

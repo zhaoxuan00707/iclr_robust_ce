@@ -1,0 +1,184 @@
+% Independent replacement for Section 3; the manuscript entry point is unchanged.
+% The matching appendix is defined below as \LIFTNewMethodProofs, to be invoked
+% in the appendix when this draft is integrated. No other source is modified.
+% Integration issues: the existing abstract, introduction, experiments and
+% appendix still describe the previous lens/barycentric method.
+% Implementation issue: restore_with_budget in minimal_validity_repair.py can
+% move initially invalid supports beyond their first-valid points. The method
+% below specifies the requested minimal restoration followed by rejection of
+% over-budget candidates; the additional implementation fallback is not minimal.
+% The current driver expands a training attack bank before lambda selection.
+% This is construction-time calibration, not independent final evaluation.
+
+\section{Distributionally Robust Counterfactual Refinement}
+\label{sec:new-method}
+
+We propose \textsc{LIFT-CF}, a post-hoc refinement of the population produced by a base CF generator, optimizing worst-case future invalidity under model updates.
+Unrestricted robust optimization can move this population arbitrarily far from both the generator's output and the favorable target population.
+We constrain the total transport through these two anchors, allowing a bounded detour beyond their shortest Wasserstein distance.
+For computation, we optimize continuous support coordinates against a finite bank of feasible model updates, then restore current validity only where needed.
+We first quantify the price of the geometric restriction and then describe the numerical realization and deployment safeguard.
+
+\subsection{Problem Setting and Deployment Robustness}
+\label{sec:new-objective}
+
+Let $f_0:\mathcal X\to[0,1]$ be the current classifier and $\tau\in(0,1)$ the decision threshold.
+An input $x$ is favorable if $f_0(x)\ge\tau$.
+For unfavorable instances $X=\{x_i\}_{i=1}^n$, a base generator $G$ produces $z_i=G(x_i)$, defining $\mathbb P_{\mathrm{CF}}=n^{-1}\sum_{i=1}^n\delta_{z_i}$.
+Let $\mathbb P_1$ denote the empirical distribution of favorable training samples.
+These anchors describe the generator's placement of CFs and the observed favorable-class structure, respectively.
+
+Write $\widehat{\mathbb P}_{\mathrm{tr}}$ for the empirical training distribution and $W_{\mathrm{data}}$ for the data-side Wasserstein metric.
+For radius $r\ge0$, define $\mathcal U_r=\{\mathbb P:W_{\mathrm{data}}(\mathbb P,\widehat{\mathbb P}_{\mathrm{tr}})\le r\}$ and $f_{\mathbb P}=\operatorname{Update}(f_0,\mathbb P)$, where the update procedure is fixed.
+With invalidity loss $\ell_f(z)=[\tau-f(z)]_+$, the exact deployment robust risk is
+\begin{equation}
+\Phi_r(\mathbb Q)
+:=\sup_{\mathbb P\in\mathcal U_r}
+\mathbb E_{z\sim\mathbb Q}[\ell_{f_{\mathbb P}}(z)].
+\label{eq:new-robust-risk}
+\end{equation}
+The supremum selects one updated model for the entire CF population.
+It is this population risk that we minimize, while leaving $G$ unchanged.
+
+\subsection{Bounded Transport-Detour Decision Region}
+\label{sec:new-geometry}
+
+A counterfactual is a displacement: an input is moved to a favorable state.
+Refining a population of CFs therefore naturally induces a transport problem.
+Wasserstein distance lifts the underlying feature-space modification cost to distributions and remains meaningful when their empirical supports do not overlap.
+Let $d_{\mathrm{CF}}$ denote this ground metric and $W_{\mathrm{CF}}$ its $2$-Wasserstein metric on $\mathcal P_2(\mathcal X)$, the distributions with finite second moment.
+We assume this Wasserstein space is geodesic, as for Euclidean features on a closed convex domain.
+
+Restricting refinement to a single shortest geodesic can exclude robust distributions that require a detour.
+Instead, let $D:=W_{\mathrm{CF}}(\mathbb P_{\mathrm{CF}},\mathbb P_1)$ and, for a geometry budget $B_{\mathrm{geo}}\ge D$, define
+\begin{equation}
+\mathcal G_{B_{\mathrm{geo}}}
+:=\left\{\mathbb Q\in\mathcal P_2(\mathcal X):
+W_{\mathrm{CF}}(\mathbb P_{\mathrm{CF}},\mathbb Q)
++W_{\mathrm{CF}}(\mathbb Q,\mathbb P_1)\le B_{\mathrm{geo}}\right\}.
+\label{eq:new-region}
+\end{equation}
+Our central refinement problem is
+\begin{equation}
+\boxed{\inf_{\mathbb Q\in\mathcal G_{B_{\mathrm{geo}}}}\Phi_r(\mathbb Q)
+=\inf_{\mathbb Q\in\mathcal G_{B_{\mathrm{geo}}}}
+\sup_{\mathbb P\in\mathcal U_r}
+\mathbb E_{z\sim\mathbb Q}[\ell_{f_{\mathbb P}}(z)].}
+\label{eq:new-wro}
+\end{equation}
+Here $r$ controls uncertainty in future training data, whereas $B_{\mathrm{geo}}$ controls geometric freedom on the CF side.
+For $D>0$, the normalized budget is $\beta_{\mathrm{geo}}:=B_{\mathrm{geo}}/D\ge1$.
+
+This restriction has a direct geometric interpretation.
+The geodesic excess $e(\mathbb Q):=W_{\mathrm{CF}}(\mathbb P_{\mathrm{CF}},\mathbb Q)+W_{\mathrm{CF}}(\mathbb Q,\mathbb P_1)-D$ is the additional transport detour relative to the shortest connection between the anchors.
+Thus, $\mathcal G_{B_{\mathrm{geo}}}$ allows excess at most $B_{\mathrm{geo}}-D$ in exchange for robustness.
+This geometric departure is distinct from paired recourse cost: it does not measure the increase in distance from each factual input to its assigned CF.
+We report that downstream cost separately.
+
+\begin{proposition}[Zero-detour special case]
+\label{prop:new-zero-detour}
+In the stated geodesic space, $\mathcal G_D$ is exactly the union of the shortest-geodesic segments between $\mathbb P_{\mathrm{CF}}$ and $\mathbb P_1$.
+If $D=0$, it consists only of their common anchor.
+\end{proposition}
+The triangle inequality forces equality when $B_{\mathrm{geo}}=D$, recovering the shortest-geodesic construction as the zero-detour case; it does not select a unique geodesic.
+
+\subsection{Robustness under Geometric Restriction}
+\label{sec:new-theory}
+
+We next quantify the price of this geometric restriction.
+Assume the invalidity losses are uniformly Lipschitz with respect to $d_{\mathrm{CF}}$, with $L_r:=\sup_{\mathbb P\in\mathcal U_r}\operatorname{Lip}(\ell_{f_{\mathbb P}})<\infty$.
+Then $|\Phi_r(\mathbb Q)-\Phi_r(\mathbb Q')|\le L_rW_{\mathrm{CF}}(\mathbb Q,\mathbb Q')$.
+For any budget $B\ge D$, write $V_r(B):=\inf_{\mathbb Q\in\mathcal G_B}\Phi_r(\mathbb Q)$.
+
+\begin{corollary}[Nested decision regions]
+\label{cor:new-nested}
+For $D\le B_1\le B_2$, $\mathcal G_{B_1}\subseteq\mathcal G_{B_2}$ and $V_r(B_2)\le V_r(B_1)$.
+\end{corollary}
+
+\begin{theorem}[Price of geometric restriction]
+\label{thm:new-restriction}
+Suppose the uniform Lipschitz condition holds and an unrestricted minimizer $\mathbb Q_r^\star\in\arg\min_{\mathbb Q\in\mathcal P_2(\mathcal X)}\Phi_r(\mathbb Q)$ exists.
+Define its representation distance by $\rho_r(B):=\inf_{\mathbb Q\in\mathcal G_B}W_{\mathrm{CF}}(\mathbb Q,\mathbb Q_r^\star)$.
+For every $B\ge D$,
+\begin{equation}
+0\le V_r(B)-\Phi_r(\mathbb Q_r^\star)\le L_r\rho_r(B).
+\label{eq:new-restriction-bound}
+\end{equation}
+\end{theorem}
+Since $\rho_r(B)$ is nonincreasing in $B$, additional geometric freedom can only reduce this representation restriction.
+The bound concerns the distributional decision region, not global convergence of its numerical solver.
+Proofs are given in Appendix~\ref{app:new-method-proofs}.
+
+\subsection{Finite-Bank Continuous Realization}
+\label{sec:new-realization}
+
+For computation, we represent $\mathbb Q=\sum_{j=1}^m b_j\delta_{w_j}$ with fixed masses $b_j\ge0$, $\sum_j b_j=1$, and continuous support coordinates $w_j\in\mathcal X$.
+We replace the inner supremum by a finite bank $\mathcal A_r\subseteq\{f_{\mathbb P}:\mathbb P\in\mathcal U_r\}$ of feasible full-update models:
+\begin{equation}
+\widehat\Phi_r(\mathbb Q)
+:=\max_{f\in\mathcal A_r}\mathbb E_{z\sim\mathbb Q}[\tau-f(z)]_+
+=\max_{f\in\mathcal A_r}\sum_{j=1}^m b_j[\tau-f(w_j)]_+.
+\label{eq:new-bank-risk}
+\end{equation}
+The aggregation is the maximum over models of the population mean hinge, not the mean of each CF's individual worst-model loss.
+Adversarial searches propose shifted training distributions; retained models are obtained by the fixed full update and checked for data-side feasibility.
+Consequently, $\widehat\Phi_r(\mathbb Q)\le\Phi_r(\mathbb Q)$ is an adversarial lower approximation to the inner supremum.
+
+We optimize the support coordinates under the single constraint in Eq.~\ref{eq:new-region}, without a current-validity penalty or a restriction to graph nodes.
+Numerical candidates are assessed using the population bank hinge and recomputed Wasserstein distances.
+Finite particle representation, finite-bank coverage, and local numerical optimization are separate approximations to Eq.~\ref{eq:new-wro}.
+After freezing the construction, fresh adversarial searches expand the bank for evaluation; they do not retroactively tune the final test result.
+
+\subsection{Minimal Validity Restoration and Deployment}
+\label{sec:new-deployment}
+
+The raw robust supports need not be favorable under $f_0$.
+For each invalid support $w_j^{\mathrm{raw}}$, let $y_j\in\operatorname{supp}(\mathbb P_1)$ be its matched favorable target anchor and set $w_j(\alpha)=(1-\alpha)w_j^{\mathrm{raw}}+\alpha y_j$.
+Minimal validity restoration chooses $\alpha_j^\star:=\min\{\alpha\in[0,1]:f_0(w_j(\alpha))\ge\tau\}$ and replaces the support by $w_j(\alpha_j^\star)$.
+For continuous $f_0$ and segments contained in $\mathcal X$, this minimum exists because the anchor is favorable.
+Already-valid supports remain unchanged; invalid supports move only as far as needed along their matched segments, without assuming monotonic scores along a segment.
+We recompute both transport distances after restoration and retain a repaired candidate only if their sum remains at most $B_{\mathrm{geo}}$.
+This is a numerical deployment safeguard, separate from Theorem~\ref{thm:new-restriction}; it does not imply preservation of robust risk.
+
+\paragraph{Operating-point realization.}
+The implementation retains a path through the learned control distribution $\mathbb Q$.
+Gluing optimal couplings from $\mathbb P_{\mathrm{CF}}$ to $\mathbb Q$ and from $\mathbb Q$ to $\mathbb P_1$ gives a piecewise displacement path $\mathbb Q(\lambda)$, parameterized by normalized arc length $\lambda\in[0,1]$.
+This path realizes deployment operating points after learning $\mathbb Q$; it is not the theoretical decision set.
+On a predefined grid, we select the current-valid population with smallest mean-hinge risk against a shared training attack bank, breaking exact ties toward smaller $\lambda$.
+Training-bank expansion used for this selection remains part of construction.
+The final operating point is frozen before held-out evaluation, and its validity and geometry are checked explicitly; no held-out future outcomes choose $\lambda$.
+
+% Supporting appendix, kept in this file to respect the requested edit scope.
+% Invoke \LIFTNewMethodProofs after \appendix when integrating the draft.
+\newcommand{\LIFTNewMethodProofs}{%
+\section{Proofs for Geometry-Constrained Refinement}
+\label{app:new-method-proofs}
+
+\begin{proof}[Proof of Proposition~\ref{prop:new-zero-detour}]
+For $\mathbb Q\in\mathcal G_D$, the triangle inequality gives
+$D\le W_{\mathrm{CF}}(\mathbb P_{\mathrm{CF}},\mathbb Q)+W_{\mathrm{CF}}(\mathbb Q,\mathbb P_1)\le D$.
+Thus equality holds.
+In a geodesic space, concatenate shortest segments from the first anchor to $\mathbb Q$ and from $\mathbb Q$ to the second anchor.
+Their total length is $D$, so the concatenation is shortest: any shorter subsegment would yield an anchor-to-anchor path shorter than $D$.
+Parameterizing by arc length places $\mathbb Q$ on a constant-speed shortest geodesic.
+Conversely, every point on such a geodesic has distances to its endpoints summing to $D$ and belongs to $\mathcal G_D$.
+If $D=0$, both distances must vanish, giving the common anchor.
+\end{proof}
+
+\begin{proof}[Proof of Corollary~\ref{cor:new-nested}]
+Every distribution satisfying the transport-sum constraint with budget $B_1$ satisfies it with budget $B_2\ge B_1$.
+Taking an infimum of the same objective over this larger set cannot increase its value.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:new-restriction}]
+For every $\mathbb P\in\mathcal U_r$ and every coupling of $\mathbb Q,\mathbb Q'$, the uniform Lipschitz condition bounds the difference of expected losses by $L_r$ times the expected ground distance.
+Infimizing over couplings gives a bound by the corresponding $1$-Wasserstein distance, which is at most $W_{\mathrm{CF}}$ by Cauchy--Schwarz.
+Taking suprema over $\mathbb P$ in both directions yields
+$|\Phi_r(\mathbb Q)-\Phi_r(\mathbb Q')|\le L_rW_{\mathrm{CF}}(\mathbb Q,\mathbb Q')$.
+Unrestricted optimality gives $V_r(B)\ge\Phi_r(\mathbb Q_r^\star)$.
+For each $\mathbb Q\in\mathcal G_B$, we also have
+$V_r(B)\le\Phi_r(\mathbb Q)\le\Phi_r(\mathbb Q_r^\star)+L_rW_{\mathrm{CF}}(\mathbb Q,\mathbb Q_r^\star)$.
+Infimizing the right-hand side over $\mathcal G_B$ proves the upper bound, without requiring attainment of the representation distance.
+Nestedness also shows that $\rho_r(B)$ is nonincreasing.
+\end{proof}
+}

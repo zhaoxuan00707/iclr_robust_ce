@@ -1,0 +1,31 @@
+{
+  "figure": "/home/xu.zhao/iclr_robust_ce/figures/genki_ffhq_classifier/qualitative.pdf",
+  "pages": 2,
+  "cases": 8,
+  "images": 16,
+  "selection": "all eight existing calibration cases, original order",
+  "new_images_generated": false,
+  "new_classifier_optimized_edits": false,
+  "source_hashes_unchanged": true,
+  "input_sha256": {
+    "/home/xu.zhao/iclr_robust_ce/results/019_genki_ffhq_classifier/transfer_predictions.csv": "cb1842100c835b4be43c4e4df2d719cc01d574b906677360b528a8658cb1c952",
+    "/home/xu.zhao/iclr_robust_ce/results/017_ffhq_smile_editor_v2/selected_examples.csv": "9b6616cc203710f189097be2e1f65670e4d9ba7a93464c902c7be75ffddd1c32",
+    "/home/xu.zhao/iclr_robust_ce/experiments/040_genki_ffhq_qualitative.py": "bd3546974e0087758604a6fa0cb9637ce219669bbce0594921656ba5a458b981",
+    "/home/xu.zhao/robust_ce_results/ffhq_smile_editor_v1/20260917_calibration_v3/qualitative_examples/0_factual.png": "06bffc8738d12c483a8c38cb65c185901b14491d1bb0000222e2b6ec08d63da4",
+    "/home/xu.zhao/robust_ce_results/ffhq_smile_editor_v2/20260917_extended_v1/qualitative_examples/vector_4_0_-1.png": "684c843e78a504e4a21e089f1873bcb44cea16f10ed938e0c236198e0699122c",
+    "/home/xu.zhao/robust_ce_results/ffhq_smile_editor_v1/20260917_calibration_v3/qualitative_examples/1_factual.png": "54bdbd44feb6fc3be8f0d3972c44801da7a838e901e49e6fba9ebc66633ad575",
+    "/home/xu.zhao/robust_ce_results/ffhq_smile_editor_v2/20260917_extended_v1/qualitative_examples/vector_4_1_11.png": "3be6211cfb11b761d61955e24451aab61877ddffe6c0488c8ce92eae5b0c7215",
+    "/home/xu.zhao/robust_ce_results/ffhq_smile_editor_v1/20260917_calibration_v3/qualitative_examples/2_factual.png": "ffa1b78834763e2a2148a9538e65c38a206da41cc710d3c4cceb209e61697f6d",
+    "/home/xu.zhao/robust_ce_results/ffhq_smile_editor_v2/20260917_extended_v1/qualitative_examples/vector_4_2_7.png": "56824fe3fc9867649c418681cd9e626166f2b6e3d986982979b6996d126d75f1",
+    "/home/xu.zhao/robust_ce_results/ffhq_smile_editor_v1/20260917_calibration_v3/qualitative_examples/3_factual.png": "c31178d84e7405354edecb5aa4c8993c10c05e59316a0b3be0e7511c0d9792c8",
+    "/home/xu.zhao/robust_ce_results/ffhq_smile_editor_v2/20260917_extended_v1/qualitative_examples/vector_4_3_3.png": "4b8c7666ce50c852360c465a2980d43c4c23362a5e095f93ff348af9df3068f8",
+    "/home/xu.zhao/robust_ce_results/ffhq_smile_editor_v1/20260917_calibration_v3/qualitative_examples/4_factual.png": "d487eadcbc38b5d3390efec88d10bccbdd91b986bb9dd9fe24fdc443ed61d5bf",
+    "/home/xu.zhao/robust_ce_results/ffhq_smile_editor_v2/20260917_extended_v1/qualitative_examples/vector_4_4_38.png": "816fcb9edbdb5b7284f94961737f4f0376a95295b0e50e46cf10158ddfcee369",
+    "/home/xu.zhao/robust_ce_results/ffhq_smile_editor_v1/20260917_calibration_v3/qualitative_examples/5_factual.png": "04f216111b2c9ca7f4a77da1b302333d9f1a26551444a5f87e56375f8b3b9091",
+    "/home/xu.zhao/robust_ce_results/ffhq_smile_editor_v2/20260917_extended_v1/qualitative_examples/vector_4_5_30.png": "104541d9f78ac11fd72c006f776f1eb22e184510f8f3603654ba8cd059af0a8a",
+    "/home/xu.zhao/robust_ce_results/ffhq_smile_editor_v1/20260917_calibration_v3/qualitative_examples/6_factual.png": "d75cbfa40bfb5efe22b8ac9f4a8b6431be7f7cd52499e067e324c0e5ed3da68b",
+    "/home/xu.zhao/robust_ce_results/ffhq_smile_editor_v2/20260917_extended_v1/qualitative_examples/vector_4_6_5.png": "ef1e71ba05bafa5a58e68d1759142c28251d6114285fbb4145ec41b63ef3747f",
+    "/home/xu.zhao/robust_ce_results/ffhq_smile_editor_v1/20260917_calibration_v3/qualitative_examples/7_factual.png": "22b6aa2694473625b2e2c2463e440baea20f50aadb0a7c21592c7d02c15cb37a",
+    "/home/xu.zhao/robust_ce_results/ffhq_smile_editor_v2/20260917_extended_v1/qualitative_examples/vector_4_7_10.png": "05e089a2d618e1b9c1af36aa135dae97de2ce2479bb4e8d54105e1426f3a5bd0"
+  }
+}

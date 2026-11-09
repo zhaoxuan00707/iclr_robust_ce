@@ -1,0 +1,11 @@
+{
+  "source": "csv",
+  "path": "/home/xu.zhao/robust_ce_data/fico_mixed_task100_v1/heloc_dataset_v1.csv",
+  "target_column": "RiskPerformance",
+  "positive_label": "Good",
+  "categorical_columns": ["MaxDelq2PublicRecLast12M", "MaxDelqEver"],
+  "missing_values": [-7, -8, -9],
+  "provenance": "FICO original dictionary, pinned challenge participant mirror; mixed representation of HELOC, not an independent corpus",
+  "preprocessing": "Existing load_tabular_three_way: training-only numeric median imputation, categorical mode imputation, one-hot encoding, then standardization including dummy columns; seed0 60/20/20 split",
+  "domain_note": "Categorical blocks are standardized one-hot vertices. Use the fitted affine inverse before simplex relaxation and restore affine transform for classifier/geometry. Do not treat category codes as ordered scalar distances. No arbitrary binning of numerical predictors."
+}

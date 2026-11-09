@@ -1,0 +1,34 @@
+version: favorable_region_geodesic_wro_v1
+task: tasks/003_baseline.md
+dataset: heloc
+instance: /home/xu.zhao/robust_ce_results/single_budget_geodesic_wro_v1/20260915_single_budget_v1/heloc
+graph_audit: /home/xu.zhao/robust_ce_results/iclr_runs/favorable_region_geodesic_wro_v1/20260916_graph_audit/audit.json
+radius_over_b_ref: 3.0
+beta_geo: [1.0, 1.05, 1.10, 1.20]
+tau: 0.5
+objective: max_model_population_mean_true_hinge_at_Q
+geometry_budget: beta_geo_times_intrinsic_D
+metric: unregularized_W2_over_unit_length_favorable_graph
+support: 3336_equal_particles_on_favorable_graph_nodes
+optimizer:
+  type: local_feasible_discrete_descent
+  steps: 32
+  backtracks: 12
+  proposal_outer_softmax_temperature: 100.0
+  exact_geometry_absolute_tolerance: 0.000001
+initialization: target_and_smaller_budget_incumbent
+query_rule: nearest_admissible_frozen_node_single_leaf_attachment
+lambda_grid: 0_to_1_step_0.05
+selection: exact_calibration_bank_argmin_smallest_lambda_on_exact_ties
+fresh_search:
+  methods: [F_beta100, F_beta105, F_beta110, F_beta120]
+  source_lambdas: [0.25, 0.50, 0.75]
+  replications: 3
+  truncated_steps: 60
+  unroll_steps: 5
+  full_refinement_steps: 10
+  learning_rate: 0.075
+  radial_fractions: [0.25, 0.5, 0.75, 1.0]
+  full_update_seed: 700001
+historical_controls: unchanged_straight_old_waypoint_and_four_euclidean_single_budget_paths
+confirmation: retrospective_only

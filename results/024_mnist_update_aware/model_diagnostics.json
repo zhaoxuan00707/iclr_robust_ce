@@ -1,0 +1,10 @@
+{
+  "f0": {
+    "update_set_accuracy": 1.0,
+    "mean_target_probability": 0.5003280639648438
+  },
+  "nominal_T3": {
+    "update_set_accuracy": 1.0,
+    "mean_target_probability": 0.5000999569892883
+  }
+}

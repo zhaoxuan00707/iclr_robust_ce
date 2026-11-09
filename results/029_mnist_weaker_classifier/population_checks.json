@@ -1,0 +1,9 @@
+{
+  "matched_factual_ids": true,
+  "common_reference_ids": true,
+  "common_update_ids": true,
+  "cal_update_disjoint": true,
+  "cal_validation_disjoint": true,
+  "test_official_split": true,
+  "base_valid_both_arms": true
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "split": "cal",
+    "cache_nominal_error": 2.7755575615628914e-17,
+    "cache_sensitivity_error": 0.0,
+    "finite_difference_relative_error": 2.532394824884369e-09,
+    "candidate_count": 132,
+    "base_failures": 1
+  },
+  {
+    "split": "test",
+    "cache_nominal_error": 1.951563910473908e-18,
+    "cache_sensitivity_error": 7.28583859910259e-17,
+    "finite_difference_relative_error": 8.102014349472372e-10,
+    "candidate_count": 112,
+    "base_failures": 0
+  }
+]

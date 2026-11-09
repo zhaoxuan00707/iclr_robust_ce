@@ -1,0 +1,16 @@
+[
+  {
+    "split": "cal",
+    "raw_distinct_candidates": 313,
+    "lexical_candidates": 191,
+    "base_failures": 4,
+    "finite_difference_relative_error": 5.846989560089093e-10
+  },
+  {
+    "split": "test",
+    "raw_distinct_candidates": 356,
+    "lexical_candidates": 227,
+    "base_failures": 1,
+    "finite_difference_relative_error": 8.334022386457858e-10
+  }
+]

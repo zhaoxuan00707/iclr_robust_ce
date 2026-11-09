@@ -1,0 +1,15 @@
+{
+  "images_scored": 48,
+  "generated_images": 16,
+  "gradient_checks_passed": 8,
+  "maximum_gradient_relative_error": 0.007455479268594182,
+  "maximum_png_probability_error": 0.0036138296127319336,
+  "parent_hashes_unchanged": true,
+  "annotation_items": 16,
+  "human_labels_available": false,
+  "FFHQ_accuracy_established": false,
+  "final_FFHQ_test_accessed": false,
+  "classifier_replaced": false,
+  "identity_limits_changed": false,
+  "GRACE_started": false
+}

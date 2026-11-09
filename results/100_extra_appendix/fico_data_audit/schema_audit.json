@@ -1,0 +1,88 @@
+{
+  "rows": 10459,
+  "predictors": 23,
+  "numeric_predictors": 21,
+  "categorical_predictors": 2,
+  "seed": 0,
+  "split_sizes": {
+    "train": 6275,
+    "cal": 2092,
+    "test": 2092
+  },
+  "encoded_dimension": 37,
+  "categorical_blocks": {
+    "MaxDelq2PublicRecLast12M": {
+      "encoded_indices": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "encoded_names": [
+        "MaxDelq2PublicRecLast12M_0.0",
+        "MaxDelq2PublicRecLast12M_1.0",
+        "MaxDelq2PublicRecLast12M_2.0",
+        "MaxDelq2PublicRecLast12M_3.0",
+        "MaxDelq2PublicRecLast12M_4.0",
+        "MaxDelq2PublicRecLast12M_5.0",
+        "MaxDelq2PublicRecLast12M_6.0",
+        "MaxDelq2PublicRecLast12M_7.0",
+        "MaxDelq2PublicRecLast12M_9.0"
+      ],
+      "training_vertices": 9,
+      "raw_value_counts": {
+        "-9": 588,
+        "0": 336,
+        "1": 54,
+        "2": 53,
+        "3": 224,
+        "4": 1612,
+        "5": 236,
+        "6": 3127,
+        "7": 4223,
+        "9": 6
+      }
+    },
+    "MaxDelqEver": {
+      "encoded_indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "encoded_names": [
+        "MaxDelqEver_2.0",
+        "MaxDelqEver_3.0",
+        "MaxDelqEver_4.0",
+        "MaxDelqEver_5.0",
+        "MaxDelqEver_6.0",
+        "MaxDelqEver_7.0",
+        "MaxDelqEver_8.0"
+      ],
+      "training_vertices": 7,
+      "raw_value_counts": {
+        "-9": 588,
+        "2": 739,
+        "3": 311,
+        "4": 321,
+        "5": 968,
+        "6": 2868,
+        "7": 132,
+        "8": 4532
+      }
+    }
+  },
+  "finite": true,
+  "disjoint_splits": true,
+  "legal_encoded_vertices": true,
+  "all_missing_predictor_rows": 588,
+  "source_hashes_verified": true
+}

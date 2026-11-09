@@ -1,0 +1,13 @@
+{
+  "archived_OLD_reproduced": true,
+  "max_absolute_error": 4.440892098500626e-16,
+  "common_bank_count": 5927,
+  "one_to_one_possible": false,
+  "source_count": 128,
+  "Q_count": 3336,
+  "selected_beta": null,
+  "selected_beta_reason": "Archived pipeline calibrates lambda per method at fixed radius; beta grid is diagnostic, no single beta selected.",
+  "newest_raw_OLD_previously_evaluated": false,
+  "newest_raw_OLD_policy": "unchanged archived transport and calibration-bank lambda rule, replayed with newest fixed Q and common 5927-model bank",
+  "future_models_used_for_assignment": false
+}

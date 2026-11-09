@@ -1,0 +1,12 @@
+{
+  "beta_geo": 1.0,
+  "feasible_control": "P1",
+  "control_total_length": 6.9271992988385005,
+  "lambda_Q": 1.0,
+  "midpoint_split_atoms": 3463,
+  "midpoint_unique_positions": 3107,
+  "midpoint_positions_with_mass_not_integer_multiple_of_1_over_3336": 224,
+  "midpoint_points_not_existing_graph_nodes": 3107,
+  "source_mass_times_particle_count": 26.0625,
+  "interpretation": "P1 meets shortest-geodesic equality. The prescribed equal-target-mass graph-node parameterization does not represent the full shortest-geodesic family, including the source population. No claim to a globally optimal beta=1 control."
+}

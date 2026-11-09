@@ -1,0 +1,301 @@
+[
+  {
+    "path": "results/027_heloc_smooth_hinge/gradient_alignment/gradients3.pt",
+    "sha256": "24553ef2e6479634dfceb9b834fc1fc67c04c04919d96b76d5c0069c0c4c39a6",
+    "bytes": 24042,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/027_heloc_smooth_hinge/gradient_alignment/gradients2.pt",
+    "sha256": "2448ab6258df1f4428ac9b7576f8484bbf457595ecf10933439d2d09a98e6f86",
+    "bytes": 24042,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/027_heloc_smooth_hinge/gradient_alignment/gradients4.pt",
+    "sha256": "669e956e77cd82856f63217b1f239656780663d66ffa72c91bdb7e5ee3a8e897",
+    "bytes": 24042,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/027_heloc_smooth_hinge/gradient_alignment/gradients0.pt",
+    "sha256": "0031b8e55f2f7adeec4a6e2a4301ae5f99fea8e5bb032fde4cad00d8f710bef9",
+    "bytes": 24042,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/027_heloc_smooth_hinge/gradient_alignment/gradients7.pt",
+    "sha256": "adee4aa71feb660150dce89e93368e83261d5a0d070ab6c1dc82a18d175ce30e",
+    "bytes": 24042,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/027_heloc_smooth_hinge/gradient_alignment/gradients6.pt",
+    "sha256": "facf6d8225da4fbc7ec83f48753e5e87c2c33274bbcc54dde8f7de31c4928eaf",
+    "bytes": 24042,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/027_heloc_smooth_hinge/gradient_alignment/gradients1.pt",
+    "sha256": "7d6f1687378e5cb411c21bc9ab4e5f17427e2519e73ef801a65ca2cba1730f61",
+    "bytes": 24042,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/027_heloc_smooth_hinge/gradient_alignment/gradients5.pt",
+    "sha256": "21707faa279e35997e63e4044a226690538d62d6eee26c93371ac8e794326810",
+    "bytes": 24042,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/030_mnist_low_margin_base/gradient_alignment/gradients3.pt",
+    "sha256": "848b1fd93c5a205621bc5ebcf20a69826a35401434ba169efb607b83346322f9",
+    "bytes": 34282,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/030_mnist_low_margin_base/gradient_alignment/gradients2.pt",
+    "sha256": "0f8fb5551d82b2b4f97b228bbaacb7e7a68887e822b960a2204bf48d5c9ac79c",
+    "bytes": 34282,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/030_mnist_low_margin_base/gradient_alignment/gradients14.pt",
+    "sha256": "9af69578ae1ad55339559b027d48d8593d12d7fda1d2adb74eaf6cd09bff63b8",
+    "bytes": 34288,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/030_mnist_low_margin_base/gradient_alignment/gradients4.pt",
+    "sha256": "a5aacfd301048c8d0d7c4fa885bb165616a32ab52320b31454fccbcc5f42e35b",
+    "bytes": 34282,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/030_mnist_low_margin_base/gradient_alignment/gradients10.pt",
+    "sha256": "b98cf4fd6d48c6a41e62599e245748fcc4a3ec2d66bb7746fd27555e2140d082",
+    "bytes": 34288,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/030_mnist_low_margin_base/gradient_alignment/gradients8.pt",
+    "sha256": "4f8de8f9a329eecbb6a5f1a202e8be83967c4c0f05d48491c7a22e5de7586c96",
+    "bytes": 34282,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/030_mnist_low_margin_base/gradient_alignment/gradients15.pt",
+    "sha256": "51bd9ded4a401c70be2270ab5eb065d0805557a7d8578dad95c7cdee99541657",
+    "bytes": 34288,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/030_mnist_low_margin_base/gradient_alignment/gradients9.pt",
+    "sha256": "9fcea2acf5d8cc97d6bbfeff9978d7a07f45a08cea7d50cfe77f428839886a5e",
+    "bytes": 34282,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/030_mnist_low_margin_base/gradient_alignment/gradients12.pt",
+    "sha256": "8b204a45de61139df668cfc5bb9c1259fc2913c4617f15325f4869d73ed99a1c",
+    "bytes": 34288,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/030_mnist_low_margin_base/gradient_alignment/gradients11.pt",
+    "sha256": "c5699d902faa67343b713b54f89c1e532a86d2fa200fe423dc6cc2e5ea89cc79",
+    "bytes": 34288,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/030_mnist_low_margin_base/gradient_alignment/gradients0.pt",
+    "sha256": "2a9299e061aeb9930efbb0a5002b62ede55eb01d6fd3d56a2898a0a90e76d1ee",
+    "bytes": 34282,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/030_mnist_low_margin_base/gradient_alignment/gradients7.pt",
+    "sha256": "8456d55434255ee497491543bd40f2bfab0f7072ebabd21dc8eb3d82b3b52d04",
+    "bytes": 34282,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/030_mnist_low_margin_base/gradient_alignment/gradients13.pt",
+    "sha256": "5767bf44c594760fe15689f218a3b1f0ed833fac88d9d0b18382239d5dd0df05",
+    "bytes": 34288,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/030_mnist_low_margin_base/gradient_alignment/gradients6.pt",
+    "sha256": "2e9aad1a194e70721cf1ffb8f42d8d4e47941eddd66dd6bd7642b89f336f9bf1",
+    "bytes": 34282,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/030_mnist_low_margin_base/gradient_alignment/gradients1.pt",
+    "sha256": "93177f8e469be10192886f936828c30be6fa84bcd5375b1ecd563fed25276557",
+    "bytes": 34282,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/030_mnist_low_margin_base/gradient_alignment/gradients5.pt",
+    "sha256": "c6eb23c6bbd314bc926fd42a91374a6ca0670607d5f510cccb03811539250de5",
+    "bytes": 34282,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block6_r0.25_probabilities.npy",
+    "sha256": "5af29f21885c61b9ca480f02761354862d2d76b1b496626e0c383381eb29fb38",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block5_Selected_probabilities.npy",
+    "sha256": "c17fc3a4625196ae970f1323cf3bd2f95b4140c538ba41337f4f03b831965232",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block5_r0.25_probabilities.npy",
+    "sha256": "c17fc3a4625196ae970f1323cf3bd2f95b4140c538ba41337f4f03b831965232",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block3_r0.25_probabilities.npy",
+    "sha256": "3b1c075f1e6a7d94dc839b7ad2fe3c03b7ed23e63f2eaae48f7b8826051d8e34",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block7_Selected_probabilities.npy",
+    "sha256": "2215263e542719b6fb5e96bf5271243cf4cb0ebc800c23e3dae5007113fd55bc",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block4_r0.25_probabilities.npy",
+    "sha256": "612e1033f842049fc4a247ff1624a920ef8761dd4fbb32085e639cd9d3818530",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block3_Base_probabilities.npy",
+    "sha256": "889a23fe1c886389c23bb1f63f87881c1a78eb6d7f4bc81c316908da817af14c",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block4_Base_probabilities.npy",
+    "sha256": "ecead6f794d0672fffd6871c3d84420cc1a564d4e1fceb26ac9f0d6e07808f96",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block0_Base_probabilities.npy",
+    "sha256": "53bc176c6741004103fed8079918dd8ae6a942d07c2bce994ed58ac23061c8c9",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block5_Base_probabilities.npy",
+    "sha256": "5de9a9ed7671e5247a745f5f42c66b3b1da76e3094a7d70ba99a2d111f69181f",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block7_r0.25_probabilities.npy",
+    "sha256": "2215263e542719b6fb5e96bf5271243cf4cb0ebc800c23e3dae5007113fd55bc",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block2_Selected_probabilities.npy",
+    "sha256": "9ad65fffdbe4a806240ca7e633380a53b8b15d9592993d9eb8e536c7ef797d0b",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block3_Selected_probabilities.npy",
+    "sha256": "3b1c075f1e6a7d94dc839b7ad2fe3c03b7ed23e63f2eaae48f7b8826051d8e34",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block6_Selected_probabilities.npy",
+    "sha256": "5af29f21885c61b9ca480f02761354862d2d76b1b496626e0c383381eb29fb38",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block1_Base_probabilities.npy",
+    "sha256": "ceaa92ccffaeed4cefaa0d5f3dfcc28893ee5d5e12afcd1b6acb623c2a21696b",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block6_Base_probabilities.npy",
+    "sha256": "063a8344ac16412a3b4a840a1ef1edd43ce0fc0c1d53c1972230dfe932d2ff37",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block2_r0.25_probabilities.npy",
+    "sha256": "9ad65fffdbe4a806240ca7e633380a53b8b15d9592993d9eb8e536c7ef797d0b",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block2_Base_probabilities.npy",
+    "sha256": "e85652f2fa48e67f28abfbf4a6907066b852f799d9117e088b06b0abc773b2f4",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block7_Base_probabilities.npy",
+    "sha256": "3c09e0f8ad6add25fbe4210fee241b7fdf5914fe538e42bb68a04bb3370624ee",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block1_r0.25_probabilities.npy",
+    "sha256": "02088f6fdacd0a9f7bced93831c775e8d92e5416ccaa677727e8924c0ccfaca2",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block4_Selected_probabilities.npy",
+    "sha256": "612e1033f842049fc4a247ff1624a920ef8761dd4fbb32085e639cd9d3818530",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block0_Selected_probabilities.npy",
+    "sha256": "1fe90a385d45df5c83e61a3ca01855423e9caee02de81d9ff58b71bff1890c49",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block1_Selected_probabilities.npy",
+    "sha256": "02088f6fdacd0a9f7bced93831c775e8d92e5416ccaa677727e8924c0ccfaca2",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/035_text_expanded_evaluation/block0_r0.25_probabilities.npy",
+    "sha256": "1fe90a385d45df5c83e61a3ca01855423e9caee02de81d9ff58b71bff1890c49",
+    "bytes": 1664,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "results/101_ellice_convergence/bound_witness.pt",
+    "sha256": "739d0176f9832fa7270a184d576e0b1f88d0b26cc63ae8da61ff99c053ecebcb",
+    "bytes": 2172,
+    "reason": "Derived raw tensor artifact retained in original research workspace, excluded from source release"
+  },
+  {
+    "path": "paper/iclr_robust_ce-62.pdf",
+    "sha256": "57d881807f2c85a501b87a8af28fc80a6ede8077ce90c624b3e313cb26a2d560",
+    "reason": "Older compiled manuscript; release overview uses version88"
+  }
+]

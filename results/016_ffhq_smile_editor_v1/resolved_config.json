@@ -1,0 +1,53 @@
+{
+  "parent_run": "/home/xu.zhao/robust_ce_results/ffhq_grace_v1/20260916_full_v1",
+  "gpu_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "seed": 20260917,
+  "discovery_training_count": 32,
+  "style_counts": [
+    1,
+    4,
+    8
+  ],
+  "eligible_layers": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "outside_jacobian_probes": 3,
+  "minimum_gradient_sign_agreement": 0.75,
+  "alpha_grid": [
+    0,
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "calibration_count": 8,
+  "arcface_min": 0.8,
+  "facenet_min": 0.8,
+  "lpips_max": 0.15,
+  "outside_rms_max": 0.04,
+  "smile_score_min": 0.5,
+  "smile_score_gain_min": 0.05,
+  "required_passing_factuals": 6,
+  "selection": "Per factual, smallest alpha satisfying all gates; editor with most passing factuals, ties highest minimum ArcFace similarity then fewer mutable channels. Missing detections fail. A qualitative review is also required before GRACE.",
+  "mask": "Fixed lower-face ellipse x=0.5,y=0.70,rx=0.27,ry=0.20 on canonical224. Coarse localization proxy, not semantic segmentation.",
+  "identity": "ArcFace buffalo_l with320 detector; independent FaceNet VGGFace2 with MTCNN160 crop. Similarity0.8 is a conservative engineering gate, not a calibrated same-person verification threshold.",
+  "scope": "Training/calibration only; no final test images, outputs, future models or scores used. Only a passing localized editor proceeds to GRACE. Thresholds frozen before measurement; no adaptation after failure."
+}

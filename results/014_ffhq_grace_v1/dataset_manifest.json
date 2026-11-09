@@ -1,0 +1,49 @@
+{
+  "pools": {
+    "train": {
+      "size": 256,
+      "class_counts": [
+        125,
+        131
+      ],
+      "files": [
+        "/home/xu.zhao/robust_ce_results/ffhq_grace_v1/20260916_full_v1/jobs/sample_train_0/samples.pt",
+        "/home/xu.zhao/robust_ce_results/ffhq_grace_v1/20260916_full_v1/jobs/sample_train_1/samples.pt",
+        "/home/xu.zhao/robust_ce_results/ffhq_grace_v1/20260916_full_v1/jobs/sample_train_2/samples.pt",
+        "/home/xu.zhao/robust_ce_results/ffhq_grace_v1/20260916_full_v1/jobs/sample_train_3/samples.pt",
+        "/home/xu.zhao/robust_ce_results/ffhq_grace_v1/20260916_full_v1/jobs/sample_train_4/samples.pt",
+        "/home/xu.zhao/robust_ce_results/ffhq_grace_v1/20260916_full_v1/jobs/sample_train_5/samples.pt",
+        "/home/xu.zhao/robust_ce_results/ffhq_grace_v1/20260916_full_v1/jobs/sample_train_6/samples.pt",
+        "/home/xu.zhao/robust_ce_results/ffhq_grace_v1/20260916_full_v1/jobs/sample_train_7/samples.pt"
+      ]
+    },
+    "calibration": {
+      "size": 64,
+      "class_counts": [
+        32,
+        32
+      ],
+      "files": [
+        "/home/xu.zhao/robust_ce_results/ffhq_grace_v1/20260916_full_v1/jobs/sample_calibration_0/samples.pt",
+        "/home/xu.zhao/robust_ce_results/ffhq_grace_v1/20260916_full_v1/jobs/sample_calibration_1/samples.pt"
+      ]
+    },
+    "test": {
+      "size": 64,
+      "class_counts": [
+        35,
+        29
+      ],
+      "files": [
+        "/home/xu.zhao/robust_ce_results/ffhq_grace_v1/20260916_full_v1/jobs/sample_test_0/samples.pt",
+        "/home/xu.zhao/robust_ce_results/ffhq_grace_v1/20260916_full_v1/jobs/sample_test_1/samples.pt"
+      ]
+    }
+  },
+  "factuals_per_split": 8,
+  "references": 8,
+  "training_sha256": "ee1714199ed946ebc2bfd2dfc950a1f9637131e4f6dbe64ea00027a4c024e658",
+  "generated_not_real_ffhq": true,
+  "ground_truth_smile_labels": false,
+  "selection": "first qualifying generated IDs in seeded order; original CLIP class1 factuals, train class0 references"
+}

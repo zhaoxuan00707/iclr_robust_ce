@@ -1,0 +1,14 @@
+[
+  {
+    "source": "/mnt/mass_disk1/z.cao/workspace/Submitted/LeapFactual/models/generative_models/VAE/wae_mmd.py",
+    "sha256": "33e2c60594e1004d40aef78a3d82b51aa61f645a28ae04a53867636fe2fb2ac7",
+    "destination": "experiments/src/lift_ce/galaxy/wae.py",
+    "changes": "Only encoder/decoder methods retained; training-only loss/discriminator modules omitted. Inference tensor operations unchanged."
+  },
+  {
+    "source": "/mnt/mass_disk1/z.cao/workspace/Submitted/LeapFactual/notebooks/Galaxy10_grid_search_robust_multi.py",
+    "sha256": "c20de01d8ef460e77267836301214e4ebf5a31a35a7e5291f4ceb445f0038150",
+    "destination": "experiments/src/lift_ce/galaxy/flow.py",
+    "changes": "Extracted four definitions only; unchanged ODE solver/tolerances and progressive updates."
+  }
+]

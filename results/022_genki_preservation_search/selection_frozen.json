@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-17T14:38:25.445500+00:00",
+  "selected_proposals": [
+    0,
+    0,
+    0,
+    0,
+    8,
+    0,
+    23,
+    0
+  ],
+  "bank_risk": 0.14195527881383896,
+  "future_outcomes_used": false,
+  "fixed_cases": [
+    2,
+    7
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "construction_wall_seconds": 1416.0539996623993,
+  "optimization_worker_hours": 1.9402177706567778,
+  "optimization_gpu_ids": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+  ],
+  "peak_optimization_memory_GiB": 5.208680629730225,
+  "all_saved_outputs_feasible": true,
+  "all_final_iterates_feasible": true,
+  "retained_last_iterate_count": 29
+}

@@ -1,0 +1,29 @@
+{
+  "raw": "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1_hard_categories",
+  "checks": [
+    {
+      "worker": "german_mlp",
+      "hard_category_legality": true,
+      "numerical_features_unchanged": true,
+      "models": 15
+    },
+    {
+      "worker": "german_logistic",
+      "hard_category_legality": true,
+      "numerical_features_unchanged": true,
+      "models": 15
+    },
+    {
+      "worker": "fico_mlp",
+      "hard_category_legality": true,
+      "numerical_features_unchanged": true,
+      "models": 15
+    },
+    {
+      "worker": "fico_logistic",
+      "hard_category_legality": true,
+      "numerical_features_unchanged": true,
+      "models": 15
+    }
+  ]
+}

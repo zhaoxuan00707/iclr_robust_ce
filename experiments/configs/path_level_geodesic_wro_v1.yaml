@@ -1,0 +1,77 @@
+version: path_level_geodesic_wro_v1
+status: implemented_evaluation_in_progress
+specification: tasks/002_path_specification_supplement.md
+dataset: heloc
+seed: 1
+parent: /home/xu.zhao/robust_ce_results/single_budget_geodesic_wro_v1/20260915_single_budget_v1/heloc
+construction_bank: /home/xu.zhao/robust_ce_results/single_budget_geodesic_wro_v1/20260915_single_budget_v1/heloc/evaluation_bank.json
+fixed_radius_over_b_ref: 3.0
+absolute_data_radius: 8.188831830024718
+D_train: 4.868478257271079
+beta_geo:
+- 1.0
+- 1.05
+- 1.1
+- 1.2
+absolute_B_geo_rule: beta_geo_times_D_train_unchanged_for_all_batches
+metric: exact_unregularized_euclidean_W2
+intermediate_distributions: 2
+control_masses: target_anchor_masses
+path_objective: mean_lambda_max_model_population_mean_true_hinge
+objective_origin: new_explicit_default_not_recovered_original_text
+lambdas:
+- 0.0
+- 0.05
+- 0.1
+- 0.15
+- 0.2
+- 0.25
+- 0.3
+- 0.35
+- 0.4
+- 0.45
+- 0.5
+- 0.55
+- 0.6
+- 0.65
+- 0.7
+- 0.75
+- 0.8
+- 0.85
+- 0.9
+- 0.95
+- 1.0
+parameterization: normalized_wasserstein_arclength
+couplings: exact_adjacent_OT_with_markov_gluing_for_factual_cost
+control_box: observed_training_feature_box
+full_path_box: diagnostic_only
+current_validity_threshold: 0.5
+current_validity_scope: controls_and_all_positive_mass_deployment_grid_support
+allowed_invalid_mass: 0.0
+geometry_relative_tolerance: 1.0e-06
+heldout_rule: batch_local_constrained_inference_using_frozen_construction_bank_and_method
+selection: calibration_true_expanded_bank_hinge_argmin
+exact_tie_rule: smallest_lambda
+beta_selection: none
+optimizer:
+  steps: 120
+  learning_rate: 0.03
+  beta_h: 50.0
+  beta_m: 100.0
+  rho_initial: 1.0
+  dual_interval: 5
+  stall_interval: 20
+  random_seed: 20260915
+  random_sd: 0.02
+initializations:
+- straight_derived
+- previous_control
+- old_waypoint
+- random
+raw_output_root: /home/xu.zhao/robust_ce_results/iclr_runs/path_level_geodesic_wro_v1
+fresh_discovery: inherited_strengthened_resources_after_feasibility_and_freeze
+replications: 3
+source_lambdas:
+- 0.25
+- 0.5
+- 0.75

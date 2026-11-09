@@ -1,0 +1,9 @@
+task,method,current_validity,source
+Galaxy: Merging to Round,Base,0.75,results/031_galaxy_update_aware/merging_round_test_summary.csv
+Galaxy: Merging to Round,r0_beta1.02,1.0,results/031_galaxy_update_aware/merging_round_test_summary.csv
+Galaxy: Round to Cigar,Base,0.5,results/031_galaxy_update_aware/round_cigar_test_summary.csv
+Galaxy: Round to Cigar,r0.25_beta1.02,1.0,results/031_galaxy_update_aware/round_cigar_test_summary.csv
+FFHQ,Base,0.875,results/032_ffhq_update_aware/test_summary.csv
+FFHQ,r0_beta1.02,1.0,results/032_ffhq_update_aware/test_summary.csv
+MNIST 4 to 9 (task016 near-boundary Base),Base,1.0,results/030_mnist_low_margin_base/p05001/summary.csv
+MNIST 4 to 9 (task016 near-boundary Base),r0.25_beta1.02,1.0,results/030_mnist_low_margin_base/p05001/summary.csv

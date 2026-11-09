@@ -1,0 +1,19 @@
+{
+  "raw_run": "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1",
+  "checkpoint_sha256": {
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/diabetes_logistic/current.pt": "5475b3201ec57d6e2f7eaf0df708e04b6731d4149467b1b9725a56040b70f68b",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/diabetes_mlp/current.pt": "5012bd9688a31a72fad36acfd2deec836307fa9bc7f8c58c48444904afb8200f",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/fico_logistic/current.pt": "a810663643d722a9ec3ae5a45f4e3e0d277ad724d3392b9bbec3fb550802c8cd",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/fico_mlp/current.pt": "430a9a14dc23472a13239a25ac05f2c1562aaa37943c06c08df96437b835f6f1",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/german_logistic/current.pt": "67344ff87bf61702226ae0025f69653e86bd45e96e05ca77687a3c87344a84ef",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/german_mlp/current.pt": "33b8ebef24dfe48518df80bc7d373730d062c0f9b7bd26af6c9108d5a7d77937",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/heloc_logistic/current.pt": "0b12632e4eca8ea7099b79982356d01c64f3920d4e0976002a321538261d9c0b",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1/heloc_mlp/current.pt": "e6d2dfcb10159e4efb24be0da3133152c90a7357e6417cec605913913982c3e0"
+  },
+  "evaluation": "CPU eval mode, sigmoid(logit)>=0.5, compared to saved binary test/cal labels; inference only, no retraining; all eight reconstructed calibration accuracies match saved metadata within 1e-6",
+  "image_accuracy_sources": [
+    "results/029_mnist_weaker_classifier/classifier_test.json",
+    "results/010_galaxy_asset_checks.json",
+    "results/032_ffhq_update_aware/report.md"
+  ]
+}

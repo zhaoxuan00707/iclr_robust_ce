@@ -1,0 +1,3 @@
+Task,target,r_star,r_index,beta_geo_star,calibration_max_mean_hinge
+Merging Galaxies,1,4.0,1,1.05,0.06122126057744026
+Round Smooth Galaxies,2,2.0,0,1.0,0.4683650713413954

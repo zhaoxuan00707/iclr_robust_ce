@@ -32,3 +32,21 @@ raw_runs/
 .vscode/
 .idea/
 
+
+# Local development state (not research source or provenance)
+/.release-private/
+/.agent/
+/.agents/
+/.codex/
+/.aws/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+!.env.example
+/data-cache/

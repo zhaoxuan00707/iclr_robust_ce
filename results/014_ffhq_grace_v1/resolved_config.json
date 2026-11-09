@@ -1,0 +1,146 @@
+{
+  "seed": 20260916,
+  "gpu_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "training_generated_count": 256,
+  "calibration_generated_pool": 64,
+  "test_generated_pool": 64,
+  "factuals_per_split": 8,
+  "references": 8,
+  "source_class": 1,
+  "target_class": 0,
+  "tau": 0.5,
+  "r_grid": [
+    1.0,
+    2.0
+  ],
+  "beta_grid": [
+    1.0,
+    1.05,
+    1.1,
+    1.2
+  ],
+  "generator": {
+    "resolution": 1024,
+    "noise_mode": "const",
+    "truncation_psi": 1.0,
+    "latent": "W512, repeated at16 layers"
+  },
+  "base_generator": {
+    "gamma_lift": 0.8,
+    "gamma_land": 0.8,
+    "max_itr": 10,
+    "n_steps": 5
+  },
+  "leapfactual_baseline": {
+    "gamma_lift": 0.8,
+    "gamma_land": 0.83,
+    "max_itr": 5,
+    "n_steps": 5
+  },
+  "update": {
+    "parameters": "CLIP visual projection768x512 only; all backbone/text/temperature fixed",
+    "optimizer": "AdamW",
+    "epochs": 5,
+    "batch_size": 32,
+    "lr": 0.0001,
+    "weight_decay": 0.01,
+    "seed": 700000,
+    "initialization": "original CLIP projection, fresh optimizer",
+    "augmentation": "none beyond declared data shift",
+    "labels": "frozen original CLIP pseudo-labels on unshifted generated training images"
+  },
+  "attack": {
+    "restarts_per_radius": 4,
+    "steps": 12,
+    "unroll_K": 1,
+    "mutable_train_examples": 32,
+    "batch_size": 2,
+    "query_batch_size": 2,
+    "learning_rate": 0.02,
+    "radial_fractions": [
+      0.5,
+      1.0
+    ]
+  },
+  "optimizer": {
+    "steps": 40,
+    "learning_rate": 0.01,
+    "beta_h": 50.0,
+    "beta_m": 100.0,
+    "rho_initial": 1.0,
+    "dual_interval": 5,
+    "stall_interval": 20,
+    "feasibility_relative_tolerance": 1e-06,
+    "restoration_steps": 20
+  },
+  "solver_starts": [
+    "midpoint",
+    "target"
+  ],
+  "geodesic_candidates": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "calibration_scenarios": [
+    {
+      "family": "brightness",
+      "strength": 0.9,
+      "seed": 91001
+    },
+    {
+      "family": "brightness",
+      "strength": 1.1,
+      "seed": 91002
+    },
+    {
+      "family": "noise",
+      "strength": 0.015,
+      "seed": 91003
+    },
+    {
+      "family": "blur",
+      "strength": 0.5,
+      "seed": 91004
+    }
+  ],
+  "future": {
+    "families": [
+      "brightness",
+      "noise",
+      "blur"
+    ],
+    "severity": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "realizations": 2,
+    "seed_base": 99100
+  },
+  "selection": "minimum maximum calibration-model mean hinge rounded to1e-6; ties lower pixel224L2, r, beta",
+  "protocol_notes": {
+    "new_protocol": "Generated FFHQ-style face population and classifier post-training projection update are new, because original uses zero-shot CLIP and no retraining split. Not a supervised real-FFHQ benchmark.",
+    "score": "softmax index0 for original prompts smiling face versus face",
+    "W_data": "class-preserving pixel Euclidean W2 on canonical224RGB[0,1] training images; exact assignment and paired displacement certificate",
+    "W_CF": "exact Euclidean W2 in original unnormalized W512 for all three geometry terms",
+    "robust_risk": "max_model mean_CF hinge, tau0.5; shared bank; no current-validity checks",
+    "identity": "unavailable in original face pipeline; report missing rather than invent a score",
+    "recourse_cost": "pixel L2 at canonical224 and native1024; original SqueezeNet LPIPS, PSNR and SSIM as secondary metrics",
+    "base_fails": "retain every prespecified factual even if Base does not reach target",
+    "runtime": "from new generated data and pretrained assets through Base/bank/calibration/refinement/freeze; excludes original pretraining and final future evaluation"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "selected_r": 0.0,
+  "selected_beta": 1.02,
+  "base_test_FV": 1.0,
+  "selected_test_FV": 1.0,
+  "selected_vs_base_changed_sentences": 1,
+  "r025_vs_r0_changed_sentences": 0,
+  "base_cost": 0.4721273956537344,
+  "selected_cost": 0.4724181807913794,
+  "base_sensitivity": 0.013229200541002,
+  "selected_sensitivity": 0.0092413640514532
+}

@@ -1,0 +1,12 @@
+{
+  "det_size": [
+    320,
+    320
+  ],
+  "det_thresh": 0.5,
+  "rationale": "640px detection found only3/8 tightly cropped factuals; 320px found8/8 at unchanged threshold; no CF identity scores used to choose scale",
+  "original_metrics_preserved": true,
+  "source_images": "saved lossless PNGs, same round-to-uint8 conversion as original metrics",
+  "selection": "largest face bounding box for every image",
+  "start_unix": 1789637041.0898557
+}

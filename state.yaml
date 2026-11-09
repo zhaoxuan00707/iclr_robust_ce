@@ -1,11 +1,1054 @@
 paper_stage: experiments
-
-active_task: null
-
-status: idle
-
+active_task: tasks/100_extra_appendix.md
+status: complete
 paper:
   main: paper/iclr2027_conference.tex
-
+current_work:
+  task: tasks/100_extra_appendix.md
+  phase: tabular_verified
+  run: /home/xu.zhao/robust_ce_results/iclr_runs/appendix_mnist/20260925_v1
+  seed: 0
+  gpu_ids:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  experiments_1_2: complete_verified
+  experiment_3: complete_diagnostic_with_failures
+  experiment_4: complete_with_failures
+  report_exp1: results/exp1_mnist_T_mismatch/summary.md
+  report_exp2: results/exp2_mnist_no_geometry/summary.md
+  status: complete_verified
+  active_experiment_processes: 0
+  new_mnist_checkpoints: 180
+  checkpoint_checks: 180
+  unit_tests_passed: 6
+  geometry_ablation_identical_outputs: true
+  task_md: tasks/100_extra_appendix.md
+  fico_data_status: resolved_mixed_configuration_available
+  fico_config: experiments/configs/fico_mixed_task100.json
+  fico_data_audit: results/100_extra_appendix/fico_data_audit/report.md
+  tabular_run: /home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1
+  controller_pid: 452394
+  completed_tabular_workers:
+  - diabetes_logistic
+  - diabetes_mlp
+  - fico_logistic
+  - fico_mlp
+  - german_logistic
+  - german_mlp
+  - heloc_logistic
+  - heloc_mlp
+  partial_independent_checks: 625
+  automatic_postprocessing: experiments/097_finish_appendix_tabular.py
+  postprocessing_status: complete_verified
+  categorical_method: PDF73 A.5 logit-softmax; weighted simplex supports; separate
+    hard-category diagnostics
+  verification_device: cuda:0 on physical GPU3 for completed-worker audit
+  last_checked_utc: '2026-09-26T06:55:19.646656+00:00'
+  recovery_snapshot: results/100_extra_appendix/recovery_20260926
+  remaining_worker: null
+  recovery_focused_tests_passed: 3
+  tabular_checks: 726
+  report_exp3: results/exp3_table1_single_run/summary.md
+  report_exp4: results/exp4_runtime_10cf/summary.md
+  recovery_status: complete_verified
+  completion_check: results/100_extra_appendix/recovery_20260926/final_completeness_check.json
+  preserved_raw_files_checked: 414
 next_actions: []
-
+completed_work:
+  core_migration:
+    task: tasks/003_core_migration.md
+    status: complete
+    report: results/003_core_migration.md
+    authoritative_code: experiments/src/lift_ce
+    tests_passed: 58
+    historical_source_and_outputs_preserved: true
+  path_preparation:
+    report: results/004_path_preflight.md
+    necessary_split_budget_checks_passed: 12
+    tests_passed: 62
+    new_path_solver_implemented: false
+  favorable_region_wro:
+    task: tasks/003_baseline.md
+    status: complete
+    report: results/006_favorable_region.md
+    run: /home/xu.zhao/robust_ce_results/iclr_runs/favorable_region_geodesic_wro_v1/20260916_intrinsic_v1
+    scope: fixed-population constrained experiment and retrospective query diagnostics
+    remaining_required_evaluation_cells: 0
+    future_deployment_feasibility_established: false
+  galaxy_grace_v1:
+    task: tasks/001_galaxy_task.md
+    phase: complete
+    new_run: /home/xu.zhao/robust_ce_results/galaxy_grace_v1/20260916_full_v1
+    controller_pid: 3625225
+    gpu_ids:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    configuration: experiments/configs/galaxy_grace_v1.json
+    completed_jobs: 75
+    previous_results_preserved: true
+    updated_utc: '2026-09-16T19:42:04.270589+00:00'
+    report: results/011_galaxy_grace_v1/report.md
+    completion_review: results/011_galaxy_grace_v1/completion_review.json
+  galaxy_pairs:
+    status: complete
+    reports:
+    - results/012_galaxy_merging_round/report.md
+    - results/012_galaxy_round_cigar/report.md
+    gpu_ids:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    completed_jobs_per_pair: 43
+    independent_checks: passed
+    preserved_previous_outputs: true
+  ffhq_grace_v1:
+    task: tasks/001_face_baseline.md
+    phase: complete
+    run: /home/xu.zhao/robust_ce_results/ffhq_grace_v1/20260916_full_v1
+    controller_pid: 3741378
+    gpu_ids:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    completed_jobs: 75
+    updated_utc: '2026-09-16T21:44:20.026391+00:00'
+    report: results/014_ffhq_grace_v1/report.md
+    interpretation: results/014_ffhq_grace_v1/interpretation.md
+    identity_preservation_established: false
+    selected_r: 1.0
+    selected_beta: 1.0
+  ffhq_grace_identity_v1:
+    task: tasks/002_face_baseline.md
+    phase: complete
+    run: /home/xu.zhao/robust_ce_results/ffhq_grace_identity_v1/20260917_identity_v1
+    controller_pid: 3896542
+    gpu_ids:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    completed_jobs: 56
+    updated_utc: '2026-09-17T08:54:24.479778+00:00'
+    report: results/015_ffhq_identity_v1/final_report.md
+    scientific_success: false
+    identity_preservation_established: false
+    selected_r: 2.0
+    selected_beta: 1.05
+    task_dimension: 29
+    content_dimension: 483
+    identity_valid_pairs: 8
+  ffhq_smile_editor_v1:
+    task: tasks/003_face_editor_screen.md
+    phase: complete
+    run: /home/xu.zhao/robust_ce_results/ffhq_smile_editor_v1/20260917_calibration_v3
+    controller_pid: 3972880
+    gpu_ids:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    completed_jobs: 18
+    updated_utc: '2026-09-17T10:44:35.903368+00:00'
+    numerical_gate_passed: false
+    report: results/016_ffhq_smile_editor_v1/final_report.md
+    screen_passed: false
+    GRACE_started: false
+    final_test_accessed: false
+    focused_tests_passed: 7
+  ffhq_smile_editor_v2:
+    task: tasks/004_face_editor_extension.md
+    phase: complete
+    run: /home/xu.zhao/robust_ce_results/ffhq_smile_editor_v2/20260917_extended_v1
+    controller_pid: 4005205
+    gpu_ids:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    completed_jobs: 27
+    updated_utc: '2026-09-17T11:37:07.106276+00:00'
+    report: results/017_ffhq_smile_editor_v2/final_report.md
+    numerical_gate_passed: true
+    semantic_smile_validation_established: false
+    candidate_editor: independent4
+    GRACE_started: false
+    final_FFHQ_test_accessed: false
+    focused_tests_passed: 9
+  ffhq_smile_label_automated_audit:
+    task: tasks/005_face_smile_label_audit.md
+    phase: automated_audit_complete
+    report: results/018_ffhq_smile_label_audit/report.md
+    updated_utc: '2026-09-17T12:27:21.723478+00:00'
+    generated_images: 16
+    source_diagnostic_images: 32
+    image_gradient_checks_passed: 8
+    focused_tests_passed: 4
+    human_labels_available: false
+    semantic_smile_validation_established: false
+    final_FFHQ_test_accessed: false
+    classifier_replaced: false
+    identity_limits_changed: false
+    GRACE_started: false
+    device: cpu
+    annotation_html: figures/ffhq_smile_label_audit/smile_annotation_v2.html
+    annotation_pdf: figures/ffhq_smile_label_audit/smile_annotation_blinded_v2.pdf
+    status: complete
+  genki_ffhq_classifier_v1:
+    task: tasks/006_genki_ffhq_classifier.md
+    phase: complete
+    run: /home/xu.zhao/robust_ce_results/genki_ffhq_classifier_v1/20260917_supervised_v1
+    report: results/019_genki_ffhq_classifier/report.md
+    gpu_ids:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    completed_jobs: 18
+    attempted_jobs: 19
+    precision_followup_completed: true
+    original_evaluation_failure_preserved: true
+    selected_checkpoint: /home/xu.zhao/robust_ce_results/genki_ffhq_classifier_v1/20260917_supervised_v1/checkpoints/selected.pt
+    test_accuracy: 0.9485049833887044
+    test_balanced_accuracy: 0.946527661940506
+    semantic_FFHQ_transfer_validated: false
+    FFHQ_test_accessed: false
+    GRACE_started: false
+    new_counterfactuals_generated: false
+    focused_tests_passed: 3
+    updated_utc: '2026-09-17T12:54:43.879403+00:00'
+    qualitative_pdf: figures/genki_ffhq_classifier/qualitative.pdf
+  genki_grace_identity_v1:
+    task: tasks/007_genki_grace_identity.md
+    phase: complete
+    run: /home/xu.zhao/robust_ce_results/genki_grace_identity_v1/20260917_full_v1
+    report: results/020_genki_grace_identity/report.md
+    qualitative_pdf: figures/genki_grace_identity/qualitative.pdf
+    gpu_ids:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    completed_jobs: 79
+    r_star: 2.0
+    beta_geo_star: 1.2
+    Base_future_validity: 0.31666666666666665
+    GRACE_future_validity: 0.45
+    all_outputs_pass_preservation_limits: true
+    GRACE_run: true
+    current_validity_repair_used: false
+    focused_tests_passed: 7
+    human_semantic_success_established: false
+    primary_evaluation: uniform saved-PNG inference; posthoc consistency audit; cached
+      results preserved
+    updated_utc: '2026-09-17T13:51:31.720669+00:00'
+  genki_expanded_editor:
+    task: tasks/010_genki_expanded_editor.md
+    phase: completed
+    run: /home/xu.zhao/robust_ce_results/genki_expanded_editor/20260917_capacity_margin_v1
+    report: /home/xu.zhao/iclr_robust_ce/results/023_genki_expanded_editor/report.md
+    qualitative_pdf: /home/xu.zhao/iclr_robust_ce/figures/genki_expanded_editor/qualitative.pdf
+    completed_jobs: 114
+    results:
+      previous_future_validity: 0.5
+      channels16_target05_future_validity: 0.6
+      channels16_target07_future_validity: 0.75
+      all_preservation_gates_passed: true
+      remaining_failed_cases_one_based:
+      - 3
+      - 8
+      visual_limitation: Case 7 skin-tone shift; human smile labels unavailable
+    samples_pdf: figures/genki_expanded_editor/largest_differences.pdf
+  heloc_realization_comparison:
+    task: tasks/005_baseline.md
+    phase: complete
+    completion_scope: Audit, archived OLD reproduction, and exact weighted frozen-Q
+      comparison completed; requested deterministic Q-preserving assignment disproved
+      by saved cardinalities.
+    report: results/heloc_realization_comparison/report.md
+    figures: figures/heloc_realization_comparison/comparison.pdf
+    run: /home/xu.zhao/robust_ce_results/iclr_runs/heloc_realization_comparison/20260918_v1
+    tests_passed: 9
+    requested_one_CF_variant_feasible: false
+    results:
+      beta_1_10_old_future_validity: 0.87508
+      beta_1_10_corrected_future_validity: 0.882856
+      beta_1_10_old_cost: 4.259888
+      beta_1_10_corrected_cost: 4.168237
+      corrected_current_validity: 1.0
+      selected_beta: null
+      Q_support_count: 3336
+      factual_count: 128
+      test_geometry_budget_transfers_for_beta_gt_1: false
+  mnist_update_aware:
+    task: tasks/011_mnist_update_aware.md
+    phase: complete
+    run: /home/xu.zhao/robust_ce_results/iclr_runs/mnist_update_aware/20260924_latent_v2
+    authority: paper/iclr_robust_ce-62.pdf Section 3
+    gpu_ids:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    completed_utc: '2026-09-24T10:03:12.989809+00:00'
+    outcome: Completed first latent-space diagnostic pilot; negative robustness result
+      and nonconverged optimization, not a successful robust-CF benchmark.
+    representation: 64-dimensional frozen AE latent; image scoring; pixel recourse
+      cost
+    report: results/024_mnist_update_aware/report.md
+    qualitative_pdf: figures/mnist_update_aware/qualitative.pdf
+    comparison_pdf: figures/mnist_update_aware/comparison.pdf
+    task_sha256: 60dd1fad9e3fb5f393f98e82907a729645355ac465cd41aff3db6195ad58d3f2
+    selected_r: 0.0
+    selected_beta: 1.05
+    selected_future_validity: 0.5190972222222222
+    original_base_future_validity: 0.9600694444444444
+    decoded_base_future_validity: 0.2152777777777778
+    selected_current_validity: 0.53125
+    selected_pixel_cost: 5.943000316619873
+    all_optimization_runs_converged: false
+    calibration_geometry_failures: 3
+    test_geometry_failures: 1
+    tests_passed: 6
+    original_inputs_preserved: true
+    no_validity_correction: true
+  mnist_smooth_hinge:
+    task: tasks/012_mnist_latent_base_fix.md
+    phase: complete
+    run: /home/xu.zhao/robust_ce_results/iclr_runs/mnist_latent_base_fix/20260924_smooth_v2
+    gpu_ids:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    completed_utc: '2026-09-24T10:26:52.889184+00:00'
+    report: results/026_mnist_smooth_hinge/report.md
+    qualitative_pdf: figures/mnist_smooth_hinge/qualitative.pdf
+    comparison_pdf: figures/mnist_smooth_hinge/comparison.pdf
+    smooth_hinge:
+      kind: softplus
+      probability_temperature: 0.05
+      authority: explicit user clarification
+    base_representation_fixed: true
+    base_current_validity: 1.0
+    selected_r: 0.0
+    selected_beta: 1.05
+    selection_reason: All nine beta>=1.05 configurations tie at100% calibration FV;
+      cost tie-break selects r0.
+    selected_test_future_validity: 1.0
+    selected_current_validity: 1.0
+    test_FV_severity2:
+      r0: 0.9461805555555556
+      r025: 0.9982638888888888
+      r05: 1.0
+    test_geometry_failures: 3
+    test_stopping_condition_met: 9
+    tests_passed: 14
+    input_hashes_preserved: true
+    no_validity_repair: true
+    completion_scope: Corrected Base codes and smooth loss; eight-GPU pilot completed.
+      Positive-radius stress benefit observed. Tight beta1 geometry remains unresolved.
+  heloc_smooth_hinge:
+    task: tasks/013_heloc_smooth_hinge.md
+    status: complete
+    phase: complete
+    run: /home/xu.zhao/robust_ce_results/iclr_runs/heloc_smooth_hinge/20260924_v1
+    configuration: experiments/configs/heloc_smooth_hinge.json
+    report: results/027_heloc_smooth_hinge/report.md
+    figures: figures/heloc_smooth_hinge/comparison.pdf
+    feature_changes: figures/heloc_smooth_hinge/feature_changes.pdf
+    gpu_ids:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    completed_optimization_jobs: 40
+    new_future_models: 90
+    unit_tests_passed: 9
+    independent_output_checks_passed: 40
+    selected_r: 8.188831830024718
+    selected_r_ratio: 3.0
+    selected_beta: 1.1
+    selected_test_FV: 1.0
+    selected_current_validity: 1.0
+    selected_cost: 1.6890056133270264
+    base_test_FV: 0.8298611111111112
+    nominal_only_beta1_1_test_FV: 0.9998263888888888
+    calibration_feasible: 15
+    calibration_stopping_criterion_met: 13
+    test_feasible: 15
+    test_stopping_criterion_met: 13
+    all_beta1_solves_infeasible: true
+    smooth_hinge_temperature: 0.05
+    validity_repair: false
+    original_inputs_preserved: true
+    limitations:
+    - Single-seed retrospective scenarios with duplicate distributions
+    - Ten-step SGD update only; not arbitrary retraining robustness
+    - Continuous all-mutable features; inherited training-range excursions
+    - Nominal-only FV already 99.9826%; small incremental threshold gain at higher
+      cost
+    - Feasible successive-objective stopping does not certify stationarity or global
+      optimality
+    gradient_alignment:
+      report: results/027_heloc_smooth_hinge/gradient_alignment/report.md
+      summary: results/027_heloc_smooth_hinge/gradient_alignment/summary.csv
+      audited_points: 8
+      test_Base_cosine: 0.876746
+      test_cosine_min: 0.8767457514004788
+      test_cosine_max: 0.8950569074677946
+      gradient_decomposition_checks_passed: 8
+      previous_outputs_preserved: true
+  mnist_small_radius:
+    task: tasks/014_mnist_small_radius.md
+    status: complete
+    phase: complete
+    run: /home/xu.zhao/robust_ce_results/iclr_runs/mnist_small_radius/20260924_v1
+    configuration: experiments/configs/mnist_small_radius.json
+    report: results/028_mnist_small_radius/report.md
+    calibration_table: results/028_mnist_small_radius/calibration_grid.csv
+    comparison_pdf: figures/mnist_small_radius/comparison.pdf
+    qualitative_pdf: figures/mnist_small_radius/qualitative.pdf
+    gpu_ids:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    r_units: absolute MNIST training-data RMS radius
+    r_grid:
+    - 0
+    - 0.05
+    - 0.1
+    - 0.25
+    beta_grid:
+    - 1
+    - 1.02
+    - 1.05
+    - 1.1
+    completed_optimization_jobs: 32
+    new_future_models: 72
+    unit_tests_passed: 10
+    independent_output_checks_passed: 32
+    selected_r: 0.25
+    selected_beta: 1.02
+    selected_cal_FV: 0.9995659722222222
+    selected_test_FV: 1.0
+    selected_current_validity: 1.0
+    selected_pixel_cost: 5.634401321411133
+    nominal_only_test_FV: 0.9704861111111112
+    base_test_FV: 0.8003472222222222
+    cal_feasible: 13
+    cal_stopping_criterion_met: 12
+    test_feasible: 12
+    test_stopping_criterion_met: 12
+    validity_repair: false
+    base_population_byte_identical: true
+    previous_outputs_preserved: true
+    limitations:
+    - Single historical classifier/AE and64 factuals per split
+    - Complete three-step update on256 training images, not arbitrary retraining
+    - 28 unique shifted distributions per split; four shared deterministic translations
+    - All beta1 test solves fail geometry
+    - Two of12 repeated cells not bitwise identical; coordinate differences recorded
+    - Threshold validity does not independently verify digit semantics
+  mnist_weaker_classifier:
+    task: tasks/015_mnist_weaker_classifier.md
+    status: complete
+    phase: complete
+    run: /home/xu.zhao/robust_ce_results/iclr_runs/mnist_weaker_classifier/20260924_v1
+    configuration: experiments/configs/mnist_weaker_classifier.json
+    report: results/029_mnist_weaker_classifier/report.md
+    qualitative_pdf: figures/mnist_weaker_classifier/qualitative.pdf
+    all_examples_pdf: figures/mnist_weaker_classifier/all64_qualitative.pdf
+    metrics_pdf: figures/mnist_weaker_classifier/population_metrics.pdf
+    gpu_ids:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    candidate_checkpoints: 48
+    selected_weak_seed: 153
+    selected_weak_training_steps: 16
+    weak_validation_accuracy: 0.8984375
+    weak_test_accuracy: 0.8869914412498474
+    strong_test_accuracy: 0.996986448764801
+    completed_optimization_jobs: 16
+    new_future_models: 144
+    unit_tests_passed: 10
+    independent_output_checks_passed: 16
+    all_final_iterates_feasible: true
+    strong_selected_r: 0.25
+    weak_selected_r: 0.0
+    beta: 1.02
+    weak_selected_test_FV: 1.0
+    strong_selected_test_FV: 1.0
+    strong_r025_vs_r0_mean_image_L2: 0.138930833340737
+    weak_r025_vs_r0_mean_image_L2: 1.2961772384301185e-05
+    weak_solver_objective_evaluations: 2
+    visual_improvement_hypothesis_supported: false
+    validity_repair: false
+    previous_outputs_preserved: true
+    limitations:
+    - All weak solves stop after one support update; stopping-scale limitation, not
+      established optimality
+    - Low predictive accuracy does not imply high local sensitivity or unstable short-update
+      CF validity
+    - Larger weak Base edits are not refinement gains
+    - One selected weak checkpoint; validation may overlap historical strong training
+    - Own-model FV and strong-model agreement are not independent semantic ground
+      truth
+    - Three-step updates and duplicate deterministic shifts; no robustness certificate
+  mnist_low_margin_base:
+    task: tasks/016_mnist_low_margin_base.md
+    status: complete
+    phase: complete
+    run: /home/xu.zhao/robust_ce_results/iclr_runs/mnist_low_margin_base/20260924_v1
+    configuration: experiments/configs/mnist_low_margin_base.json
+    report: results/030_mnist_low_margin_base/report.md
+    headline: results/030_mnist_low_margin_base/headline.csv
+    qualitative_pdf: figures/mnist_low_margin_base/qualitative.pdf
+    all_examples_pdf: figures/mnist_low_margin_base/all64_qualitative.pdf
+    comparison_pdf: figures/mnist_low_margin_base/comparison.pdf
+    gpu_ids: &id001
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    completed_optimization_jobs: 32
+    updates_per_job: 800
+    new_future_models: 72
+    unit_tests_passed: 15
+    independent_output_checks_passed: 32
+    calibration_feasible: 16
+    test_feasible: 16
+    refined_cal_cases_per_condition: 64
+    refined_test_cases_per_condition: 63
+    unchanged_test_fallback_cases: 1
+    selected_r_all_conditions: 0.25
+    beta: 1.02
+    original_Base_test_FV: 0.8424479166666666
+    near_boundary_Base_test_FV: 0.7738715277777778
+    near_boundary_nominal_test_FV: 0.9791666666666666
+    near_boundary_selected_test_FV: 1.0
+    near_boundary_selected_pixel_cost: 5.471775054931641
+    near_boundary_nominal_gain_pp: 20.52951388888889
+    near_boundary_robust_increment_pp: 2.083333333333337
+    current_validity_all_outputs: true
+    validity_repair: false
+    previous_outputs_preserved: true
+    limitations: &id002
+    - Single historical classifier/decoder; retrospective factuals
+    - 63/64 refined test margins achieved; one valid original fallback retained
+    - Fixed800 updates are not a convergence/global-optimality certificate
+    - Most FV recovery is nominal; only2.08pp incremental robust gain for near-boundary
+      Base
+    - Visual movement modest; no independent semantic quality validation
+    - Three-step updates and duplicate deterministic shifts; no certified robustness
+    two_heatmaps_pdf: figures/mnist_low_margin_base/qualitative_two_heatmaps.pdf
+    near_boundary_two_heatmaps_pdf: figures/mnist_low_margin_base/near_boundary_two_heatmaps.pdf
+    gradient_alignment:
+      report: results/030_mnist_low_margin_base/gradient_alignment/report.md
+      summary: results/030_mnist_low_margin_base/gradient_alignment/summary.csv
+      audited_points: 16
+      same_Q_per_term_gradients: true
+      near_boundary_Base_test_cosine: 0.994392
+      near_boundary_weighted_gradient_ratio_r025: 12.876812
+      gradient_decomposition_checks_passed: 16
+  galaxy_update_aware:
+    task: tasks/017_galaxy_update_aware.md
+    status: complete
+    phase: complete
+    run: /home/xu.zhao/robust_ce_results/iclr_runs/galaxy_update_aware/20260924_v1
+    report: results/031_galaxy_update_aware/report.md
+    configuration: experiments/configs/galaxy_update_aware.json
+    qualitative_pdfs: &id003
+    - figures/galaxy_update_aware/merging_round_all16.pdf
+    - figures/galaxy_update_aware/round_cigar_all16.pdf
+    gpu_ids: &id004
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    completed_solves: 32
+    future_models: 32
+    unit_tests_passed: 16
+    headlines: &id005
+    - pair: merging_round
+      selected_r: 0.0
+      selected_beta: 1.02
+      base_FV: 0.69921875
+      nominal_FV: 1.0
+      selected_FV: 1.0
+      base_cost: 12.63455867767334
+      nominal_cost: 12.785762786865234
+      selected_cost: 12.785762786865234
+      nominal_gain_pp: 30.078125
+      robust_increment_pp: 0.0
+      historical_base_FV: 0.74609375
+    - pair: round_cigar
+      selected_r: 0.25
+      selected_beta: 1.02
+      base_FV: 0.5
+      nominal_FV: 1.0
+      selected_FV: 1.0
+      base_cost: 14.164639472961426
+      nominal_cost: 14.19529151916504
+      selected_cost: 14.193399429321287
+      nominal_gain_pp: 50.0
+      robust_increment_pp: 0.0
+      historical_base_FV: 0.5
+    largest_difference_qualitative: &id006
+      pdf: figures/galaxy_update_aware/round_cigar_largest_differences_r025.pdf
+      ranking_csv: results/031_galaxy_update_aware/round_cigar_r025_r0_base_ranking.csv
+      criterion: post-hoc top4 by RGB pixel L2 per contrast; beta1.02
+      r025_minus_r0_ids:
+      - 3
+      - 0
+      - 14
+      - 7
+      r0_minus_base_ids:
+      - 3
+      - 7
+      - 11
+      - 12
+      original_outputs_unchanged: true
+  ffhq_update_aware:
+    task: tasks/018_ffhq_update_aware.md
+    status: complete
+    phase: complete
+    run: /home/xu.zhao/robust_ce_results/iclr_runs/ffhq_update_aware/20260924_v1
+    report: results/032_ffhq_update_aware/report.md
+    configuration: experiments/configs/ffhq_update_aware.json
+    qualitative_pdf: figures/ffhq_update_aware/qualitative_all8.pdf
+    largest_differences_pdf: figures/ffhq_update_aware/qualitative_largest_differences.pdf
+    gpu_ids: &id007
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    completed_solves: 16
+    future_models: 48
+    unit_tests_passed: 12
+    headline: &id008
+      selected_r: 0.0
+      selected_beta: 1.02
+      base_FV: 0.8229166666666666
+      historical_base_FV: 0.8229166666666666
+      nominal_FV: 1.0
+      selected_FV: 1.0
+      base_cost: 38.74411392211914
+      nominal_cost: 47.50326919555664
+      selected_cost: 47.50326919555664
+      robust_increment_pp: 0.0
+    independent_output_checks_passed: 16
+    figures_visually_checked: true
+    all_saved_feasible: true
+    all_final_feasible: false
+    convergence_certified: false
+    validity_repair: false
+    identity_constraint: false
+    runtime_minutes: 54.1155259291331
+  text_toxicity_update_aware:
+    task: tasks/019_text_toxicity_update_aware.md
+    status: complete
+    phase: complete
+    run: /home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_update_aware/20260924_v1
+    resume_notes: results/033_text_toxicity_update_aware/RESUME.md
+    pause_manifest: results/033_text_toxicity_update_aware/pause_manifest.json
+    source_snapshot: /home/xu.zhao/iclr_robust_ce/experiments/snapshots/text019_v1
+    raw_compute_complete: true
+    completed_solves: 16
+    future_models: 48
+    unit_tests_passed: 4
+    gpu_ids: &id009
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    active_experiment_processes: 0
+    independent_output_validation_complete: true
+    qualitative_pdf_created: true
+    report: results/033_text_toxicity_update_aware/report.md
+    qualitative_pdf: figures/text_toxicity_update_aware/qualitative_all8.pdf
+    qualitative_html: figures/text_toxicity_update_aware/qualitative_all8.html
+    independent_output_checks: 16
+    future_model_checks: 48
+    figures_visually_checked: true
+    headline: &id010
+      selected_r: 0.0
+      selected_beta: 1.02
+      base_test_FV: 1.0
+      selected_test_FV: 1.0
+      selected_vs_base_changed_sentences: 1
+      r025_vs_r0_changed_sentences: 0
+      base_cost: 0.4721273956537344
+      selected_cost: 0.4724181807913794
+      base_sensitivity: 0.013229200541002
+      selected_sensitivity: 0.0092413640514532
+    raw_outputs_unchanged: true
+  text_toxicity_followup:
+    task: tasks/020_text_toxicity_followup.md
+    phase: complete
+    run: /home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2
+    gpu_ids: &id011
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    status: complete
+    report: results/034_text_toxicity_followup/report.md
+    qualitative_pdf: figures/text_toxicity_followup/qualitative_all8.pdf
+    qualitative_html: figures/text_toxicity_followup/qualitative_all8.html
+    completed_solves: 32
+    future_models: 48
+    unit_tests_passed: 5
+    independent_output_checks: 32
+    future_model_checks: 48
+    figures_visually_checked: true
+    headline: &id012
+      selected_r: 0.0
+      selected_beta: 1.5
+      base_test_FV: 0.8541666666666666
+      selected_test_FV: 0.9947916666666666
+      selected_vs_base_changed_sentences: 7
+      r025_vs_r0_changed_sentences: 0
+      base_cost: 0.3916467268242055
+      selected_cost: 0.6307174787646623
+      base_sensitivity: 1.0814324639864772
+      selected_sensitivity: 0.023938177082524
+      selected_vs_base_lexical_changes: 7
+      r025_vs_r0_lexical_changes: 0
+    meaning_preserving_detoxification_established: false
+    raw_outputs_unchanged: true
+  appendix_mnist:
+    report_exp1: results/exp1_mnist_T_mismatch/summary.md
+    report_exp2: results/exp2_mnist_no_geometry/summary.md
+    seed: 0
+    gpus:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    GRACE_FV_T3: 0.9986979166666666
+    GRACE_FV_T40: 0.99609375
+    geometry_ablation_identical: true
+  ellice_convergence_diagnostic:
+    task: tasks/101_ellice_convergence.md
+    status: complete_observed_german_logistic_issue_diagnosed
+    report: results/101_ellice_convergence/conclusion.md
+    followup_epsilon: 0.01
+    native_robust_test_count: 43
+    test_count: 43
+    original_task100_preserved: true
+superseded_work:
+  task_002:
+    phase: full_support_training_path_optimization
+    task_issue: Implementation proceeding under the explicit path specification supplement.
+    prior_run: /home/xu.zhao/robust_ce_results/single_budget_geodesic_wro_v1/20260915_single_budget_v1
+    results: results/002_baseline_audit.md
+    audit_checks: passed
+    new_experiments_started: true
+    raw_outputs_modified: false
+    baseline_task: tasks/002_baseline.md
+    specification: tasks/002_path_specification_supplement.md
+    configuration: experiments/configs/path_level_geodesic_wro_v1.yaml
+    preflight_results: results/004_path_preflight.md
+    aggregation_default: mean_lambda_max_model_population_mean_hinge
+    new_run: /home/xu.zhao/robust_ce_results/iclr_runs/path_level_geodesic_wro_v1/20260916_path_v1
+    path_solver_tests_passed: 70
+    construction_bank_verified_count: 5387
+    visible_gpu_ids:
+    - 1
+    - 2
+    - 3
+    - 5
+    optimization_jobs: 16
+    steps_per_job: 120
+    estimated_primary_gpu_hours: 4.876594882706801
+    execution_manifest: /home/xu.zhao/robust_ce_results/iclr_runs/path_level_geodesic_wro_v1/20260916_path_v1/orchestration/manifest.json
+    completed_jobs: 5
+    completed_iterate_checks: 751
+    feasible_iterates_observed: 0
+    controller_pid: 3328289
+    status: cancelled_by_user
+    cancellation_record: /home/xu.zhao/robust_ce_results/iclr_runs/path_level_geodesic_wro_v1/20260916_path_v1/user_cancellation.json
+other_work:
+  previous_active_task:
+    task: tasks/004_baseline.md
+    phase: repair
+    previous_results_preserved: true
+    new_run: /home/xu.zhao/robust_ce_results/iclr_runs/minimal_validity_repair_wro_v1/20260916_minimal_v2
+    controller_pid: 3443734
+    completed_pipeline_phases:
+    - smoke
+    - optimize
+    - freeze_raw
+    worker_pids:
+    - 3450499
+    elapsed_phase_seconds: 135.1678330898285
+    configuration: experiments/configs/minimal_validity_repair_wro_v1.yaml
+    tests_passed: 81
+    initial_smoke_preserved: /home/xu.zhao/robust_ce_results/iclr_runs/minimal_validity_repair_wro_v1/20260916_minimal_v1
+    construction_bank_count: 5927
+    visible_gpu_ids:
+    - 1
+    - 2
+    - 3
+    - 5
+authoritative_experimental_method:
+  source: iclr_robust_ce-73.pdf
+  section: 3; referenced Algorithm 1 and appendix details subordinate to Method
+  sha256: 2c32f5504e5c1cd0bb8bc8e5373839f71a6c030413e6df058677ecee5523ea69
+  designated_by_user_on: '2026-09-25'
+  supersedes: Conflicting prior tasks, drafts, and experimental implementations
+  old_results_status: Preserved historical results; not validated as revised-method
+    experiments
+  implementation_compliance: Implemented and audited for corrected MNIST task012 and
+    HELOC task013; see their reports for solver failures and limits, not a blanket
+    validation of historical runs.
+  validity_repair: Not specified; do not import from prior experiments
+  smooth_hinge_override:
+    user_date: '2026-09-24'
+    formula: t*softplus((0.5-f)/t)
+    temperature_default: 0.05
+    scope: nominal loss and update-aware sensitivity
+planned_work: {}
+previous_work_before_task017:
+  task: tasks/016_mnist_low_margin_base.md
+  status: complete
+  phase: complete
+  run: /home/xu.zhao/robust_ce_results/iclr_runs/mnist_low_margin_base/20260924_v1
+  configuration: experiments/configs/mnist_low_margin_base.json
+  report: results/030_mnist_low_margin_base/report.md
+  headline: results/030_mnist_low_margin_base/headline.csv
+  qualitative_pdf: figures/mnist_low_margin_base/qualitative.pdf
+  all_examples_pdf: figures/mnist_low_margin_base/all64_qualitative.pdf
+  comparison_pdf: figures/mnist_low_margin_base/comparison.pdf
+  gpu_ids: *id001
+  completed_optimization_jobs: 32
+  updates_per_job: 800
+  new_future_models: 72
+  unit_tests_passed: 15
+  independent_output_checks_passed: 32
+  calibration_feasible: 16
+  test_feasible: 16
+  refined_cal_cases_per_condition: 64
+  refined_test_cases_per_condition: 63
+  unchanged_test_fallback_cases: 1
+  selected_r_all_conditions: 0.25
+  beta: 1.02
+  original_Base_test_FV: 0.8424479166666666
+  near_boundary_Base_test_FV: 0.7738715277777778
+  near_boundary_nominal_test_FV: 0.9791666666666666
+  near_boundary_selected_test_FV: 1.0
+  near_boundary_selected_pixel_cost: 5.471775054931641
+  near_boundary_nominal_gain_pp: 20.52951388888889
+  near_boundary_robust_increment_pp: 2.083333333333337
+  current_validity_all_outputs: true
+  validity_repair: false
+  previous_outputs_preserved: true
+  limitations: *id002
+  two_heatmaps_pdf: figures/mnist_low_margin_base/qualitative_two_heatmaps.pdf
+  near_boundary_two_heatmaps_pdf: figures/mnist_low_margin_base/near_boundary_two_heatmaps.pdf
+  gradient_alignment:
+    report: results/030_mnist_low_margin_base/gradient_alignment/report.md
+    summary: results/030_mnist_low_margin_base/gradient_alignment/summary.csv
+    audited_points: 16
+    same_Q_per_term_gradients: true
+    near_boundary_Base_test_cosine: 0.994392
+    near_boundary_weighted_gradient_ratio_r025: 12.876812
+    gradient_decomposition_checks_passed: 16
+previous_work_before_task018:
+  task: tasks/017_galaxy_update_aware.md
+  status: complete
+  phase: complete
+  run: /home/xu.zhao/robust_ce_results/iclr_runs/galaxy_update_aware/20260924_v1
+  report: results/031_galaxy_update_aware/report.md
+  configuration: experiments/configs/galaxy_update_aware.json
+  qualitative_pdfs: *id003
+  gpu_ids: *id004
+  completed_solves: 32
+  future_models: 32
+  unit_tests_passed: 16
+  headlines: *id005
+  largest_difference_qualitative: *id006
+previous_work_before_task019:
+  task: tasks/018_ffhq_update_aware.md
+  status: complete
+  phase: complete
+  run: /home/xu.zhao/robust_ce_results/iclr_runs/ffhq_update_aware/20260924_v1
+  report: results/032_ffhq_update_aware/report.md
+  configuration: experiments/configs/ffhq_update_aware.json
+  qualitative_pdf: figures/ffhq_update_aware/qualitative_all8.pdf
+  largest_differences_pdf: figures/ffhq_update_aware/qualitative_largest_differences.pdf
+  gpu_ids: *id007
+  completed_solves: 16
+  future_models: 48
+  unit_tests_passed: 12
+  headline: *id008
+  independent_output_checks_passed: 16
+  figures_visually_checked: true
+  all_saved_feasible: true
+  all_final_feasible: false
+  convergence_certified: false
+  validity_repair: false
+  identity_constraint: false
+  runtime_minutes: 54.1155259291331
+paused_work: {}
+previous_work_before_task020:
+  task: tasks/019_text_toxicity_update_aware.md
+  status: complete
+  phase: complete
+  run: /home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_update_aware/20260924_v1
+  resume_notes: results/033_text_toxicity_update_aware/RESUME.md
+  pause_manifest: results/033_text_toxicity_update_aware/pause_manifest.json
+  source_snapshot: /home/xu.zhao/iclr_robust_ce/experiments/snapshots/text019_v1
+  raw_compute_complete: true
+  completed_solves: 16
+  future_models: 48
+  unit_tests_passed: 4
+  gpu_ids: *id009
+  active_experiment_processes: 0
+  independent_output_validation_complete: true
+  qualitative_pdf_created: true
+  report: results/033_text_toxicity_update_aware/report.md
+  qualitative_pdf: figures/text_toxicity_update_aware/qualitative_all8.pdf
+  qualitative_html: figures/text_toxicity_update_aware/qualitative_all8.html
+  independent_output_checks: 16
+  future_model_checks: 48
+  figures_visually_checked: true
+  headline: *id010
+  raw_outputs_unchanged: true
+previous_work_before_task021:
+  task: tasks/020_text_toxicity_followup.md
+  phase: complete
+  run: /home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2
+  gpu_ids: *id011
+  status: complete
+  report: results/034_text_toxicity_followup/report.md
+  qualitative_pdf: figures/text_toxicity_followup/qualitative_all8.pdf
+  qualitative_html: figures/text_toxicity_followup/qualitative_all8.html
+  completed_solves: 32
+  future_models: 48
+  unit_tests_passed: 5
+  independent_output_checks: 32
+  future_model_checks: 48
+  figures_visually_checked: true
+  headline: *id012
+  meaning_preserving_detoxification_established: false
+  raw_outputs_unchanged: true
+previous_work_before_task100:
+  task: tasks/021_text_expanded_evaluation.md
+  status: complete
+  phase: verified_and_reported
+  run: /home/xu.zhao/robust_ce_results/iclr_runs/text_expanded_evaluation/20260925_v1
+  gpu_ids:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  report: results/035_text_expanded_evaluation/report.md
+  qualitative_pdf: figures/text_expanded_evaluation/qualitative_all64.pdf
+  qualitative_html: figures/text_expanded_evaluation/qualitative_all64.html
+  factual_count: 64
+  population_size: 8
+  completed_solves: 16
+  future_models_reused: 24
+  independent_output_checks: 16
+  future_model_checks: 24
+  unit_tests_passed: 5
+  base_FV: 0.7890625
+  selected_FV: 0.9244791666666666
+  selected_r: 0
+  beta: 1.5
+  positive_radius_changes: 0
+  meaning_preserving_detoxification_established: false

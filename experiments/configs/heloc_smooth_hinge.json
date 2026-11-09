@@ -1,0 +1,12 @@
+{
+ "task":"tasks/013_heloc_smooth_hinge.md", "dataset":"heloc", "seed":1,
+ "raw_parent":"/home/xu.zhao/robust_ce_results/iclr_runs/minimal_validity_repair_wro_v1/20260916_minimal_v2/heloc",
+ "population_parent":"/home/xu.zhao/robust_ce_results/single_budget_geodesic_wro_v1/20260915_single_budget_v1/heloc",
+ "r_ratios":[0,0.25,0.5,1,3], "beta_grid":[1,1.05,1.1,1.2],
+ "update":{"steps":10,"lr":0.01,"optimizer":"full-batch gradient descent","loss":"binary cross entropy","initialization":"frozen f0; all parameters updated"},
+ "smooth_hinge":{"kind":"softplus","temperature":0.05},
+ "solver":{"steps":800,"primal_lr":1.0,"rho":1.0,"feas_relative":0.00001,"obj_relative":0.000001},
+ "geometry":"inherited normalized22-dimensional continuous Euclidean W2; identity projection; M=n=128; full3336-point P1",
+ "selection":"mean Future Validity across all45 calibration scenarios; ties lower factual L2 cost then lower radius then beta",
+ "gpu_ids":[0,1,2,3,4,5,6,7], "GPU_memory_fraction":0.04
+}

@@ -1,0 +1,4 @@
+prompt,source_correct,source_count,factual_positive,edited_positive,generated_disagreements_with_supervised,negative_to_positive
+original,26,32,0,6,6,6
+explicit_face,28,32,0,2,6,2
+explicit_person,26,32,4,5,11,1

@@ -1,0 +1,3 @@
+Task,target,r_star,r_index,beta_geo_star,calibration_max_mean_hinge
+Round Smooth Galaxies,2,2.0,0,1.0,0.3984652869403362
+Cigar Shaped Smooth Galaxies,4,4.0,1,1.05,0.010845089331269264

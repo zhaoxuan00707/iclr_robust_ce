@@ -1,0 +1,306 @@
+{
+  "outputs": [
+    {
+      "split": "cal",
+      "method": "r0.25_beta1.02",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "cal",
+      "method": "r0_beta1",
+      "feasible": true,
+      "converged": false,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "cal",
+      "method": "r0_beta1.05",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "cal",
+      "method": "r0.1_beta1.05",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "cal",
+      "method": "r0.1_beta1.02",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "cal",
+      "method": "r0.05_beta1.02",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "cal",
+      "method": "r0.1_beta1.1",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "cal",
+      "method": "r0.25_beta1.05",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "cal",
+      "method": "r0.1_beta1",
+      "feasible": false,
+      "converged": false,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "cal",
+      "method": "r0.05_beta1",
+      "feasible": false,
+      "converged": false,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "cal",
+      "method": "r0.05_beta1.1",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "cal",
+      "method": "r0.05_beta1.05",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "cal",
+      "method": "r0_beta1.1",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "cal",
+      "method": "r0.25_beta1",
+      "feasible": false,
+      "converged": false,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "cal",
+      "method": "r0_beta1.02",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "cal",
+      "method": "r0.25_beta1.1",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "test",
+      "method": "r0.25_beta1.02",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "test",
+      "method": "r0_beta1",
+      "feasible": false,
+      "converged": false,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "test",
+      "method": "r0_beta1.05",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "test",
+      "method": "r0.1_beta1.05",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "test",
+      "method": "r0.1_beta1.02",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "test",
+      "method": "r0.05_beta1.02",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "test",
+      "method": "r0.1_beta1.1",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "test",
+      "method": "r0.25_beta1.05",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "test",
+      "method": "r0.1_beta1",
+      "feasible": false,
+      "converged": false,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "test",
+      "method": "r0.05_beta1",
+      "feasible": false,
+      "converged": false,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "test",
+      "method": "r0.05_beta1.1",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "test",
+      "method": "r0.05_beta1.05",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "test",
+      "method": "r0_beta1.1",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "test",
+      "method": "r0.25_beta1",
+      "feasible": false,
+      "converged": false,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "test",
+      "method": "r0_beta1.02",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    },
+    {
+      "split": "test",
+      "method": "r0.25_beta1.1",
+      "feasible": true,
+      "converged": true,
+      "geometry_verified": true,
+      "assignment_verified": true,
+      "smooth_objective_verified": true
+    }
+  ],
+  "GPU_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "unit_tests_passed": 10,
+  "input_and_model_hashes_verified": true,
+  "base_byte_identical": true,
+  "selection_frozen": true
+}

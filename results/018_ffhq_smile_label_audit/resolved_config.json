@@ -1,0 +1,27 @@
+{
+  "seed": 20260917,
+  "parent_run": "/home/xu.zhao/robust_ce_results/ffhq_smile_editor_v2/20260917_extended_v1",
+  "previous_screen": "/home/xu.zhao/robust_ce_results/ffhq_smile_editor_v1/20260917_calibration_v3",
+  "clip_checkpoint": "/tmp/ViT-B-32.pt",
+  "prompt_pairs": {
+    "original": [
+      "smiling face",
+      "face"
+    ],
+    "explicit_face": [
+      "smiling face",
+      "non-smiling face"
+    ],
+    "explicit_person": [
+      "a person who is smiling",
+      "a person who is not smiling"
+    ]
+  },
+  "editor": "independent4",
+  "device": "cpu",
+  "torch_threads": 4,
+  "threshold": 0.5,
+  "gradient_epsilon": 0.001,
+  "gradient_relative_tolerance": 0.03,
+  "scope": "Diagnostic only; no prompt selection, new optimization, f0 replacement, or FFHQ final-test access"
+}

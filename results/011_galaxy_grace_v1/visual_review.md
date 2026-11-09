@@ -1,0 +1,3 @@
+# Visual review of the preserved ten-target run
+
+The fixed first-factual grid was inspected after completion. Several rows visibly change elongation, color, orientation, or neighboring light sources. Some beta=1.00 outputs differ more strongly in appearance than beta>=1.05, and many larger-beta columns are visually nearly identical. Thus greater allowed geometry does not imply greater realized visual change. These small, decoded thumbnails cannot establish astrophysical morphology validity. The model's reconstruction decision agreement (70.31% in the audit) further limits semantic claims. This review does not alter selection, images, or numerical results. The user subsequently requested pair-specific cohorts; those are separate runs.

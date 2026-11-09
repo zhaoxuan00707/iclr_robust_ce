@@ -1,0 +1,25 @@
+{
+  "selected": {
+    "count": 600,
+    "accuracy": 0.95,
+    "balanced_accuracy": 0.9497043734841457,
+    "log_loss": 0.1987915629270847,
+    "auroc": 0.9885437739602777,
+    "confusion_matrix_labels_0_1": [
+      [
+        262,
+        15
+      ],
+      [
+        15,
+        308
+      ]
+    ],
+    "candidate": 3,
+    "l2": 0.0003
+  },
+  "checkpoint_sha256": "23fcb75d95a0b9bda03af49a7305f4d55cd1b4fd7831b4950625a236ae0f02c7",
+  "utc": "2026-09-17T12:48:09.432556+00:00",
+  "test_metrics_accessed": false,
+  "FFHQ_predictions_accessed_for_selection": false
+}

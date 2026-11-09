@@ -1,0 +1,21 @@
+{
+  "dataset_url": "https://mplab.ucsd.edu/398/media/genki4k.tar",
+  "dataset_archive": "/tmp/genki4k_20260917.tar",
+  "dataset_citation": "http://mplab.ucsd.edu, The MPLab GENKI-4K Dataset.",
+  "clip_checkpoint": "/tmp/ViT-B-32.pt",
+  "seed": 20260917,
+  "train_fraction": 0.7,
+  "validation_fraction": 0.15,
+  "test_fraction": 0.15,
+  "l2_penalties": [0.00001,0.00003,0.0001,0.0003,0.001,0.003,0.01,0.03],
+  "optimizer": "full-batch float64 LBFGS, strong_wolfe, max_iter=300",
+  "objective": "mean cross entropy + 0.5*l2*sum(head.weight**2); bias unpenalized",
+  "selection": "validation balanced accuracy descending, log loss ascending, L2 descending",
+  "class_order": ["smiling", "not_smiling"],
+  "feature_dimension": 512,
+  "batch_size": 32,
+  "gpu_ids": [0,1,2,3,4,5,6,7],
+  "gpu_memory_fraction": 0.14,
+  "transfer_manifest": "/home/xu.zhao/iclr_robust_ce/results/018_ffhq_smile_label_audit/scores.csv",
+  "scope": "Supervised frozen-encoder classifier and FFHQ adapter; no new generator, CF optimization, model bank or final FFHQ test access"
+}

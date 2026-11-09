@@ -1,0 +1,34 @@
+{
+  "selection": "top 3 full-image RGB RMS difference between frozen Base and Feasible_search PNGs",
+  "selected_cases_one_based": [
+    7,
+    6,
+    4
+  ],
+  "crop_fraction_xyxy": [
+    0.27,
+    0.5,
+    0.73,
+    0.87
+  ],
+  "source_hashes": {
+    "/home/xu.zhao/robust_ce_results/genki_preservation_search/20260917_feasible_v1/qualitative_examples/test_0_Base.png": "127ad3236fd542dde5d36175694804768409784540f6dfaf563aa7e519ec7220",
+    "/home/xu.zhao/robust_ce_results/genki_preservation_search/20260917_feasible_v1/qualitative_examples/test_0_Feasible_search.png": "0082d94a7bb3ce99a4deaeaeecf8375e9ce77b878d3dd2ebeeeb1c89f8e5febc",
+    "/home/xu.zhao/robust_ce_results/genki_preservation_search/20260917_feasible_v1/qualitative_examples/test_1_Base.png": "46c3ec7a5c85856f393518b496f2744c0aa341aa4bf15a9d3f01df7f7aeddd31",
+    "/home/xu.zhao/robust_ce_results/genki_preservation_search/20260917_feasible_v1/qualitative_examples/test_1_Feasible_search.png": "d9a2e73de2de9425c14d15120cdabf0e850791ed7688496cb9f61e64b1024a29",
+    "/home/xu.zhao/robust_ce_results/genki_preservation_search/20260917_feasible_v1/qualitative_examples/test_2_Base.png": "00c1d8eff18a7559b717a9c4a1ae6fb919c09c53b68846e27a463d2b6247a347",
+    "/home/xu.zhao/robust_ce_results/genki_preservation_search/20260917_feasible_v1/qualitative_examples/test_2_Feasible_search.png": "e03770bbfcac8ba5088da29d73b1831667ed01b57905b64a271652d9622ebe07",
+    "/home/xu.zhao/robust_ce_results/genki_preservation_search/20260917_feasible_v1/qualitative_examples/test_3_Base.png": "e5bdbd19f393476d1c6b9b51b39f5d3fd1755a737959979be71cea97cb0c5064",
+    "/home/xu.zhao/robust_ce_results/genki_preservation_search/20260917_feasible_v1/qualitative_examples/test_3_Feasible_search.png": "44265886d079852cf0347b170f3d13b89c681383b70cf83210f1821edf7a8de6",
+    "/home/xu.zhao/robust_ce_results/genki_preservation_search/20260917_feasible_v1/qualitative_examples/test_4_Base.png": "ca9aa602fc7e1d11f1e3e11affb91c9fe959689e48aaeb6307000b9c2d208da2",
+    "/home/xu.zhao/robust_ce_results/genki_preservation_search/20260917_feasible_v1/qualitative_examples/test_4_Feasible_search.png": "f50c528842816c20f68dbeb620c8e16043ea6ce24c016ef8308cb2d282de2096",
+    "/home/xu.zhao/robust_ce_results/genki_preservation_search/20260917_feasible_v1/qualitative_examples/test_5_Base.png": "76d6b99c026c3227ab77adfdb217818fc2ae34681b075357b03c42a7ba19f2a2",
+    "/home/xu.zhao/robust_ce_results/genki_preservation_search/20260917_feasible_v1/qualitative_examples/test_5_Feasible_search.png": "dd742a12c518c7a1fc80bdda7ecc0c7a2b703c52364abd73c687276a8a859550",
+    "/home/xu.zhao/robust_ce_results/genki_preservation_search/20260917_feasible_v1/qualitative_examples/test_6_Base.png": "870771a5ef993c1a099090a98df5559dd1b0dd858f6447775392f0376fcd6813",
+    "/home/xu.zhao/robust_ce_results/genki_preservation_search/20260917_feasible_v1/qualitative_examples/test_6_Feasible_search.png": "0660f4da580946fb3be852f2ecdf043c675aa3138b9d531823866b22dcef45dc",
+    "/home/xu.zhao/robust_ce_results/genki_preservation_search/20260917_feasible_v1/qualitative_examples/test_7_Base.png": "811974b98bbd19a6d590abd21aa81e557e97f8fccbce7a335e66361fc58996c3",
+    "/home/xu.zhao/robust_ce_results/genki_preservation_search/20260917_feasible_v1/qualitative_examples/test_7_Feasible_search.png": "ed24cf3297c98d471d1b5097526f5a95ef5b0ee232243c5bc3f4a2760f3f2f03"
+  },
+  "images_regenerated": false,
+  "contrast_amplified": false
+}

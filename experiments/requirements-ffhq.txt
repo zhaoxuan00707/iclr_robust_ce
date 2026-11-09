@@ -1,0 +1,9 @@
+# Python packages in /tmp/ffhq_grace_deps; see provenance/ffhq_import.json for original inference source.
+ftfy==6.3.1
+regex==2026.9.10
+ninja==1.13.2
+nvidia-cuda-runtime-cu12==12.8.90
+nvidia-cuda-nvcc-cu12==12.8.93
+nvidia-cuda-cccl-cu12==12.9.27
+# CUDA compiler tools copied from existing conda package cache; headers supplemented
+# from existing jepawm CUDA library includes. Build directory /tmp/ffhq_cuda.

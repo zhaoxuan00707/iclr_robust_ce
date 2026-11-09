@@ -1,0 +1,7 @@
+method,reference,paired_scenarios,mean_validity_difference,sd_of_paired_differences,scenario_wins,scenario_ties,scenario_losses,minimum_difference,maximum_difference,uncertainty_interpretation
+F_beta105,F_beta100,45,0.0029368172128961282,0.009844525736440509,29,0,16,-0.02079586330935279,0.025217326139088447,descriptive across 45 fixed heterogeneous stresses; not an IID confidence interval
+F_beta110,F_beta100,45,0.023683553157473832,0.03852627623204336,36,0,9,-0.04901079136690645,0.09678507194244618,descriptive across 45 fixed heterogeneous stresses; not an IID confidence interval
+F_beta120,F_beta100,45,0.03093483546496121,0.049777072407280284,36,0,9,-0.05689823141486805,0.14084982014388464,descriptive across 45 fixed heterogeneous stresses; not an IID confidence interval
+F_beta120,S_straight,45,0.10671711085115834,0.0456898334302295,45,0,0,0.018697519447015254,0.17594048070061008,descriptive across 45 fixed heterogeneous stresses; not an IID confidence interval
+F_beta120,S_old_waypoint,45,-0.21528945798567903,0.23863688661836907,0,0,45,-0.8404151894747954,-2.2973836388828772e-08,descriptive across 45 fixed heterogeneous stresses; not an IID confidence interval
+F_beta120,S_beta120,45,-0.14452604583000261,0.16299599146937763,6,0,39,-0.558041067146283,0.003597122302158362,descriptive across 45 fixed heterogeneous stresses; not an IID confidence interval

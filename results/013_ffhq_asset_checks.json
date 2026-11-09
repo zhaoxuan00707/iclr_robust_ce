@@ -1,0 +1,26 @@
+{
+  "generator_shape": [
+    1,
+    3,
+    1024,
+    1024
+  ],
+  "latent_dim": 512,
+  "num_ws": 16,
+  "classifier_prompts": [
+    "smiling face",
+    "face"
+  ],
+  "smile_probability": 0.4537515938282013,
+  "latent_gradient_norm": 1.7410478591918945,
+  "flow_parameters": 147619061,
+  "gradient_seconds": 2.6023972034454346,
+  "peak_memory_GB": 2.44065536,
+  "hashes": {
+    "/mnt/big_disk/z.cao/StyleGAN_pkl/stylegan3-r-ffhq-1024x1024.pkl": "ffe2233fa0d0329ad9f19b8bf8ea855d12210461c118ff52fbffde8d3a2b4519",
+    "/mnt/mass_disk1/z.cao/workspace/Submitted/LeapFactual/notebooks/checkpoints/ffhq_unet1d_argmax_w_20000_final.pt": "29d82067119dda7f2336781f079022ae916693214150ed23e2d731c4a91f340d",
+    "/tmp/ViT-B-32.pt": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af"
+  },
+  "operator_implementation": "original fused StyleGAN CUDA operators; activation checkpointing",
+  "classifier_dtype": "float32"
+}

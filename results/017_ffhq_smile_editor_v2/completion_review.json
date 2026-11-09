@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "jobs": 27,
+  "eight_gpus_used": true,
+  "previous_scalar_candidates_reused": 144,
+  "new_scalar_candidates": 96,
+  "independent_candidates": 656,
+  "all_accepted_vector_iterates_preserve_gates": true,
+  "maximum_identity_cosine_error": 1.1102230246251565e-16,
+  "supervised_prediction_recompute_error": 1.1102230246251565e-16,
+  "missing_ArcFace_pairs": 0,
+  "missing_FaceNet_pairs": 0,
+  "source_hashes_unchanged": true,
+  "final_FFHQ_test_accessed": false,
+  "future_models_accessed": false
+}

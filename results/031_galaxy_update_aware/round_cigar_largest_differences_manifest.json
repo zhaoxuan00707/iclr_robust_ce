@@ -1,0 +1,37 @@
+{
+  "run": "/home/xu.zhao/robust_ce_results/iclr_runs/galaxy_update_aware/20260924_v1",
+  "beta": 1.02,
+  "ranking": "descending RGB pixel L2, ties original index",
+  "heatmap": "mean-channel absolute difference; no per-image normalization",
+  "shared_vmax": 0.2612684369087219,
+  "pages": [
+    {
+      "criterion": "r025_minus_r0",
+      "ids": [
+        3,
+        0,
+        14,
+        7
+      ]
+    },
+    {
+      "criterion": "r0_minus_base",
+      "ids": [
+        3,
+        7,
+        11,
+        12
+      ]
+    }
+  ],
+  "input_hashes": {
+    "/home/xu.zhao/robust_ce_results/iclr_runs/galaxy_update_aware/20260924_v1/population.pt": "9c661c6f1364e07e26f89b91b0b28ec8279d1ec7f7a2bff4bd8f340ae1904cca",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/galaxy_update_aware/20260924_v1/round_cigar/frozen_test_images.pt": "86b66bfb0642eafed87ab3e39f05184e1a8ee384f17724bc784acba30db4b468",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/galaxy_update_aware/20260924_v1/round_cigar/test_individual.csv": "6851224eb1447f11f5f07356c24b00e674ac063003a3c7c2dd1162b436953c52",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/galaxy_update_aware/20260924_v1/round_cigar/test_audit.pt": "d273d8a622af104f02009f533f7e6d51ee278e8fb5f1ed0bff2800904625d767",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/galaxy_update_aware/20260924_v1/round_cigar/test/r0_beta1.02/output.pt": "0c1909e9208dce0173a2120661dfe9506b84b909086ea8a6d3d39e54cd696a44",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/galaxy_update_aware/20260924_v1/round_cigar/test/r0.25_beta1.02/output.pt": "ae2b50a9897bb220395d07c771a0f87d260923c4484f2fe1582d5d64f56fbaac"
+  },
+  "original_outputs_unchanged": true,
+  "pdf": "/home/xu.zhao/iclr_robust_ce/figures/galaxy_update_aware/round_cigar_largest_differences_r025.pdf"
+}

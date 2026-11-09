@@ -1,0 +1,45 @@
+run_name: heloc_calibrated_stress
+output_dir: outputs
+data_dir: data/openml
+seeds: [0, 1, 2]
+
+data:
+  test_size: 0.2
+  reference_size: 256
+  ce_batch_size: 128
+
+classifier:
+  epochs: 30
+  learning_rate: 0.001
+  hidden_dims: [64, 32]
+
+base_ce:
+  threshold: 0.52
+  high_confidence_levels: [0.7, 0.9]
+  steps: 300
+  learning_rate: 0.03
+  proximity_weight: 0.05
+
+lift:
+  iterations: 5
+  step_size: 0.1
+  top_k: 8
+  sinkhorn_reg: 0.05
+  sinkhorn_iterations: 200
+  lens_epsilon_initial_ratio: 0.45
+  lens_delta_initial_ratio: 0.65
+  calibration_coverage: 0.8
+  calibration_lambdas: [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+  refinement_depths: [0.25, 0.5, 0.75, 1.0]
+  bound_beta_grid: [0.05, 0.15, 0.25, 0.5, 0.75, 0.85, 0.95]
+  bound_gamma_grid: [0.1, 0.25, 0.5, 1.0, 2.0, 4.0, 10.0]
+
+calibration_shifts:
+  mean_shift: [0.075]
+  scale_shift: [1.075]
+  adverse_tail: [0.125]
+
+future_shifts:
+  mean_shift: [0.15, 0.30]
+  scale_shift: [1.15, 1.30]
+  adverse_tail: [0.25, 0.50]

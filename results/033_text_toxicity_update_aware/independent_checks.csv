@@ -1,0 +1,17 @@
+split,method,reencoding,geometry,assignment,full_update_sensitivity,cost,FV,coordinate_stopping
+cal,r0_beta1.02,True,True,True,True,True,True,True
+cal,r0_beta1.1,True,True,True,True,True,True,True
+cal,r0.05_beta1.02,True,True,True,True,True,True,True
+cal,r0.05_beta1.1,True,True,True,True,True,True,True
+cal,r0.25_beta1.02,True,True,True,True,True,True,True
+cal,r0.25_beta1.1,True,True,True,True,True,True,True
+cal,r1_beta1.02,True,True,True,True,True,True,True
+cal,r1_beta1.1,True,True,True,True,True,True,True
+test,r0_beta1.02,True,True,True,True,True,True,True
+test,r0_beta1.1,True,True,True,True,True,True,True
+test,r0.05_beta1.02,True,True,True,True,True,True,True
+test,r0.05_beta1.1,True,True,True,True,True,True,True
+test,r0.25_beta1.02,True,True,True,True,True,True,True
+test,r0.25_beta1.1,True,True,True,True,True,True,True
+test,r1_beta1.02,True,True,True,True,True,True,True
+test,r1_beta1.1,True,True,True,True,True,True,True

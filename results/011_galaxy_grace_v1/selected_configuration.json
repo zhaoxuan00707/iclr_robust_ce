@@ -1,0 +1,68 @@
+{
+  "tasks": {
+    "0": {
+      "r_star": 4.0,
+      "r_index": 1,
+      "beta_geo_star": 1.05,
+      "calibration_max_mean_hinge": 0.027728287503123283
+    },
+    "1": {
+      "r_star": 4.0,
+      "r_index": 1,
+      "beta_geo_star": 1.05,
+      "calibration_max_mean_hinge": 0.1575815137475729
+    },
+    "2": {
+      "r_star": 2.0,
+      "r_index": 0,
+      "beta_geo_star": 1.0,
+      "calibration_max_mean_hinge": 0.4458212871104479
+    },
+    "3": {
+      "r_star": 2.0,
+      "r_index": 0,
+      "beta_geo_star": 1.05,
+      "calibration_max_mean_hinge": 0.08818092755973339
+    },
+    "4": {
+      "r_star": 2.0,
+      "r_index": 0,
+      "beta_geo_star": 1.05,
+      "calibration_max_mean_hinge": 0.028406957164406776
+    },
+    "5": {
+      "r_star": 4.0,
+      "r_index": 1,
+      "beta_geo_star": 1.05,
+      "calibration_max_mean_hinge": 0.4172450266778469
+    },
+    "6": {
+      "r_star": 4.0,
+      "r_index": 1,
+      "beta_geo_star": 1.05,
+      "calibration_max_mean_hinge": 0.4188311416655779
+    },
+    "7": {
+      "r_star": 2.0,
+      "r_index": 0,
+      "beta_geo_star": 1.1,
+      "calibration_max_mean_hinge": 0.3276769742369652
+    },
+    "8": {
+      "r_star": 2.0,
+      "r_index": 0,
+      "beta_geo_star": 1.0,
+      "calibration_max_mean_hinge": 0.393476027995348
+    },
+    "9": {
+      "r_star": 2.0,
+      "r_index": 0,
+      "beta_geo_star": 1.0,
+      "calibration_max_mean_hinge": 0.41250660829246044
+    }
+  },
+  "selection_rule": "per target: minimize maximum calibration-model population mean hinge, rounded to 1e-6; ties: lower pixel cost, lower r, lower beta",
+  "future_outcomes_used": false,
+  "selected_utc": "2026-09-16T19:10:15.945433+00:00",
+  "calibration_results_sha256": "210e02e6006dc8b14d35138fef1fb0fbfc3a4538f335ac9d95435d60fd3afd90"
+}

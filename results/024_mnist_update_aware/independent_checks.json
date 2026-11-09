@@ -1,0 +1,114 @@
+[
+  {
+    "split": "cal",
+    "method": "r0.25_beta1",
+    "assignment_permutation": true,
+    "unchanged_Q_up_to_ordering": true,
+    "pixels_in_domain": true
+  },
+  {
+    "split": "cal",
+    "method": "r0.25_beta1.05",
+    "assignment_permutation": true,
+    "unchanged_Q_up_to_ordering": true,
+    "pixels_in_domain": true
+  },
+  {
+    "split": "cal",
+    "method": "r0.25_beta1.1",
+    "assignment_permutation": true,
+    "unchanged_Q_up_to_ordering": true,
+    "pixels_in_domain": true
+  },
+  {
+    "split": "cal",
+    "method": "r0.25_beta1.2",
+    "assignment_permutation": true,
+    "unchanged_Q_up_to_ordering": true,
+    "pixels_in_domain": true
+  },
+  {
+    "split": "cal",
+    "method": "r0.5_beta1",
+    "assignment_permutation": true,
+    "unchanged_Q_up_to_ordering": true,
+    "pixels_in_domain": true
+  },
+  {
+    "split": "cal",
+    "method": "r0.5_beta1.05",
+    "assignment_permutation": true,
+    "unchanged_Q_up_to_ordering": true,
+    "pixels_in_domain": true
+  },
+  {
+    "split": "cal",
+    "method": "r0.5_beta1.1",
+    "assignment_permutation": true,
+    "unchanged_Q_up_to_ordering": true,
+    "pixels_in_domain": true
+  },
+  {
+    "split": "cal",
+    "method": "r0.5_beta1.2",
+    "assignment_permutation": true,
+    "unchanged_Q_up_to_ordering": true,
+    "pixels_in_domain": true
+  },
+  {
+    "split": "cal",
+    "method": "r0_beta1",
+    "assignment_permutation": true,
+    "unchanged_Q_up_to_ordering": true,
+    "pixels_in_domain": true
+  },
+  {
+    "split": "cal",
+    "method": "r0_beta1.05",
+    "assignment_permutation": true,
+    "unchanged_Q_up_to_ordering": true,
+    "pixels_in_domain": true
+  },
+  {
+    "split": "cal",
+    "method": "r0_beta1.1",
+    "assignment_permutation": true,
+    "unchanged_Q_up_to_ordering": true,
+    "pixels_in_domain": true
+  },
+  {
+    "split": "cal",
+    "method": "r0_beta1.2",
+    "assignment_permutation": true,
+    "unchanged_Q_up_to_ordering": true,
+    "pixels_in_domain": true
+  },
+  {
+    "split": "test",
+    "method": "r0_beta1",
+    "assignment_permutation": true,
+    "unchanged_Q_up_to_ordering": true,
+    "pixels_in_domain": true
+  },
+  {
+    "split": "test",
+    "method": "r0_beta1.05",
+    "assignment_permutation": true,
+    "unchanged_Q_up_to_ordering": true,
+    "pixels_in_domain": true
+  },
+  {
+    "split": "test",
+    "method": "r0_beta1.1",
+    "assignment_permutation": true,
+    "unchanged_Q_up_to_ordering": true,
+    "pixels_in_domain": true
+  },
+  {
+    "split": "test",
+    "method": "r0_beta1.2",
+    "assignment_permutation": true,
+    "unchanged_Q_up_to_ordering": true,
+    "pixels_in_domain": true
+  }
+]

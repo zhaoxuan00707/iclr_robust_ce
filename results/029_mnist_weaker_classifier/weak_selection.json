@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.8984375,
+  "recall4": 0.99609375,
+  "recall9": 0.80078125,
+  "bce": 0.5253089666366577,
+  "seed": 153,
+  "step": 16,
+  "path": "/home/xu.zhao/robust_ce_results/iclr_runs/mnist_weaker_classifier/20260924_v1/candidates/seed153_step16.pt",
+  "sha256": "636bbe79d6f518a57e530178269d527fc54029f5c4372d3622bf309232dc0e4b",
+  "eligible": true,
+  "distance_to_target": 0.0015625000000000222
+}

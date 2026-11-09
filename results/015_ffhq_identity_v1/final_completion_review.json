@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "scientific_success": false,
+  "reason": "Robustness retained, but bottleneck identity similarity is lower and appearance costs higher than full GRACE",
+  "test_cases": 8,
+  "identity_valid_pairs_per_method": 8,
+  "report": "/home/xu.zhao/robust_ce_results/ffhq_grace_identity_v1/20260917_identity_v1/final_report.md",
+  "original_review": "/home/xu.zhao/robust_ce_results/ffhq_grace_identity_v1/20260917_identity_v1/completion_review.json",
+  "identity_review": "/home/xu.zhao/robust_ce_results/ffhq_grace_identity_v1/20260917_identity_v1/identity_detection_audit/review.json",
+  "focused_tests_passed": 5,
+  "visual_panels_checked": true,
+  "all_eight_gpus_used": true
+}

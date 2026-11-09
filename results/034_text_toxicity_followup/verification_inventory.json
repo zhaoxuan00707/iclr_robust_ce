@@ -1,0 +1,992 @@
+{
+  "artifacts": [
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/assemble.log",
+      "sha256": "f3fb1b05ee90ba1f96c69b7d5a7188233150d3e9f11328c0bb9659ce9387182e"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0.25_beta1.02/metrics.json",
+      "sha256": "f2088d313fb7135241b96fa1a2de2509a6b37aace719ee597e2255ad8ab71bcd"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0.25_beta1.02/output.pt",
+      "sha256": "a1ea1b834f39d87d91af09a45fbd5e3715abb1c405868cfe3206fd1f0543721e"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0.25_beta1.02/trace.csv",
+      "sha256": "574ccf2bbfa87709fa79f638841eb7b119654b805783b0b86225de16d8bb3a4a"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0.25_beta1.1/metrics.json",
+      "sha256": "a2479673f24edab2c46a801b78d1907c4be2a111bed784837ecfcdfd2ae038bd"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0.25_beta1.1/output.pt",
+      "sha256": "fc2e5cb42c039cabb1952cac771f3551688affb999274735694b38a5da8ee207"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0.25_beta1.1/trace.csv",
+      "sha256": "c60ef534b2aaf91ca0af683824c4012a2fddcb5ea2d8cc65207165d734f4214b"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0.25_beta1.25/metrics.json",
+      "sha256": "363f8eb51062ed848bae760b02f512c8ff898bbddf98872f383a8af38da51fe4"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0.25_beta1.25/output.pt",
+      "sha256": "54db26f0e43c26c530e334409c685950f7f7cd8fd1bb55a5c8da2f98033307b2"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0.25_beta1.25/trace.csv",
+      "sha256": "5b0be16e3aad2458208d893cc58276e2b1a72e182eef3732451d063848c8bab0"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0.25_beta1.5/metrics.json",
+      "sha256": "fd6590f53d5bc416e22e196338101741b512142b6020beeb0ee0e3f0ba49fdf8"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0.25_beta1.5/output.pt",
+      "sha256": "c9b11e921284b90d032003ae18bcce326a2844c110b46b1a46fb924a01e188e5"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0.25_beta1.5/trace.csv",
+      "sha256": "4ecf746bc7ec4341eef962cbe0a2ada7d65b99bd856e5ac09dfa5c4d0eca52b8"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0_beta1.02/metrics.json",
+      "sha256": "aedd5654f1130dc42a3018725cd72798bbc4f3475d1b91a3dae64ba166fb78b1"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0_beta1.02/output.pt",
+      "sha256": "a1ea1b834f39d87d91af09a45fbd5e3715abb1c405868cfe3206fd1f0543721e"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0_beta1.02/trace.csv",
+      "sha256": "f19b6c11872f804f5995bc421290fb3860f0bc541941a956f8a49f53cba1931a"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0_beta1.1/metrics.json",
+      "sha256": "774177b9fe2dadd7bb2e0849ca2b8ff5054506f1718eedc0d3b627f130e96e82"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0_beta1.1/output.pt",
+      "sha256": "79788394216549e0e564d4f780ef239117acf4f55080e19f28ac0f92a0db3848"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0_beta1.1/trace.csv",
+      "sha256": "b619aeb49e6d84d1b2d57ad6a3dadc1183ef7455ea26112c6ccca37802218db1"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0_beta1.25/metrics.json",
+      "sha256": "d1202d8d1a8f8aa491a85907fcc0c3767dcfe715a2755bef639943ad9a10a058"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0_beta1.25/output.pt",
+      "sha256": "6f59620388a035ba68e9383e36f0724318dd455aedc1993d012343ae97db22d5"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0_beta1.25/trace.csv",
+      "sha256": "2088313e9fdd02048f22927dded00b04e96f78992cb5639ef784fe8d04182c77"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0_beta1.5/metrics.json",
+      "sha256": "9100a9c00e8c7851ed0998b1171cbf20b34a30671b53dd5bdacfcc300380506e"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0_beta1.5/output.pt",
+      "sha256": "c9b11e921284b90d032003ae18bcce326a2844c110b46b1a46fb924a01e188e5"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r0_beta1.5/trace.csv",
+      "sha256": "b2b411abfdd2a989e4dab1a816c7934139242f8d92876b68fd5dc99b5a9585dd"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r1_beta1.02/metrics.json",
+      "sha256": "da3bdebb5b251932de520e2f67e9d38d30b0ee719e13158b04cbd285a3da5acd"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r1_beta1.02/output.pt",
+      "sha256": "a1ea1b834f39d87d91af09a45fbd5e3715abb1c405868cfe3206fd1f0543721e"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r1_beta1.02/trace.csv",
+      "sha256": "6e60dc081293a62cc105a57f80dd97ff014f3ffaba5b92af26f49351ebaede17"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r1_beta1.1/metrics.json",
+      "sha256": "881f7b1981030278d8ee5b6ee088a1dfe44bc761f2267aab8dad98948a1c9b6f"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r1_beta1.1/output.pt",
+      "sha256": "fc2e5cb42c039cabb1952cac771f3551688affb999274735694b38a5da8ee207"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r1_beta1.1/trace.csv",
+      "sha256": "019dccea2d1d24f7654453be97719d95afd7e8574b695b3a98a493b9acf2ea19"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r1_beta1.25/metrics.json",
+      "sha256": "fa4c4a23ba90528d373a78693318f1aab440b20df85f2eeb5bbba563a3acfabb"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r1_beta1.25/output.pt",
+      "sha256": "54db26f0e43c26c530e334409c685950f7f7cd8fd1bb55a5c8da2f98033307b2"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r1_beta1.25/trace.csv",
+      "sha256": "de857c797d8a2c3f0535d38a119b452a3822f9452218b6e568df3cfe6c4fa5c8"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r1_beta1.5/metrics.json",
+      "sha256": "0875639e2d3fa2157ddcadb9a253774cccbe15d55d472754463b6f34ed9700b3"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r1_beta1.5/output.pt",
+      "sha256": "c9b11e921284b90d032003ae18bcce326a2844c110b46b1a46fb924a01e188e5"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r1_beta1.5/trace.csv",
+      "sha256": "ae9709e75a35a21b4c0c05f9492acf4b1634bcfff92caa2a4518914743ee4fda"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r4_beta1.02/metrics.json",
+      "sha256": "40e89e71c12d455a3201afd2da79c07db61afeca9ba804da644b5037e5ab5c28"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r4_beta1.02/output.pt",
+      "sha256": "a1ea1b834f39d87d91af09a45fbd5e3715abb1c405868cfe3206fd1f0543721e"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r4_beta1.02/trace.csv",
+      "sha256": "fd692a68b00ddfc72142be9916cb8b33c8dc814af3c87f550b2376144f4397ba"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r4_beta1.1/metrics.json",
+      "sha256": "b70fa23ad69376b2207891e42f956f7da2f86b4f4b781cd277b6530ab8385a04"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r4_beta1.1/output.pt",
+      "sha256": "fc2e5cb42c039cabb1952cac771f3551688affb999274735694b38a5da8ee207"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r4_beta1.1/trace.csv",
+      "sha256": "00f7957f79690ecb0be1ccdcd89a832943c40a695e432c412196a13eee042eef"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r4_beta1.25/metrics.json",
+      "sha256": "6ff4f98b575ceb4fe3500e7a5193af285a0e84c6503574a1eff1a5c5f9f898e4"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r4_beta1.25/output.pt",
+      "sha256": "54db26f0e43c26c530e334409c685950f7f7cd8fd1bb55a5c8da2f98033307b2"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r4_beta1.25/trace.csv",
+      "sha256": "8772777e4295e2ca7c898bc28bc40d4c1aaf843adbbf0778b19f8e920ffe50cc"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r4_beta1.5/metrics.json",
+      "sha256": "b46fdc15085ab731ce196e35d6e43a9cbc89bcdc58e21d7b41b13ede099089fe"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r4_beta1.5/output.pt",
+      "sha256": "c9b11e921284b90d032003ae18bcce326a2844c110b46b1a46fb924a01e188e5"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal/r4_beta1.5/trace.csv",
+      "sha256": "895a23e73d4cf88ba184825eb67ef351efbf27ef3aa2cf0aec44beaa750116fe"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_0.25_1.02.log",
+      "sha256": "d3216b1df208355fa0c98c810c37d14e9e0081d24e59e6599ec3979dc86efe8d"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_0.25_1.1.log",
+      "sha256": "5f3cc1bb9f5ae340a988721ed2b1b51ea88b98f445c8de65118bfedcfb819b85"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_0.25_1.25.log",
+      "sha256": "f2f9f1aa51577a109afe9c8274875e84a8a53c29a2d476cf206c28d2e7d79dd0"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_0.25_1.5.log",
+      "sha256": "40e994e9801015375165cc57b6a8eb1cbb66f337d61516d3a54d17a7ecdfbcdc"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_0_1.02.log",
+      "sha256": "77c6c86b7a763666406f4a5b2b769904be0ca07e711d8b03a70f81b08d3c2d65"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_0_1.1.log",
+      "sha256": "f483d990b0bd6a1d73bc12ee651b0891ca592b5ac894eaf637dfcbcdd73cb06d"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_0_1.25.log",
+      "sha256": "84c388536e34ebcd46b52c24e0529092649d097aef3894914fb8a5dc17aba0be"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_0_1.5.log",
+      "sha256": "9c11c1009f1c36177e0cb9ded3e5204e0ac8d72d8ce41766e796ac36f49e5e8d"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_1_1.02.log",
+      "sha256": "6824f5af6183ad3bd0109410ec5dc9136238ab34cfd3af686f8d8d3ed0468e0f"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_1_1.1.log",
+      "sha256": "2436643794500c5fd0bd5c25c331e8b5a1119c0c527e1fd85c867b3b8fb6902a"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_1_1.25.log",
+      "sha256": "c7d78ac690cdf92c65e07ced9537dae6637e1997071154748d7ab27d1136e243"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_1_1.5.log",
+      "sha256": "e192164b88ffa86b7edbf7145aafa21932b4dd59966506ee6aa2873b8a26a26b"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_4_1.02.log",
+      "sha256": "62f94c61e1b1e5612c0f23c4d8f37c13df382a5f9254969e4213e503e84dbabd"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_4_1.1.log",
+      "sha256": "d4bae5c98b19436d17bee53b2176c605f42cbfc70114e5de3c86454aec7d40ec"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_4_1.25.log",
+      "sha256": "27b4ec2f98a754198cde736e69ee2f70406335e3d21aa55c1ee5b493abb65b22"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_4_1.5.log",
+      "sha256": "eb5443b781f59ade3445344c338380c3812442d5b98eb292ede95d4e1c1804a7"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_evaluation.log",
+      "sha256": "bb56cb262afb7e58fd2c9f97b8623769fc8e01eaf061af403c9d435b070a8bbe"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_future_manifest.csv",
+      "sha256": "baa77a988aefe38050e18f0b67aa08059026784aba31885179893baee5e49b23"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_individual.csv",
+      "sha256": "832d8f75a353702561562536bd033be7fb079e35ea6c8f9fb61bf2534bbde141"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_per_model.csv",
+      "sha256": "ba707cc2075481e8f3935696de82b99b123fb664a4e9c42787f79c912d4ce737"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/cal_summary.csv",
+      "sha256": "1a5b971ab0f5e8caf6b9229192f8794f4427f57226de5e9c15795547196aebee"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/complete.json",
+      "sha256": "ac85c43c330b81083df4ce8d03c5c54f853c2fa5c195f3648dbc67f6032df968"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/data.pt",
+      "sha256": "18cc55ab925113dceea2e747cfdc7006df3e1a531ff5f7f2dc6b2bc984dd7a41"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/freeze.log",
+      "sha256": "95f56af40764d847f338ed409762b087a690d526c2a7ca14d5848db67bfb259b"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_cal0.log",
+      "sha256": "740e806e9d6cd10020299b490b3994b2448afc7edbfab8e52d53d2dc0bd2788f"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_cal1.log",
+      "sha256": "0a1fcddf1744fb4a6766a5bac128da34cc5f1cbd4f486bac5d3c0b1f2edb2c0e"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_cal2.log",
+      "sha256": "a7b07debca8d0628815443e1bbc54d774635b66d71562824d5a346a74f803995"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_cal3.log",
+      "sha256": "c79c4ba7bc5d959ac9766c75281f5025c1ccef99d96c4c005b5e367188b47990"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_cal4.log",
+      "sha256": "fc47ec40731ef33526deeba29ccaf6c40c3dd8e1260d9e4ea84efe225882d019"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_cal5.log",
+      "sha256": "390021a356f88fe91d25a61107756ff2ddec6660a2c06e396aac64a77d179b10"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_cal6.log",
+      "sha256": "127a4f1c2f06d9a5942fb88d08dc1b85c10177a86a778788d0ae21baba8ffc79"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_cal7.log",
+      "sha256": "fd725fcfe090d396f1386cd85bf02a7db81840ea08f097cec19d1955378d55f3"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_cal_0.csv",
+      "sha256": "082785f6ae5dd83dfe43a5490b1fa2d6363532d592b93baff8968915a2ac2de2"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_cal_1.csv",
+      "sha256": "c183d5a455702c4a5e31f9832baad2edcbf51d805684c9e131c34031d515327b"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_cal_2.csv",
+      "sha256": "4b7b2c4118ca5b0dd3a1cac379b630d844b8c2ba844a5cdc067014dae7b2f061"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_cal_3.csv",
+      "sha256": "182a62f6d43dce29f61512e97111cf2371b61736b08675223177a68132ac7245"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_cal_4.csv",
+      "sha256": "0948d8ab1d6f70b97cd110ea38848cccf7425c0e7c902de386e05ce331c78744"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_cal_5.csv",
+      "sha256": "1ce6fb76a98d9893fe8d5d7207305b8fd017174c5d0e8c0ace10f37f7313298b"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_cal_6.csv",
+      "sha256": "7f2e9033d194abfb12135345060f9565fcf6af221f1408c4ff9c35b2e3404ecb"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_cal_7.csv",
+      "sha256": "891c8c8149bd7d3ac29aecf1241b6ff5dd7ac184df47be0ef6c7f27ccd367f62"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_test0.log",
+      "sha256": "059ba21f65f6ef367c41bbb4246aa44ac5361ea5da45d7110c6add1c97a02d26"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_test1.log",
+      "sha256": "ef5a82fc9ab401d6857b238b46d13418475512b38a230d18521f7a1abe894b91"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_test2.log",
+      "sha256": "f535b8f801cc80bc947459776363dfa9e23b7fcc98bc39c559554ed00c5292ca"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_test3.log",
+      "sha256": "af756a9ffdcd08760b7011f42cca5a27294f89e2cfdeddfc6418ad352964adb1"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_test4.log",
+      "sha256": "8e633e8c92619dbb31a9ff37ddfc208f561ef97a4c69a530a9a3c7ffc791e887"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_test5.log",
+      "sha256": "594c899aa695b6b459bc8438903425c7851396f6f06581961618a24d47a430fd"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_test6.log",
+      "sha256": "34dbbc89eb46ccebc73e83424179b291e92a049166c069f43c8b63fcdde0096a"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_test7.log",
+      "sha256": "7f8bcdc9d26ef13f52da58899274eb4b7185d7747956a03645d860ccdb793193"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_test_0.csv",
+      "sha256": "377119e49538c6cdc63dad308845f7c7e04055440fe65f06dc13f72a23c95ee7"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_test_1.csv",
+      "sha256": "a12364e05e342366037faf918eed1e1f743c4562bb5b030b91140d31703a39c2"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_test_2.csv",
+      "sha256": "1e9a4293f725c13c42794e4984b6d760f117d5be56c6f98a32e9f1af3ea510bb"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_test_3.csv",
+      "sha256": "04a60d8b34a33051597d17a085b52dcf12372fd94c4bd307d2297296c51e0e80"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_test_4.csv",
+      "sha256": "9da802d3ce9b06dea2b181d6ab7f5de4a9ebc167db14d46acaae8fd5c7beb462"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_test_5.csv",
+      "sha256": "37f55da6191506dacf4d9043b3e28063885d41cd1798f845349d382b7ff7472d"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_test_6.csv",
+      "sha256": "eb3d1b6dd669e7445f0c1b83272b17c603bbba6bd2a602dfc022105c823eb9f6"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/future_test_7.csv",
+      "sha256": "1b56bbc7afb1603cd3d3931df0c83bbf590661553e6d3e64611c0ff7cd9ad791"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/00.pt",
+      "sha256": "677507573adc4b25458ff485494bd77c44745c6d5f87f2840cd5d745f7d85ef2"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/01.pt",
+      "sha256": "493a84dd007ce1e27b5a73f8fcb6c4f212a1e5686865976782bd58f2c3c535c1"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/02.pt",
+      "sha256": "d1a09677d2305e86faaead16ad9d30ef16998823d0cb95f42e005a828017d6c9"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/03.pt",
+      "sha256": "4222af724c0809f4e305b517a3ee98a3e6b1845373f15a463620fe384ce27d01"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/04.pt",
+      "sha256": "505ff69e86d6f0d39d3c8c782a1a2f7a27bfe10af87c170f1e8a5024b6665ba0"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/05.pt",
+      "sha256": "5c67d7374e8e0b1cf8d22c9255c53ce374210ca15be7e66297742009b6c1b9d3"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/06.pt",
+      "sha256": "c7582498c41abece63f62b166fc0c958d29ff9f75b53efe0c9cb6414fea710eb"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/07.pt",
+      "sha256": "106dce1f63b81f891b997ba68e6511b1e66af4ba770d2b3d9897ead445c37680"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/08.pt",
+      "sha256": "2dfcaae5f030b579d9c954916da1f0e09ad6a69facc13886f07a2f0aec809780"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/09.pt",
+      "sha256": "0df1a32564ce5f21dcd9c5fb02dc99fd4c3db4724b49197fb6976570ce748577"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/10.pt",
+      "sha256": "31cd5058b0ef8122efab6c259558016557887334fcf09e0c8b5e44cf3ad37733"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/11.pt",
+      "sha256": "d2c658578203bdccb98f4bfc18edea7512aae59bf4de6c4f911b25f499df8376"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/12.pt",
+      "sha256": "5d36424971c4f880c62b0dfd937d803f299bf17d029945e2dea4c1ed1485076f"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/13.pt",
+      "sha256": "07cc4a2b79b192d4a7f7390858c797f7104938765d386cd91bab1f67e6f7979a"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/14.pt",
+      "sha256": "b3d7401c3f8c6df00bd8577145a58bb7bcee59b9fdc2f1057dcc85e553611d0c"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/15.pt",
+      "sha256": "2797b1dc4857fc74265b32e2101675450530cdc588af03a28f5cea900f43e25a"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/16.pt",
+      "sha256": "4d6adb36bf0580b721cc5d6676455936cefe0287ae9b61ff58fa071ec1746bba"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/17.pt",
+      "sha256": "106be0a077fa045be23a56ff7ac7f94cedbbb0445fde26d0ddef18cb451e2bc3"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/18.pt",
+      "sha256": "c1fcabfe8dd6e1c7806a72daeaa6b17c9c29798d935b5f6842713898ce8e62f0"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/19.pt",
+      "sha256": "1a9a44f8cba7d49865dcdbc8cf023188c627e5b1e1986571cdbeec8ef6e97b36"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/20.pt",
+      "sha256": "d27c7a01bc48bdc036f0b7867e86c1a735377f6437750eb2151cff89b9ac9b1b"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/21.pt",
+      "sha256": "658f651042806d6ee9fee78b6da7edeac001244ea6c8770683d15dc279bd08fe"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/22.pt",
+      "sha256": "51ae9f8e2ee8f972feb61725f2fe84ac9758475820528d6cdc163ea97d9bcdb5"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/cal/23.pt",
+      "sha256": "4bf72bf43ccb095a8ce3af2f389b3c6621d6d721384da6d23066da5efe46e3eb"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/00.pt",
+      "sha256": "4842906b19aba1fa39ec99479f3e4ee3e609bab3de9896301b55d4f40fac0c67"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/01.pt",
+      "sha256": "fbc84f6fb2244a25fed682881a8608020937a45b4b9874713b6b6b9f5075e35a"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/02.pt",
+      "sha256": "f624ae8bd0928b186cbe30c12cb46ea77b43673ed0ae188aff0c88bffca67505"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/03.pt",
+      "sha256": "3c919d9683e0a64683a6f605ec3d739e7846848841ce5431270f5430bc03a29f"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/04.pt",
+      "sha256": "513093ff5ff24b0fd5d42f72abdb4b12f64d30e1520ca7437d0e194465b58101"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/05.pt",
+      "sha256": "0279e1557ac130acef11a7d8bf9f3d46f7ae6406281f617bd4705187f14c373a"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/06.pt",
+      "sha256": "fa05759e318575a455615da9bd2e319f74fbb74e92f7aba2ba572d9f012d978e"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/07.pt",
+      "sha256": "cab49213a97befb63530e0c2b889376190fc09e62ab5c8ea5a87e7a8961b8fe5"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/08.pt",
+      "sha256": "77e5e1f61985399e3be130ba7e59d77a83cd55a60a4c93759dfc730768f3b48f"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/09.pt",
+      "sha256": "7be1090ce243a21e9f6ecba0b4e1166f6c7710a057278eb42169a5daba5cf12f"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/10.pt",
+      "sha256": "046593d889bdfb28f45525eae22ecea8614b2d425cb2200ebc087e970ceb8a31"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/11.pt",
+      "sha256": "c75f11cfc62f4976b37a12468f8ba1a2fc4d3f62b34fb229ca0b19ddd41617fd"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/12.pt",
+      "sha256": "4b7f8f08ae86b08a2477595405100d8aad9e2823574b19dfc240e88813143fff"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/13.pt",
+      "sha256": "98fb36f2ce5f498a0911e4d37b9ea69ae52b201f002059973aabd16688ff5923"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/14.pt",
+      "sha256": "340d27bb30a55a589bb9de4ca40f2e529eb162931a5497d633c1310a6ea4752c"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/15.pt",
+      "sha256": "3b7152e9c1c2b3b598e02332a5905d1877e2c537f1f1d33c37e3519af4ac6a7f"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/16.pt",
+      "sha256": "62a139a10f9eb609532a4ae0249619fce67160fc322acfec5751074f5d931bcf"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/17.pt",
+      "sha256": "b6b713939e0ff27352d361eb2bec38c85997529073be94c3f64c21a8ca94eecf"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/18.pt",
+      "sha256": "30af693101b25b5e0be7873136da6bfbac7b166998e760ee3adeddc150e30582"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/19.pt",
+      "sha256": "026119fbb96cce3af86fde6a4067b3c42381d1aa404159c4b11fec03b1a5a49e"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/20.pt",
+      "sha256": "6c0f492b9166b5dea551c70777937dcf4783e672fffbc59399c4a12ab89bfad8"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/21.pt",
+      "sha256": "c782675f92ae3283a61981d75af40adaf34bf5ec523c26008a13f644f53d4ff6"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/22.pt",
+      "sha256": "a52ac46021621f805783f29b8a4d55d833c23457846a46ce474c85a3fd7f9b4d"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/futures/test/23.pt",
+      "sha256": "4294514af55f06e6e702aff75ad792d19732624eb075c85857b85ba3efe20e95"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/generate0.log",
+      "sha256": "55d8f6b3de14016816881a5dcb4786ad65642a3a6383e9d6042ed847dd2fa74b"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/generate1.log",
+      "sha256": "e2859c38ae3194ae6b1f293d623147903f365ed3ef64778c067daa82101791e1"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/generate2.log",
+      "sha256": "9284d0e3b882d748bf92d0f1fd4bda83c74edca3a47e30f1b13a31b9bb322bc8"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/generate3.log",
+      "sha256": "b00019928654be74884fe46455b27bee912785c7653ec9a40529f6d0d0cb9821"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/generate4.log",
+      "sha256": "4dc5444383a76cdda03ed1d091782d0cd6f5c0f4b4f72971a152ce0f7ab23a33"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/generate5.log",
+      "sha256": "e761754b6eab44b52358b78803d84c61b7564033e06f25283de5118065ca88e5"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/generate6.log",
+      "sha256": "7a5b32939ba79d247dc1dcf09b4595fecc0be3c21609804a2ddde74549052cf4"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/generate7.log",
+      "sha256": "92d33899cd9ceae56da7349e11715a09e4e6b7ad77a201989444f503d65486d9"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/generated_0.json",
+      "sha256": "3278625667bce03c0d63079b3baf50b807077e66dba9106029c8be7b1d00d97c"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/generated_1.json",
+      "sha256": "ffe3c3a2c8dce5b769ee005ad9fe8855f5ddd904ef3743967dca0bba2511d9ce"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/generated_2.json",
+      "sha256": "1f8842b914f082018f77b382b58a9a75b23400d8870c2de29a7f603806f449ea"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/generated_3.json",
+      "sha256": "5ab59c4ec39a9e97bd73d652e24cb6c66662fdede78e2efefda87102feb020ef"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/generated_4.json",
+      "sha256": "cbb26d4814b133d3aa961c95a0d79c733325a524261981c3c40bf9d2975568c2"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/generated_5.json",
+      "sha256": "4405f5573d42ebe984ba8738dbb0fa61a51a40a36fa12a4d528734b4f0afe29f"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/generated_6.json",
+      "sha256": "83beaf73997adb2113a54b71a9a069ee71061810c602d847816f3dd7f1373561"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/generated_7.json",
+      "sha256": "acf976adafa8c30b2a1ea68cd047df806ede87f2382492cfdc95a57e0f03fe41"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/gradient_audit.json",
+      "sha256": "51d8617ffeb71c42a040358ea7bbda0822a0f6eceb0b0a60a7a979187c0d01d5"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/input_manifest.json",
+      "sha256": "959826377f4342feac8550168c9e6a41ef8cc587e2b152ed92ca874d50692b91"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/lexical_opportunities.csv",
+      "sha256": "38e9088a89d7202284d5a67e29b04258ae91e4ef45a44a87297d0429cfac2b0c"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/population.pt",
+      "sha256": "e81a399a3adafb0a5483ca407e60d0409dbabf9e2200905dcd6bd0f353283350"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/repository_run.json",
+      "sha256": "fb8461f10af7f48ef271ef7e96a307a1ce2cbbad09a5e8921b3b5cc69f645fd3"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/resolved_config.json",
+      "sha256": "9415799484d22b31442161c310f4eba75fe56aeacaae31be49572cae2a465d9d"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/selection.json",
+      "sha256": "0190fd845c5b7c296d700536a5278a7d803700199d52f1e32fdbf797c08d809d"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/split_audit.json",
+      "sha256": "af587f0ca73aa7f18fa4aa7f42c8e6ca799694db08a6b55fe49eb6cea453c907"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0.25_beta1.02/metrics.json",
+      "sha256": "6f4ccdee39b81fb8afb2efaedf944c26ff778be236224d36b8b90edbff329290"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0.25_beta1.02/output.pt",
+      "sha256": "199a43973729332d88d5725305ebfe282db36cda8f5d827687f358e51146cfcb"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0.25_beta1.02/trace.csv",
+      "sha256": "e8c1c35166977ce51ac4ba36ed12c88d1401b125fa859fe9b053ffa0b81263c1"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0.25_beta1.1/metrics.json",
+      "sha256": "4072f306ce3c1f78b2c389fc8a93e7a3dc8c3313d3afe514644ada9235135a25"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0.25_beta1.1/output.pt",
+      "sha256": "b2302aa11e0eb1e5b5f74ef2fe98adeb16dcfc073d9273fe49741ec20d4c29ee"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0.25_beta1.1/trace.csv",
+      "sha256": "547fb0e1991026dec51b9456987e0d3eb87fc2cc6f8114f504623d4993f2187f"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0.25_beta1.25/metrics.json",
+      "sha256": "adcd24a53d5a8348dafda708302fa1a9ea849cde4ae887ad20ae1dfdf2bc8957"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0.25_beta1.25/output.pt",
+      "sha256": "158ca169fbd2689f14344acbb03d8c7e84387a18ad14148da658c4f715f0f3bb"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0.25_beta1.25/trace.csv",
+      "sha256": "515fad22730ca5d9b7f55debf9fe43fedcfc937136af2e4577f58ff3de59519d"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0.25_beta1.5/metrics.json",
+      "sha256": "e3807fc06c2636fc80f0deaf8b056e52855b1399299c429d51ce5fec9e5729ca"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0.25_beta1.5/output.pt",
+      "sha256": "f4b44966c457f23f6ffebfa625c24cb5f5d926ae0bda23a5514fdf983459e755"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0.25_beta1.5/trace.csv",
+      "sha256": "d242e9e0b6f4eadc7e50bdb497fde6ffeaae0c8412aa7abb4afef72c52b7849b"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0_beta1.02/metrics.json",
+      "sha256": "864131c234934489cdcb9a5678b8dcaff6651c07be0b1b22ba0f6e4e9636dc13"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0_beta1.02/output.pt",
+      "sha256": "199a43973729332d88d5725305ebfe282db36cda8f5d827687f358e51146cfcb"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0_beta1.02/trace.csv",
+      "sha256": "bec497c02c96621bae10035dfe07aed553fb1700791f131e9d6163f4cc98f2fe"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0_beta1.1/metrics.json",
+      "sha256": "743111d412f6d694e95dc6d9baab501ee2df76daeda7c5f3f7b4b4f49e16d2ea"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0_beta1.1/output.pt",
+      "sha256": "164881a71d9371bfc36d50482f743f58365b084286c957d58880ea8065403708"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0_beta1.1/trace.csv",
+      "sha256": "8ce9e33d93f22eadd89f05e8057f3848f550aeed850e42bb80873a7f60f12bd3"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0_beta1.25/metrics.json",
+      "sha256": "fc38e318922a1f8bc109061c4d9aac8d166bbc808521311488383ca00322332a"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0_beta1.25/output.pt",
+      "sha256": "acc4724580d777b92cb6d3a7709785ac8025eeb83866b85570b2775bc7fa839c"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0_beta1.25/trace.csv",
+      "sha256": "27738febb5e2930bdf6f47b4079f021768c512271599fb2ce33e1e8291b1f9b5"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0_beta1.5/metrics.json",
+      "sha256": "a72b747b62d2ae4c2cd3fa640895d33fe3a2e79ac32bce914f745a23012d987d"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0_beta1.5/output.pt",
+      "sha256": "f4b44966c457f23f6ffebfa625c24cb5f5d926ae0bda23a5514fdf983459e755"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r0_beta1.5/trace.csv",
+      "sha256": "a9d45e24fdc5abe122ef259f95dbf9347f3654130a68bf9333faa338bd8ef4fc"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r1_beta1.02/metrics.json",
+      "sha256": "f1fdcc71e3018ecf276bf6be9512fbdde31c108d384409aa9160aec1519278d4"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r1_beta1.02/output.pt",
+      "sha256": "199a43973729332d88d5725305ebfe282db36cda8f5d827687f358e51146cfcb"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r1_beta1.02/trace.csv",
+      "sha256": "d4e43ae8e71230e7f09b36966d01a50e246acb9b0f6d1d2b19af06308466719d"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r1_beta1.1/metrics.json",
+      "sha256": "cc0807cb46c63132b873af4b13dbd86b2833801ee920e15310f9671a626c6a46"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r1_beta1.1/output.pt",
+      "sha256": "b2302aa11e0eb1e5b5f74ef2fe98adeb16dcfc073d9273fe49741ec20d4c29ee"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r1_beta1.1/trace.csv",
+      "sha256": "8f7ce68626ef8c68c62bb599fea76ea301ea2ed9ffdd9da5ef79190fba2a1bc2"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r1_beta1.25/metrics.json",
+      "sha256": "a342ed4a6ddca0cd5b870deb664a723bae3497b3d033aba3b49b526782ec726f"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r1_beta1.25/output.pt",
+      "sha256": "158ca169fbd2689f14344acbb03d8c7e84387a18ad14148da658c4f715f0f3bb"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r1_beta1.25/trace.csv",
+      "sha256": "9beaea42aff566d2eaaa38dce306a9c7e4abe360e472f66cd5ae42915402289d"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r1_beta1.5/metrics.json",
+      "sha256": "d2f7f0381aef3069d4c5717c9af12237a69dce845600f82aa3e3f4e31ae32b8c"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r1_beta1.5/output.pt",
+      "sha256": "f4b44966c457f23f6ffebfa625c24cb5f5d926ae0bda23a5514fdf983459e755"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r1_beta1.5/trace.csv",
+      "sha256": "48b608afb5e7cfa1840718fce0f651abb7d447a54cd0eb3b7841ded3331de2a3"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r4_beta1.02/metrics.json",
+      "sha256": "f0c7f5cf5b540b9bf3987a4cb129465636cce6b88a04e0bf0c826f1b7a93378f"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r4_beta1.02/output.pt",
+      "sha256": "199a43973729332d88d5725305ebfe282db36cda8f5d827687f358e51146cfcb"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r4_beta1.02/trace.csv",
+      "sha256": "c261a489b0c025fd1cef1b9905d46d7e4b9d1407cac956aa834e1871535d06bf"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r4_beta1.1/metrics.json",
+      "sha256": "0371d8a90b700369fe2ce9c9f7877b643985137e14d8561d1e7988ba9cdc74c5"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r4_beta1.1/output.pt",
+      "sha256": "b2302aa11e0eb1e5b5f74ef2fe98adeb16dcfc073d9273fe49741ec20d4c29ee"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r4_beta1.1/trace.csv",
+      "sha256": "008f876eaf85e546dd26cdf1a8a0faef7070407621f2cf08c2f8a6707fa324e3"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r4_beta1.25/metrics.json",
+      "sha256": "a437400a1f86fb4fd29cb0d0984f54d5872051208379730f47166aeabdda8c21"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r4_beta1.25/output.pt",
+      "sha256": "158ca169fbd2689f14344acbb03d8c7e84387a18ad14148da658c4f715f0f3bb"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r4_beta1.25/trace.csv",
+      "sha256": "78d4f9b8eb8a848da251a94a1f85d64061561eb2109268c241153763792b71ce"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r4_beta1.5/metrics.json",
+      "sha256": "c739d5a657c1e6ee4f926f03d9e114c72004f6f54991b3f5ba22a006c0eb4cfd"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r4_beta1.5/output.pt",
+      "sha256": "f4b44966c457f23f6ffebfa625c24cb5f5d926ae0bda23a5514fdf983459e755"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test/r4_beta1.5/trace.csv",
+      "sha256": "9cfb19dfc91e61dff9bc76e061e541dc80aa2c199105537d772b7f44bb85f9f1"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_0.25_1.02.log",
+      "sha256": "809800bd4f6678f17f40b944079171c91897c79a236de4ebe9e76bcefefdcafd"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_0.25_1.1.log",
+      "sha256": "b102c7d1c3cdc9cee0717e0f8944f5394b39652cdf841c8fab8c901cc174f075"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_0.25_1.25.log",
+      "sha256": "a610d8e83fd6cf2b8b46522b5ac761b5a382b4be9c4908721a687b417fa64d1e"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_0.25_1.5.log",
+      "sha256": "278613ce6f89a90812f32cf6d926e0d4d039e2f1cb1f03fe8edb637421fd512a"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_0_1.02.log",
+      "sha256": "cffaaaaccec42c0a3dc1a7b9b30294512b68ad8c8ddc5a7a91e3926dd97b8569"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_0_1.1.log",
+      "sha256": "761951814903dc011db45c91eb9971208e383f98850bd1e49dbd705f39e4fc9f"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_0_1.25.log",
+      "sha256": "f573245db22cbf9c453834d620a50ee7bdc9c3e109598d4665edd5f4d96a50d8"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_0_1.5.log",
+      "sha256": "23b04baca49cdd20273efa75577e2c7a1b63f793b9189217ebe43414d17db66f"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_1_1.02.log",
+      "sha256": "ffbcaacb0aa1483817da7f0ee54f36bcbe5aeff124045cd3f40552e3f43ded3a"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_1_1.1.log",
+      "sha256": "7507d077aa657c990eb6c4b48c0d182e3921e36e77716ed4743172ce79549cd4"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_1_1.25.log",
+      "sha256": "fa7d78b87679ddabed2fcb6a88ad9d984cfcaaceff3912e5d8c8cc1a69aa099c"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_1_1.5.log",
+      "sha256": "7bd7eb8c3d51092348edb6813da3c7fbc21cb019628359e287410be9d22e9863"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_4_1.02.log",
+      "sha256": "a1b39b526bb316ae87fcb11fa17a8637abc4420dc3f52e83f7d5683702f4b77b"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_4_1.1.log",
+      "sha256": "9a31433a4822e5e11ab2c62745596be0fe13c2c2d9f26f1314e487bf8e6314d3"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_4_1.25.log",
+      "sha256": "12b3f15139ac7416902f0415b32483ff49e007ffb68f681b38e1337f857ab7e4"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_4_1.5.log",
+      "sha256": "1a523916b8b7fed5f8743695775793605ddac22d26ba38e4a56d8a73c4bb188d"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_evaluation.log",
+      "sha256": "941410317809a667ca0d910d26c7be66271f7a34524254a9b00b5ac4249957c3"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_freeze.json",
+      "sha256": "fe1252afa10703ffb21b8522106a9608887f520993a444d2b71fb76889141db9"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_future_manifest.csv",
+      "sha256": "9d09ddf8c37023f7841a8038fc9e533da229041e81a90fd172aa2a397610183b"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_individual.csv",
+      "sha256": "108184206b4a8b9716464e19c728b68d97b2f3af15a0fdcd7fbe0c076533957b"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_per_model.csv",
+      "sha256": "c9fa5ec4c85b24d86ec751addb9cd37bfdf713fb6e968780affcf850b245447d"
+    },
+    {
+      "path": "/home/xu.zhao/robust_ce_results/iclr_runs/text_toxicity_followup/20260924_v2/test_summary.csv",
+      "sha256": "f010d18d438ce5e06da4e9152de178b7f0361c640d5b0d815083e2fbf6f2e901"
+    }
+  ]
+}

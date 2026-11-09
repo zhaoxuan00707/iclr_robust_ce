@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "numerical_gate_passed": true,
+  "candidate_editor": "independent4",
+  "candidate_reason": "Same6/8 original-gate success as independent8, with higher mean ArcFace and lower LPIPS; calibration-selected candidate only",
+  "candidate_mean_ArcFace": 0.8584702387452126,
+  "candidate_mean_FaceNet": 0.9254525974392892,
+  "candidate_mean_LPIPS": 0.0299547255272045,
+  "semantic_smile_validation_established": false,
+  "GRACE_started": false,
+  "reason_for_no_GRACE": "Original score, supervised diagnostic and qualitative appearances disagree; consistent non-smiling-to-smiling interpretation is not established on the required cohort",
+  "preservation_limits_relaxed": false,
+  "final_FFHQ_test_accessed": false,
+  "future_models_accessed": false,
+  "focused_tests_passed": 9,
+  "qualitative_panels_inspected": true,
+  "completed_utc": "2026-09-17T11:37:07.106276+00:00"
+}

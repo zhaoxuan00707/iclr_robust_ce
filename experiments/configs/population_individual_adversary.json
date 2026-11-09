@@ -1,0 +1,51 @@
+{
+  "parent_run": "/home/xu.zhao/robust_ce_results/iclr_runs/appendix_tabular/20260925_v1",
+  "seeds": [
+    3,
+    4,
+    5
+  ],
+  "population_size": 32,
+  "debug_dataset": "diabetes",
+  "debug_n": 10,
+  "debug_seed": 3,
+  "datasets": [
+    "heloc",
+    "german"
+  ],
+  "sensitivity_chunk_size": 1,
+  "settings": {
+    "diabetes": [
+      {
+        "r_ratio": 3.0,
+        "beta": 1.2,
+        "role": "original_selection"
+      }
+    ],
+    "heloc": [
+      {
+        "r_ratio": 0.0,
+        "beta": 1.1,
+        "role": "original_selection"
+      },
+      {
+        "r_ratio": 3.0,
+        "beta": 1.1,
+        "role": "predeclared_positive_radius"
+      }
+    ],
+    "german": [
+      {
+        "r_ratio": 3.0,
+        "beta": 1.1,
+        "role": "original_selection"
+      }
+    ]
+  },
+  "seed_unit": "population subsampling with frozen parent seed0 MLP/Base/future bank",
+  "gpu_ids": [
+    1,
+    2,
+    3
+  ]
+}

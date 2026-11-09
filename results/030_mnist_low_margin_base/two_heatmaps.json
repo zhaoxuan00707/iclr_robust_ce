@@ -1,0 +1,19 @@
+{
+  "raw_run": "/home/xu.zhao/robust_ce_results/iclr_runs/mnist_low_margin_base/20260924_v1",
+  "columns": [
+    "Factual",
+    "Base",
+    "r = 0",
+    "r = 0.25",
+    "r = 0.25 \u2212 r = 0",
+    "r = 0 \u2212 Base"
+  ],
+  "signed_limits": [
+    -0.2581958472728729,
+    0.2581958472728729
+  ],
+  "scale_scope": "both differences, all64 factuals and all4 Base conditions",
+  "color": "red = increased pixel intensity; blue = decreased intensity",
+  "displayed": "first8 fixed factuals; no outcome-based example selection",
+  "decomposition_verified": true
+}

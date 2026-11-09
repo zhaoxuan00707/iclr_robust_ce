@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "complete_jobs": 68,
+  "bank_models": 24,
+  "future_models": 45,
+  "methods": 8,
+  "max_bank_risk_recompute_error": 9.020562075079397e-17,
+  "max_future_validity_recompute_error": 0.0,
+  "max_paired_data_distance": 2.0000002075085765,
+  "future_evaluation_started_after_freeze": true,
+  "all_geometry_checks_pass": true,
+  "run": "/home/xu.zhao/robust_ce_results/stylemnist_grace_v1/20260916_full_v1",
+  "current_validity_repair": false,
+  "decoder_numerical_errors": [
+    {
+      "method": "GRACE_beta1.00",
+      "max_abs_error": 5.2303075790405273e-05,
+      "mean_abs_error": 8.782324201206393e-09,
+      "repeat_max_abs": 5.2303075790405273e-05
+    },
+    {
+      "method": "GRACE_beta1.05",
+      "max_abs_error": 6.16312026977539e-05,
+      "mean_abs_error": 8.273907781131129e-09,
+      "repeat_max_abs": 6.16312026977539e-05
+    },
+    {
+      "method": "GRACE_beta1.10",
+      "max_abs_error": 3.927946090698242e-05,
+      "mean_abs_error": 8.88783446839625e-09,
+      "repeat_max_abs": 3.927946090698242e-05
+    },
+    {
+      "method": "GRACE_beta1.20",
+      "max_abs_error": 6.341934204101562e-05,
+      "mean_abs_error": 1.4229488698447312e-08,
+      "repeat_max_abs": 6.312131881713867e-05
+    }
+  ],
+  "future_decisions_changed_on_redecode": 0
+}

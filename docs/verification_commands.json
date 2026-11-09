@@ -1,0 +1,52 @@
+[
+  {
+    "command": "python deliverables/grace-wachter/run.py --help",
+    "exitcode": 0,
+    "tail": "usage: run.py [-h] --dataset {heloc,diabetes,german,fico}\n              [--model {mlp,logistic}] [--device DEVICE] --data-home DATA_HOME\n              [--csv CSV] [--target-column TARGET_COLUMN] [--config CONFIG]\n              --output OUTPUT\n\nStandalone tabular GRACE--Wachter calibration and evaluation.\n\noptions:\n  -h, --help            show this help message and exit\n  --dataset {heloc,diabetes,german,fico}\n  --model {mlp,logistic}\n  --device DEVICE\n  --data-home DATA_HOME\n  --csv CSV             Local CSV; required for mixed FICO\n  --target-column TARGET_COLUMN\n                        Target column when supplying a local CSV\n  --config CONFIG\n  --output OUTPUT       New directory; existing paths are refused\n"
+  },
+  {
+    "command": "python experiments/run.py list",
+    "exitcode": 0,
+    "tail": "single_budget_geodesic_wro_v1\ngeodesic_excess_wro_v1\ntransport_spline_path_v1\nfixed_risk_geometry_v1\nrobust_waypoint_path_v1\nfinite_waypoint_paths_v2\nheloc_diabetes_bank_protocol_v3\nheloc_diabetes_official_lift_v1\nupdate_alignment_feasibility_v1\nfull_update_adversary_v1\npath_level_geodesic_wro_v1\nfavorable_region_geodesic_wro_v1\nminimal_validity_repair_wro_v1\nstylemnist_grace_v1\ngalaxy_grace_v1\nffhq_grace_v1\nffhq_grace_identity_v1\nffhq_smile_editor_v1\nffhq_smile_editor_v2\ngenki_ffhq_classifier_v1\ngenki_grace_identity_v1\ngenki_grace_beta_extension\ngenki_preservation_search\ngenki_expanded_editor\nheloc_realization_comparison\nmnist_update_aware\nmnist_latent_base_fix\nheloc_smooth_hinge\nmnist_small_radius\nmnist_weaker_classifier\nmnist_low_margin_base\ngalaxy_update_aware\nffhq_update_aware\ntext_toxicity_update_aware\ntext_toxicity_followup\ntext_expanded_evaluation\nappendix_mnist\nappendix_tabular\npopulation_individual_adversary\nmixed_baseline_preflight\n"
+  },
+  {
+    "command": "python experiments/run.py run appendix_tabular -- --help",
+    "exitcode": 0,
+    "tail": "usage: appendix_tabular [-h] --output OUTPUT --dataset DATASET --model\n                        {mlp,logistic} [--audit] [--config CONFIG]\n\noptions:\n  -h, --help            show this help message and exit\n  --output OUTPUT\n  --dataset DATASET\n  --model {mlp,logistic}\n  --audit\n  --config CONFIG\n"
+  },
+  {
+    "command": "python experiments/108_run_tabular_replication.py --help",
+    "exitcode": 0,
+    "tail": "usage: 108_run_tabular_replication.py [-h] --output OUTPUT [--gpus GPUS]\n                                      [--audit]\n\noptions:\n  -h, --help       show this help message and exit\n  --output OUTPUT\n  --gpus GPUS\n  --audit\n"
+  },
+  {
+    "command": "python experiments/069_run_galaxy_update_aware.py --help",
+    "exitcode": 0,
+    "tail": "usage: 069_run_galaxy_update_aware.py [-h] --output OUTPUT [--audit-only]\n\noptions:\n  -h, --help       show this help message and exit\n  --output OUTPUT\n  --audit-only\n"
+  },
+  {
+    "command": "python experiments/072_run_ffhq_update_aware.py --help",
+    "exitcode": 0,
+    "tail": "usage: 072_run_ffhq_update_aware.py [-h] --output OUTPUT [--audit-only]\n\noptions:\n  -h, --help       show this help message and exit\n  --output OUTPUT\n  --audit-only\n"
+  },
+  {
+    "command": "python experiments/106_run_adversary_ablation.py --help",
+    "exitcode": 0,
+    "tail": "usage: 106_run_adversary_ablation.py [-h] --output OUTPUT --stage\n                                     {profile,debug,main}\n\noptions:\n  -h, --help            show this help message and exit\n  --output OUTPUT\n  --stage {profile,debug,main}\n"
+  },
+  {
+    "command": "python experiments/run.py run appendix_tabular --output <configured-run-root>/grace_release_documentation_dry_run --dry-run -- --dataset diabetes --model mlp --config experiments/configs/appendix_tabular.json",
+    "exitcode": 0,
+    "tail": "{\n  \"argv\": [\n    \"appendix_tabular\",\n    \"--dataset\",\n    \"diabetes\",\n    \"--model\",\n    \"mlp\",\n    \"--config\",\n    \"experiments/configs/appendix_tabular.json\",\n    \"--output\",\n    \"<configured-run-root>/grace_release_documentation_dry_run\"\n  ],\n  \"identity\": {\n    \"repository\": \"<workspace>/deliverables/grace-public-release\",\n    \"experiment\": \"appendix_tabular\",\n    \"code_sha256\": \"fc398b15a957ed4c2c12ff596b93f5f26b67db75cc76bfe75e597dd7c4ec5179\"\n  }\n}\n"
+  },
+  {
+    "command": "python -m unittest discover -s experiments/tests -p test_mixed_update_aware.py",
+    "exitcode": 0,
+    "tail": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.091s\n\nOK\n"
+  },
+  {
+    "command": "python -m unittest discover -s experiments/tests -p test_sensitivity_aggregation.py",
+    "exitcode": 0,
+    "tail": "........\n----------------------------------------------------------------------\nRan 8 tests in 3.953s\n\nOK\n"
+  }
+]

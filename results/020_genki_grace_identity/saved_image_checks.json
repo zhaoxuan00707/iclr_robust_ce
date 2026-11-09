@@ -1,0 +1,12 @@
+{
+  "reason": "Identical saved Base and beta1 images had different cached features due to numerical realization paths; evaluate all saved images uniformly.",
+  "saved_images": 40,
+  "unique_saved_images": 16,
+  "saved_images_preceded_freeze": true,
+  "all_evaluated_on_same_cpu_float32_path": true,
+  "counterfactuals_or_configuration_changed": false,
+  "heads_retrained": false,
+  "identical_base_beta1_scores_verified": true,
+  "timing": "post-hoc consistency audit; all outputs and selected configuration remain frozen",
+  "script_sha256": "f9be01da4563b14a10d4070d1cb94fc36ee665422f162716f9aea824f2c17302"
+}

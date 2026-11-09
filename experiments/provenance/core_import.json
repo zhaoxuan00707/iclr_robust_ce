@@ -1,0 +1,1381 @@
+{
+  "source_root": "/home/xu.zhao/robust_ce",
+  "authoritative_root": "/home/xu.zhao/iclr_robust_ce/experiments",
+  "scope": {
+    "roots": [
+      "single_budget_geodesic_wro_v1",
+      "geodesic_excess_wro_v1",
+      "transport_spline_path_v1",
+      "fixed_risk_geometry_v1",
+      "robust_waypoint_path_v1",
+      "finite_waypoint_paths_v2",
+      "heloc_diabetes_bank_protocol_v3",
+      "heloc_diabetes_official_lift_v1",
+      "update_alignment_feasibility_v1",
+      "full_update_adversary_v1",
+      "fixed_instance_stability_audit"
+    ],
+    "tests": [
+      "test_single_budget_wro",
+      "test_geodesic_excess",
+      "test_transport_spline",
+      "test_fixed_risk_geometry_protocol",
+      "test_risk_geometry",
+      "test_local_graph_repair",
+      "test_population_protocol",
+      "test_attack_bank",
+      "test_full_update_adversary",
+      "test_robust_waypoints",
+      "test_finite_waypoint_paths",
+      "test_update_alignment_feasibility"
+    ],
+    "modules": [
+      "lift_ce",
+      "lift_ce.baselines.official_adapters",
+      "lift_ce.config",
+      "lift_ce.counterfactuals",
+      "lift_ce.counterfactuals.geodesic_excess",
+      "lift_ce.counterfactuals.geodesic_excess_solver",
+      "lift_ce.counterfactuals.local_graph_repair",
+      "lift_ce.counterfactuals.population_path",
+      "lift_ce.counterfactuals.risk_geometry",
+      "lift_ce.counterfactuals.robust_waypoints",
+      "lift_ce.counterfactuals.single_budget_solver",
+      "lift_ce.counterfactuals.tabular",
+      "lift_ce.counterfactuals.transport_spline",
+      "lift_ce.counterfactuals.vision",
+      "lift_ce.data",
+      "lift_ce.data.loaders",
+      "lift_ce.data.tabular",
+      "lift_ce.data.vision",
+      "lift_ce.experiments",
+      "lift_ce.experiments.adult_trex_comparison",
+      "lift_ce.experiments.constrained_lift_ablation_v1",
+      "lift_ce.experiments.corrected_future_benchmark_v1",
+      "lift_ce.experiments.diabetes_original_lift_comparison",
+      "lift_ce.experiments.finish_ellice_geo_german",
+      "lift_ce.experiments.finite_waypoint_paths_v2",
+      "lift_ce.experiments.fixed_instance_stability_audit",
+      "lift_ce.experiments.fixed_risk_geometry_v1",
+      "lift_ce.experiments.full_update_adversary_v1",
+      "lift_ce.experiments.geo_uniform_lift_ablation_v1",
+      "lift_ce.experiments.geodesic_excess_wro_v1",
+      "lift_ce.experiments.german_credit_benchmark_milestone_v1",
+      "lift_ce.experiments.german_credit_strict_audit",
+      "lift_ce.experiments.german_credit_unconstrained_rerun",
+      "lift_ce.experiments.heloc_benchmark_milestone",
+      "lift_ce.experiments.heloc_conditional_adversary_strengthened_v1",
+      "lift_ce.experiments.heloc_coupled_b_lambda_v1",
+      "lift_ce.experiments.heloc_debug_diagnostics",
+      "lift_ce.experiments.heloc_diabetes_bank_protocol_v3",
+      "lift_ce.experiments.heloc_diabetes_official_lift_v1",
+      "lift_ce.experiments.heloc_fairness_diagnostic_v3",
+      "lift_ce.experiments.heloc_gradient_sensitive_adversary_v1",
+      "lift_ce.experiments.heloc_margin_adversary_v4",
+      "lift_ce.experiments.heloc_method_bootstrap",
+      "lift_ce.experiments.heloc_prior_balanced_audit",
+      "lift_ce.experiments.logistic_margin_anchor_benchmark",
+      "lift_ce.experiments.path_lift_decision_compatible_ot_v1",
+      "lift_ce.experiments.robust_waypoint_path_v1",
+      "lift_ce.experiments.run_official_proplace",
+      "lift_ce.experiments.single_budget_geodesic_wro_v1",
+      "lift_ce.experiments.stability_weighted_anchor_v1",
+      "lift_ce.experiments.transport_spline_path_v1",
+      "lift_ce.experiments.update_alignment_feasibility_v1",
+      "lift_ce.models",
+      "lift_ce.models.tabular",
+      "lift_ce.models.vision",
+      "lift_ce.ot",
+      "lift_ce.utils"
+    ]
+  },
+  "vendors": {
+    "RobustX": {
+      "commit": "f503bfacfc40e930fa6a5a9219eb1633eea25001",
+      "status": " M robustx/generators/robust_CE_methods/PROPLACE.py\n M robustx/lib/OptSolver.py\n",
+      "upstream": "https://github.com/RobustCounterfactualX/RobustX.git"
+    },
+    "ellice": {
+      "commit": "088bd525c8e52c7fd6c5c1765f8615d8652c959a",
+      "status": "",
+      "upstream": "https://github.com/BogdanTurbal/ellice.git"
+    }
+  },
+  "files": [
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/__init__.py",
+      "destination": "experiments/src/lift_ce/__init__.py",
+      "source_sha256": "40c57bb53c220eaea40f96a54a3a8993b9cbed9d11bbdfb4fa657a876e1d30bb",
+      "local_sha256": "40c57bb53c220eaea40f96a54a3a8993b9cbed9d11bbdfb4fa657a876e1d30bb",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/baselines/official_adapters.py",
+      "destination": "experiments/src/lift_ce/baselines/official_adapters.py",
+      "source_sha256": "dc7ddbce1201497e3f40d9dc9a4a3e089014007c30dcf6fa861cd7cf355d86e4",
+      "local_sha256": "dc7ddbce1201497e3f40d9dc9a4a3e089014007c30dcf6fa861cd7cf355d86e4",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/config.py",
+      "destination": "experiments/src/lift_ce/config.py",
+      "source_sha256": "21c967c0a215759728c020a4f5195e03749444ef843d773dbdc0574a167105d0",
+      "local_sha256": "21c967c0a215759728c020a4f5195e03749444ef843d773dbdc0574a167105d0",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/counterfactuals/__init__.py",
+      "destination": "experiments/src/lift_ce/counterfactuals/__init__.py",
+      "source_sha256": "9489dc38c4c52ecdfb987984c1fd1ec6360c50037c948bd6616fbac173b3a76b",
+      "local_sha256": "9489dc38c4c52ecdfb987984c1fd1ec6360c50037c948bd6616fbac173b3a76b",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/counterfactuals/geodesic_excess.py",
+      "destination": "experiments/src/lift_ce/counterfactuals/geodesic_excess.py",
+      "source_sha256": "f8d37102239c1f9f728d458736de3ea21c3d441dc23378a2e58ba5b4f1581f57",
+      "local_sha256": "f8d37102239c1f9f728d458736de3ea21c3d441dc23378a2e58ba5b4f1581f57",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/counterfactuals/geodesic_excess_solver.py",
+      "destination": "experiments/src/lift_ce/counterfactuals/geodesic_excess_solver.py",
+      "source_sha256": "6e92805edf46be5d299d8c65a88a78b320e3ef951c5c0409a1f94efa932ae214",
+      "local_sha256": "6e92805edf46be5d299d8c65a88a78b320e3ef951c5c0409a1f94efa932ae214",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/counterfactuals/local_graph_repair.py",
+      "destination": "experiments/src/lift_ce/counterfactuals/local_graph_repair.py",
+      "source_sha256": "47dad99cfa2af0c44bde5aa6577736d8f723872859385e92b1320bf7384d51e0",
+      "local_sha256": "47dad99cfa2af0c44bde5aa6577736d8f723872859385e92b1320bf7384d51e0",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/counterfactuals/population_path.py",
+      "destination": "experiments/src/lift_ce/counterfactuals/population_path.py",
+      "source_sha256": "9089c27d55980e504dfe309d8a4ac1f943b94e7d083d4e83057e34594cab6a54",
+      "local_sha256": "9089c27d55980e504dfe309d8a4ac1f943b94e7d083d4e83057e34594cab6a54",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/counterfactuals/risk_geometry.py",
+      "destination": "experiments/src/lift_ce/counterfactuals/risk_geometry.py",
+      "source_sha256": "3ca5022ba0e94839f0803a7a5599b4db472d76056f89bbb5b58f968838fc9972",
+      "local_sha256": "3ca5022ba0e94839f0803a7a5599b4db472d76056f89bbb5b58f968838fc9972",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/counterfactuals/robust_waypoints.py",
+      "destination": "experiments/src/lift_ce/counterfactuals/robust_waypoints.py",
+      "source_sha256": "2ab0c39d43ff9abc2a7f4ed59ba8032ae0b7521c45ff6a333225190b16ecf2b6",
+      "local_sha256": "2ab0c39d43ff9abc2a7f4ed59ba8032ae0b7521c45ff6a333225190b16ecf2b6",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/counterfactuals/single_budget_solver.py",
+      "destination": "experiments/src/lift_ce/counterfactuals/single_budget_solver.py",
+      "source_sha256": "49cc127e025db57166ca35744c6e1e18d1dabfca252a04972b3444111c3c842a",
+      "local_sha256": "49cc127e025db57166ca35744c6e1e18d1dabfca252a04972b3444111c3c842a",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/counterfactuals/tabular.py",
+      "destination": "experiments/src/lift_ce/counterfactuals/tabular.py",
+      "source_sha256": "98be28d8a784792ea358486d38d6e22561900fcab1cca9b952cb1bd6a129b26b",
+      "local_sha256": "98be28d8a784792ea358486d38d6e22561900fcab1cca9b952cb1bd6a129b26b",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/counterfactuals/transport_spline.py",
+      "destination": "experiments/src/lift_ce/counterfactuals/transport_spline.py",
+      "source_sha256": "cdc65c1b5ecbec5bf8688db4a6c7c3dc993a5b7f65588989fc63b6c4f9ebf734",
+      "local_sha256": "cdc65c1b5ecbec5bf8688db4a6c7c3dc993a5b7f65588989fc63b6c4f9ebf734",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/counterfactuals/vision.py",
+      "destination": "experiments/src/lift_ce/counterfactuals/vision.py",
+      "source_sha256": "017ec79c9fb9e5a268255dd2371ac823a499a96f5b62824ebdc737d04cdfa352",
+      "local_sha256": "017ec79c9fb9e5a268255dd2371ac823a499a96f5b62824ebdc737d04cdfa352",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/data/__init__.py",
+      "destination": "experiments/src/lift_ce/data/__init__.py",
+      "source_sha256": "b466da57f5dc54a7b8529a05749c2d342b6b899b178551038e0edd046d80f925",
+      "local_sha256": "b466da57f5dc54a7b8529a05749c2d342b6b899b178551038e0edd046d80f925",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/data/loaders.py",
+      "destination": "experiments/src/lift_ce/data/loaders.py",
+      "source_sha256": "d44bc2076b9061b79e9dbe8a15a771cef9c9414d72627c35ad810e0a505a7ab4",
+      "local_sha256": "d44bc2076b9061b79e9dbe8a15a771cef9c9414d72627c35ad810e0a505a7ab4",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/data/tabular.py",
+      "destination": "experiments/src/lift_ce/data/tabular.py",
+      "source_sha256": "22625c309de970c16c1a6d31aba4586df29f83e2ba2003ae7a7490cabb2e50ee",
+      "local_sha256": "22625c309de970c16c1a6d31aba4586df29f83e2ba2003ae7a7490cabb2e50ee",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/data/vision.py",
+      "destination": "experiments/src/lift_ce/data/vision.py",
+      "source_sha256": "c5928389458b5e7afe13fcec2150a597384d47aab404627425398044e02c8e25",
+      "local_sha256": "c5928389458b5e7afe13fcec2150a597384d47aab404627425398044e02c8e25",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/__init__.py",
+      "destination": "experiments/src/lift_ce/experiments/__init__.py",
+      "source_sha256": "5384bfdb2df380b6557cc7a71d16891415bccaa87699406e236f752c6415389f",
+      "local_sha256": "5384bfdb2df380b6557cc7a71d16891415bccaa87699406e236f752c6415389f",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/adult_trex_comparison.py",
+      "destination": "experiments/src/lift_ce/experiments/adult_trex_comparison.py",
+      "source_sha256": "9b63b9a38b131bc352328c89bbe6e263bb1c69e7c471fc17500d3edf846f5b2c",
+      "local_sha256": "9b63b9a38b131bc352328c89bbe6e263bb1c69e7c471fc17500d3edf846f5b2c",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/constrained_lift_ablation_v1.py",
+      "destination": "experiments/src/lift_ce/experiments/constrained_lift_ablation_v1.py",
+      "source_sha256": "c67cf2c508f1589a06e11dfe2f2ad3f8d5b7e2332338ff5185920da736cbb388",
+      "local_sha256": "c67cf2c508f1589a06e11dfe2f2ad3f8d5b7e2332338ff5185920da736cbb388",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/corrected_future_benchmark_v1.py",
+      "destination": "experiments/src/lift_ce/experiments/corrected_future_benchmark_v1.py",
+      "source_sha256": "900adf27b367aa94140647c9d94966b6aa1a5863e7a8937f8f793b72af8e0e9b",
+      "local_sha256": "900adf27b367aa94140647c9d94966b6aa1a5863e7a8937f8f793b72af8e0e9b",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/diabetes_original_lift_comparison.py",
+      "destination": "experiments/src/lift_ce/experiments/diabetes_original_lift_comparison.py",
+      "source_sha256": "ed4af23cf9c7a34a37e84a7fd04daf249637c265518d9cc456e72122b29c1c77",
+      "local_sha256": "ed4af23cf9c7a34a37e84a7fd04daf249637c265518d9cc456e72122b29c1c77",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/finish_ellice_geo_german.py",
+      "destination": "experiments/src/lift_ce/experiments/finish_ellice_geo_german.py",
+      "source_sha256": "8b807be26b95116a2d78c7b7feb677df10713207ba9d9bf28cddb90344986bff",
+      "local_sha256": "8b807be26b95116a2d78c7b7feb677df10713207ba9d9bf28cddb90344986bff",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/finite_waypoint_paths_v2.py",
+      "destination": "experiments/src/lift_ce/experiments/finite_waypoint_paths_v2.py",
+      "source_sha256": "5f996cc2c1a41b337b28ffe1f1bfe290df63b41a3ce40108e5ff5d30b6835139",
+      "local_sha256": "417720be4a8ae37ff3a6bda2214dcad14a3cf89388927436bf8a2f169a74b67e",
+      "modification": "Require explicit CLI output; historical input defaults and scientific logic preserved."
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/fixed_instance_stability_audit.py",
+      "destination": "experiments/src/lift_ce/experiments/fixed_instance_stability_audit.py",
+      "source_sha256": "8812375c3410df260dc7d0226a7cf8f9da4dcfcf5bcfeaeaa61ef7d8128011f9",
+      "local_sha256": "8812375c3410df260dc7d0226a7cf8f9da4dcfcf5bcfeaeaa61ef7d8128011f9",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/fixed_risk_geometry_v1.py",
+      "destination": "experiments/src/lift_ce/experiments/fixed_risk_geometry_v1.py",
+      "source_sha256": "ddad33f5151587088c43f2b9375eb06aadc41cfc3cce5a7a48e656b7da26df3f",
+      "local_sha256": "6452b45bbc4c628e38ebf11bac02a1a690025fa7db51b8e38bd9cde6c4ad8ba1",
+      "modification": "Require explicit CLI output; historical input defaults and scientific logic preserved."
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/full_update_adversary_v1.py",
+      "destination": "experiments/src/lift_ce/experiments/full_update_adversary_v1.py",
+      "source_sha256": "d649d48f7a3939969e9048aad26468574b57f9a3285f1694832deff5cb8f3cf9",
+      "local_sha256": "3837831ac77bcd63bb6fee9cd758b6d2e589593cb185c45443ba3c00be322f1d",
+      "modification": "Require explicit CLI output; historical input defaults and scientific logic preserved."
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/geo_uniform_lift_ablation_v1.py",
+      "destination": "experiments/src/lift_ce/experiments/geo_uniform_lift_ablation_v1.py",
+      "source_sha256": "d2f29a86631145254fe8f91292e198c1f6c078d8c2c6bcebc92824a42ab53949",
+      "local_sha256": "d2f29a86631145254fe8f91292e198c1f6c078d8c2c6bcebc92824a42ab53949",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/geodesic_excess_wro_v1.py",
+      "destination": "experiments/src/lift_ce/experiments/geodesic_excess_wro_v1.py",
+      "source_sha256": "e361a9b4e4ff7ce96e3a14575e85a8016a40a6fedc910d28496190c75ee70790",
+      "local_sha256": "5980b738507aa3cff1e79c640546e78468061d8bb0780d82008caa43df29985b",
+      "modification": "Require explicit CLI output; historical input defaults and scientific logic preserved."
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/german_credit_benchmark_milestone_v1.py",
+      "destination": "experiments/src/lift_ce/experiments/german_credit_benchmark_milestone_v1.py",
+      "source_sha256": "cd08c5dbf2bd430dfcfee783c66b33e588dadeb3473c1ecb4cfe856858871c4b",
+      "local_sha256": "cd08c5dbf2bd430dfcfee783c66b33e588dadeb3473c1ecb4cfe856858871c4b",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/german_credit_strict_audit.py",
+      "destination": "experiments/src/lift_ce/experiments/german_credit_strict_audit.py",
+      "source_sha256": "c25ccb8385d25aa15443e82e2cf0634120afc6010e63e900b9c24f9a6cd34bc4",
+      "local_sha256": "c25ccb8385d25aa15443e82e2cf0634120afc6010e63e900b9c24f9a6cd34bc4",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/german_credit_unconstrained_rerun.py",
+      "destination": "experiments/src/lift_ce/experiments/german_credit_unconstrained_rerun.py",
+      "source_sha256": "e3cadca42902c5569dfd327452afdaea442c1bd80ba60075c4e9db9f585ef53d",
+      "local_sha256": "e3cadca42902c5569dfd327452afdaea442c1bd80ba60075c4e9db9f585ef53d",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/heloc_benchmark_milestone.py",
+      "destination": "experiments/src/lift_ce/experiments/heloc_benchmark_milestone.py",
+      "source_sha256": "91d4fb72074de78ca8e06bc79d029a52c22188b05beacd2d9208b158316f90e0",
+      "local_sha256": "91d4fb72074de78ca8e06bc79d029a52c22188b05beacd2d9208b158316f90e0",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/heloc_conditional_adversary_strengthened_v1.py",
+      "destination": "experiments/src/lift_ce/experiments/heloc_conditional_adversary_strengthened_v1.py",
+      "source_sha256": "91a1f6385eaa91414337422c113448af0fcf57d54e470433616f24095be4ffec",
+      "local_sha256": "91a1f6385eaa91414337422c113448af0fcf57d54e470433616f24095be4ffec",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/heloc_coupled_b_lambda_v1.py",
+      "destination": "experiments/src/lift_ce/experiments/heloc_coupled_b_lambda_v1.py",
+      "source_sha256": "4271de3f8be4bd1e9d659030af297d276a2dfe503b65c0d85aca8cb42384385f",
+      "local_sha256": "4271de3f8be4bd1e9d659030af297d276a2dfe503b65c0d85aca8cb42384385f",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/heloc_debug_diagnostics.py",
+      "destination": "experiments/src/lift_ce/experiments/heloc_debug_diagnostics.py",
+      "source_sha256": "b95e87239ea95884d5f0595e85569027e5c02508a91e0ccd50f875b8a74283df",
+      "local_sha256": "b95e87239ea95884d5f0595e85569027e5c02508a91e0ccd50f875b8a74283df",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/heloc_diabetes_bank_protocol_v3.py",
+      "destination": "experiments/src/lift_ce/experiments/heloc_diabetes_bank_protocol_v3.py",
+      "source_sha256": "bf9c172b0e58892a6d7650d2c12662e6b6c5b073c1ecc660c290e191d80e60ab",
+      "local_sha256": "a3e5a348009e52d9ce25031bd22325be3c65a9be66f67a513756ede7ca8c9491",
+      "modification": "Require explicit CLI output; historical input defaults and scientific logic preserved."
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/heloc_diabetes_official_lift_v1.py",
+      "destination": "experiments/src/lift_ce/experiments/heloc_diabetes_official_lift_v1.py",
+      "source_sha256": "6fb29402ffa03e7a3d2b54f45419f34b53c607723f3d8c08c1fe90b9b2e3e492",
+      "local_sha256": "ac7645c2777f0cde65061e465a8c531e7f2d6226a43e8a2069e8521e0ccfd2d4",
+      "modification": "Require explicit CLI output and use recorded vendor snapshot revisions instead of parent repository Git HEAD; scientific logic unchanged."
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/heloc_fairness_diagnostic_v3.py",
+      "destination": "experiments/src/lift_ce/experiments/heloc_fairness_diagnostic_v3.py",
+      "source_sha256": "7ee72166de78ca6b5a77b5db6859c71cb67b9d1aca77009df4bc94a00bc7749f",
+      "local_sha256": "7ee72166de78ca6b5a77b5db6859c71cb67b9d1aca77009df4bc94a00bc7749f",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/heloc_gradient_sensitive_adversary_v1.py",
+      "destination": "experiments/src/lift_ce/experiments/heloc_gradient_sensitive_adversary_v1.py",
+      "source_sha256": "7ad5ff6011c9c85cdb26fd784fb6287e5d423756f67383bfee2fa48a44c6f62e",
+      "local_sha256": "7ad5ff6011c9c85cdb26fd784fb6287e5d423756f67383bfee2fa48a44c6f62e",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/heloc_margin_adversary_v4.py",
+      "destination": "experiments/src/lift_ce/experiments/heloc_margin_adversary_v4.py",
+      "source_sha256": "4c8d58259da26c3625dea737e12b2e24281ad2166d9b1764c6ac5c4d983fa969",
+      "local_sha256": "4c8d58259da26c3625dea737e12b2e24281ad2166d9b1764c6ac5c4d983fa969",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/heloc_method_bootstrap.py",
+      "destination": "experiments/src/lift_ce/experiments/heloc_method_bootstrap.py",
+      "source_sha256": "0fc88828791147dcb6eaa7a88b056b9d87eca5cb20885943409eb9b22c8d4626",
+      "local_sha256": "0fc88828791147dcb6eaa7a88b056b9d87eca5cb20885943409eb9b22c8d4626",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/heloc_prior_balanced_audit.py",
+      "destination": "experiments/src/lift_ce/experiments/heloc_prior_balanced_audit.py",
+      "source_sha256": "f430b7f87403a78f4d877a1b929514f0d741b076e62a920e059806922b3e85a0",
+      "local_sha256": "f430b7f87403a78f4d877a1b929514f0d741b076e62a920e059806922b3e85a0",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/logistic_margin_anchor_benchmark.py",
+      "destination": "experiments/src/lift_ce/experiments/logistic_margin_anchor_benchmark.py",
+      "source_sha256": "dfb325d8b638e2fb35b6eca9918be04198e9b4e76830dff5b1102370cf27b2de",
+      "local_sha256": "dfb325d8b638e2fb35b6eca9918be04198e9b4e76830dff5b1102370cf27b2de",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/path_lift_decision_compatible_ot_v1.py",
+      "destination": "experiments/src/lift_ce/experiments/path_lift_decision_compatible_ot_v1.py",
+      "source_sha256": "afd49e0e67a372bb584ae3c4b712c8be4b5a622348253b389e7645332f349fe2",
+      "local_sha256": "afd49e0e67a372bb584ae3c4b712c8be4b5a622348253b389e7645332f349fe2",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/robust_waypoint_path_v1.py",
+      "destination": "experiments/src/lift_ce/experiments/robust_waypoint_path_v1.py",
+      "source_sha256": "2ca5e03aa54a3539b6156c71bcca1f85b33b592e3a259fa88a44b945c64c270d",
+      "local_sha256": "d8a0fa249911405026b5c934891ed8ffe74fa5ca3ed74ba0cb6d11d246499ef2",
+      "modification": "Require explicit CLI output; historical input defaults and scientific logic preserved."
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/run_official_proplace.py",
+      "destination": "experiments/src/lift_ce/experiments/run_official_proplace.py",
+      "source_sha256": "c2e909e558da3f157b80fca5c102db64f5fbe9b7f5456f9e34d11e0f2d0a42f6",
+      "local_sha256": "c2e909e558da3f157b80fca5c102db64f5fbe9b7f5456f9e34d11e0f2d0a42f6",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/single_budget_geodesic_wro_v1.py",
+      "destination": "experiments/src/lift_ce/experiments/single_budget_geodesic_wro_v1.py",
+      "source_sha256": "3a794ad646a4ff1127a04a4e8853d8ff96f8d7cc4838d7be0edc76fe058449f7",
+      "local_sha256": "c5967b5475481f8445a544edbd4608959de1fec7a9c072d61399fcfa6686b1f2",
+      "modification": "Require explicit CLI output; historical input defaults and scientific logic preserved."
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/stability_weighted_anchor_v1.py",
+      "destination": "experiments/src/lift_ce/experiments/stability_weighted_anchor_v1.py",
+      "source_sha256": "443c369cb35c8a97f57e2313d9081d9311e5931fd9e0e2b1538bc70e7cdca4f9",
+      "local_sha256": "443c369cb35c8a97f57e2313d9081d9311e5931fd9e0e2b1538bc70e7cdca4f9",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/transport_spline_path_v1.py",
+      "destination": "experiments/src/lift_ce/experiments/transport_spline_path_v1.py",
+      "source_sha256": "215a703e1cc11c5a699c8f3b46a7ec6b18f3188b46cef570cbce22abfc665366",
+      "local_sha256": "f7376a4f1b3d60dc7e2198be6fae18a2ee7a898c5d89a78b375d5b87976c366d",
+      "modification": "Require explicit CLI output; historical input defaults and scientific logic preserved."
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/experiments/update_alignment_feasibility_v1.py",
+      "destination": "experiments/src/lift_ce/experiments/update_alignment_feasibility_v1.py",
+      "source_sha256": "6ae2da181f28c25dea677caee702cbea884168707c18d921eab7b0de6ca002b9",
+      "local_sha256": "5843c9918993e8a4cc4a06e8b7961b53df06592a55d9a77a293c7a208af2403d",
+      "modification": "Require explicit CLI output; historical input defaults and scientific logic preserved."
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/models/__init__.py",
+      "destination": "experiments/src/lift_ce/models/__init__.py",
+      "source_sha256": "ad5c9db01458fdc7aacb5c79432a50f365ef85f68b789464e67f8a886438df00",
+      "local_sha256": "ad5c9db01458fdc7aacb5c79432a50f365ef85f68b789464e67f8a886438df00",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/models/tabular.py",
+      "destination": "experiments/src/lift_ce/models/tabular.py",
+      "source_sha256": "9075dcfa66d63a799ba012cda7fde13485994afe443de0dce58b57d4c1a881e7",
+      "local_sha256": "9075dcfa66d63a799ba012cda7fde13485994afe443de0dce58b57d4c1a881e7",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/models/vision.py",
+      "destination": "experiments/src/lift_ce/models/vision.py",
+      "source_sha256": "a51435bfae884ddfd8f39a1c52c6455afdb5f84ef71fd87681c0fbd727c4ef78",
+      "local_sha256": "a51435bfae884ddfd8f39a1c52c6455afdb5f84ef71fd87681c0fbd727c4ef78",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/ot.py",
+      "destination": "experiments/src/lift_ce/ot.py",
+      "source_sha256": "62e9fd24f9ec98738a191f84ee4f4f3f629c503260737665f3dfb97c11b37baf",
+      "local_sha256": "62e9fd24f9ec98738a191f84ee4f4f3f629c503260737665f3dfb97c11b37baf",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/src/lift_ce/utils.py",
+      "destination": "experiments/src/lift_ce/utils.py",
+      "source_sha256": "c7becfce050068530d221ab3c5ba597b0ce1f0f10d63a0593d0b8159c27f91dc",
+      "local_sha256": "c7becfce050068530d221ab3c5ba597b0ce1f0f10d63a0593d0b8159c27f91dc",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/tests/test_single_budget_wro.py",
+      "destination": "experiments/tests/test_single_budget_wro.py",
+      "source_sha256": "36c378f76719ceb9c54651b24e1877b4877401a893ef84bb7b1da6c8491e6f91",
+      "local_sha256": "36c378f76719ceb9c54651b24e1877b4877401a893ef84bb7b1da6c8491e6f91",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/tests/test_geodesic_excess.py",
+      "destination": "experiments/tests/test_geodesic_excess.py",
+      "source_sha256": "91e37839bf58298f15272dbe0665761b75e27a5b5e5c70494d0ec9bd1d334c4c",
+      "local_sha256": "91e37839bf58298f15272dbe0665761b75e27a5b5e5c70494d0ec9bd1d334c4c",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/tests/test_transport_spline.py",
+      "destination": "experiments/tests/test_transport_spline.py",
+      "source_sha256": "2c83c1d55ef2836c0abd63c38af90c7ed392e05bf8799e719b8a75faa106355d",
+      "local_sha256": "2c83c1d55ef2836c0abd63c38af90c7ed392e05bf8799e719b8a75faa106355d",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/tests/test_fixed_risk_geometry_protocol.py",
+      "destination": "experiments/tests/test_fixed_risk_geometry_protocol.py",
+      "source_sha256": "25fc910eb30a65cfa040bc99a773c598d5eb8c6074a58d2cd0d95c1892507861",
+      "local_sha256": "25fc910eb30a65cfa040bc99a773c598d5eb8c6074a58d2cd0d95c1892507861",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/tests/test_risk_geometry.py",
+      "destination": "experiments/tests/test_risk_geometry.py",
+      "source_sha256": "8bd42c4d695f58ba6020b7105643f4e73ca52c8b80afdc220c705f9f04029654",
+      "local_sha256": "8bd42c4d695f58ba6020b7105643f4e73ca52c8b80afdc220c705f9f04029654",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/tests/test_local_graph_repair.py",
+      "destination": "experiments/tests/test_local_graph_repair.py",
+      "source_sha256": "bb2392f3b666df5c1de8144f30fd15eb87568dc263dd65a66c257202bd13235e",
+      "local_sha256": "bb2392f3b666df5c1de8144f30fd15eb87568dc263dd65a66c257202bd13235e",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/tests/test_population_protocol.py",
+      "destination": "experiments/tests/test_population_protocol.py",
+      "source_sha256": "a2ec63ab9f99087b0dff61980573f5e4e1feadba74121637422a7a60cfbffb2c",
+      "local_sha256": "a2ec63ab9f99087b0dff61980573f5e4e1feadba74121637422a7a60cfbffb2c",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/tests/test_attack_bank.py",
+      "destination": "experiments/tests/test_attack_bank.py",
+      "source_sha256": "ea11d8c6dbb0b94772a14229acb1a92d58e03aa62a241495d0f12e56c68bb56c",
+      "local_sha256": "ea11d8c6dbb0b94772a14229acb1a92d58e03aa62a241495d0f12e56c68bb56c",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/tests/test_full_update_adversary.py",
+      "destination": "experiments/tests/test_full_update_adversary.py",
+      "source_sha256": "366de028ca52501ebbde45082426dd858363bd9b333607be03a66fc8cd5c0178",
+      "local_sha256": "366de028ca52501ebbde45082426dd858363bd9b333607be03a66fc8cd5c0178",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/tests/test_robust_waypoints.py",
+      "destination": "experiments/tests/test_robust_waypoints.py",
+      "source_sha256": "0a96b4387b6dbb2547f5195e90de6f7e4b550b8bd470389b96275df4185d654a",
+      "local_sha256": "0a96b4387b6dbb2547f5195e90de6f7e4b550b8bd470389b96275df4185d654a",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/tests/test_finite_waypoint_paths.py",
+      "destination": "experiments/tests/test_finite_waypoint_paths.py",
+      "source_sha256": "96eed851cfb411470a02f9b22c37b64a46ac245e3d455e49350f44fa01770f51",
+      "local_sha256": "96eed851cfb411470a02f9b22c37b64a46ac245e3d455e49350f44fa01770f51",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/tests/test_update_alignment_feasibility.py",
+      "destination": "experiments/tests/test_update_alignment_feasibility.py",
+      "source_sha256": "0419af7df6c8925083093df75182fe0e2a64a3e634cd0b2f6a89db78b3b591ee",
+      "local_sha256": "0419af7df6c8925083093df75182fe0e2a64a3e634cd0b2f6a89db78b3b591ee",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/__init__.py",
+      "destination": "experiments/vendor/RobustX/robustx/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/datasets/DatasetLoader.py",
+      "destination": "experiments/vendor/RobustX/robustx/datasets/DatasetLoader.py",
+      "source_sha256": "60921cfb44a22bf770709a296a47c177288f671d1b4d508c2d5479e4b0f2b47d",
+      "local_sha256": "60921cfb44a22bf770709a296a47c177288f671d1b4d508c2d5479e4b0f2b47d",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/datasets/ExampleDatasets.py",
+      "destination": "experiments/vendor/RobustX/robustx/datasets/ExampleDatasets.py",
+      "source_sha256": "a6f5056f18977729681c8419182a96a824a86ff1d9cbc25c591c2637d62adb02",
+      "local_sha256": "a6f5056f18977729681c8419182a96a824a86ff1d9cbc25c591c2637d62adb02",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/datasets/__init__.py",
+      "destination": "experiments/vendor/RobustX/robustx/datasets/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/datasets/custom_datasets/CsvDatasetLoader.py",
+      "destination": "experiments/vendor/RobustX/robustx/datasets/custom_datasets/CsvDatasetLoader.py",
+      "source_sha256": "78024ef78721b3def2b5560a7633bca26a8a57cf2ed1939f8920812e26e28442",
+      "local_sha256": "78024ef78721b3def2b5560a7633bca26a8a57cf2ed1939f8920812e26e28442",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/datasets/provided_datasets/AdultDatasetLoader.py",
+      "destination": "experiments/vendor/RobustX/robustx/datasets/provided_datasets/AdultDatasetLoader.py",
+      "source_sha256": "5506626d95e3dca8f84ee5716378712e17bc32ddbb6b7a786ee368c4f69be505",
+      "local_sha256": "5506626d95e3dca8f84ee5716378712e17bc32ddbb6b7a786ee368c4f69be505",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/datasets/provided_datasets/ExampleDatasetLoader.py",
+      "destination": "experiments/vendor/RobustX/robustx/datasets/provided_datasets/ExampleDatasetLoader.py",
+      "source_sha256": "da801fe75a2a5091f65fb84fbc9ee830a45ce11b40015e8f99ffd3b0dd037b33",
+      "local_sha256": "da801fe75a2a5091f65fb84fbc9ee830a45ce11b40015e8f99ffd3b0dd037b33",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/datasets/provided_datasets/IonosphereDatasetLoader.py",
+      "destination": "experiments/vendor/RobustX/robustx/datasets/provided_datasets/IonosphereDatasetLoader.py",
+      "source_sha256": "09909e579ea891ef6a134b83ab87bc31007b94b37e321da117ef5f1bf9913b14",
+      "local_sha256": "09909e579ea891ef6a134b83ab87bc31007b94b37e321da117ef5f1bf9913b14",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/datasets/provided_datasets/IrisDatasetLoader.py",
+      "destination": "experiments/vendor/RobustX/robustx/datasets/provided_datasets/IrisDatasetLoader.py",
+      "source_sha256": "4184dce35128ea516033d39d8219a49187596966a90db66125e0d68d1b915165",
+      "local_sha256": "4184dce35128ea516033d39d8219a49187596966a90db66125e0d68d1b915165",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/datasets/provided_datasets/TitanicDatasetLoader.py",
+      "destination": "experiments/vendor/RobustX/robustx/datasets/provided_datasets/TitanicDatasetLoader.py",
+      "source_sha256": "6c8b096c26ce0224c988d52e427c4d57e5f63e934a55acfe46405303feb3032f",
+      "local_sha256": "6c8b096c26ce0224c988d52e427c4d57e5f63e934a55acfe46405303feb3032f",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/datasets/provided_datasets/__init__.py",
+      "destination": "experiments/vendor/RobustX/robustx/datasets/provided_datasets/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/evaluations/CEEvaluator.py",
+      "destination": "experiments/vendor/RobustX/robustx/evaluations/CEEvaluator.py",
+      "source_sha256": "d82dc7caca21be12fa9470e0ddba2911e0de9e6cc262c9466762d8167d7c2960",
+      "local_sha256": "d82dc7caca21be12fa9470e0ddba2911e0de9e6cc262c9466762d8167d7c2960",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/evaluations/DistanceEvaluator.py",
+      "destination": "experiments/vendor/RobustX/robustx/evaluations/DistanceEvaluator.py",
+      "source_sha256": "cf35c1781dea7baa292ed772c1b7dcde264414882c1839684868efec7fa51546",
+      "local_sha256": "cf35c1781dea7baa292ed772c1b7dcde264414882c1839684868efec7fa51546",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/evaluations/ManifoldEvaluator.py",
+      "destination": "experiments/vendor/RobustX/robustx/evaluations/ManifoldEvaluator.py",
+      "source_sha256": "ce6807905f0c62f24f2ad1bde67fd4039bd96f21eef18108de096a1a1ce37d3d",
+      "local_sha256": "ce6807905f0c62f24f2ad1bde67fd4039bd96f21eef18108de096a1a1ce37d3d",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/evaluations/RobustnessProportionEvaluator.py",
+      "destination": "experiments/vendor/RobustX/robustx/evaluations/RobustnessProportionEvaluator.py",
+      "source_sha256": "7de191ec29885a0f9e7264eac46720aed89917a917c75922662e83c18cacce84",
+      "local_sha256": "7de191ec29885a0f9e7264eac46720aed89917a917c75922662e83c18cacce84",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/evaluations/ValidityEvaluator.py",
+      "destination": "experiments/vendor/RobustX/robustx/evaluations/ValidityEvaluator.py",
+      "source_sha256": "36a21abdfadaf371183fbd4453aa350a78d07fe8ccf26b1372c065da01b2b509",
+      "local_sha256": "36a21abdfadaf371183fbd4453aa350a78d07fe8ccf26b1372c065da01b2b509",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/evaluations/__init__.py",
+      "destination": "experiments/vendor/RobustX/robustx/evaluations/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/generators/CEGenerator.py",
+      "destination": "experiments/vendor/RobustX/robustx/generators/CEGenerator.py",
+      "source_sha256": "dfea6cbe4b5abf58751149e3ffded979e959781d18cab85f2f7e5490204f3800",
+      "local_sha256": "dfea6cbe4b5abf58751149e3ffded979e959781d18cab85f2f7e5490204f3800",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/generators/CE_methods/BinaryLinearSearch.py",
+      "destination": "experiments/vendor/RobustX/robustx/generators/CE_methods/BinaryLinearSearch.py",
+      "source_sha256": "cbbc61211b47137bc4d76ae274d78e50f2003825ba8c766a5ae40f3895029ea4",
+      "local_sha256": "cbbc61211b47137bc4d76ae274d78e50f2003825ba8c766a5ae40f3895029ea4",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/generators/CE_methods/GuidedBinaryLinearSearch.py",
+      "destination": "experiments/vendor/RobustX/robustx/generators/CE_methods/GuidedBinaryLinearSearch.py",
+      "source_sha256": "ad3270e677b357b0b1d118c0d2f2d99623c6a6370ea4c6c01ebc0ab082e4e6f4",
+      "local_sha256": "ad3270e677b357b0b1d118c0d2f2d99623c6a6370ea4c6c01ebc0ab082e4e6f4",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/generators/CE_methods/KDTreeNNCE.py",
+      "destination": "experiments/vendor/RobustX/robustx/generators/CE_methods/KDTreeNNCE.py",
+      "source_sha256": "0769b0a680068941172d90a1fdec2afd6665a0af7b53cf782000af786e5a9a8e",
+      "local_sha256": "0769b0a680068941172d90a1fdec2afd6665a0af7b53cf782000af786e5a9a8e",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/generators/CE_methods/MCE.py",
+      "destination": "experiments/vendor/RobustX/robustx/generators/CE_methods/MCE.py",
+      "source_sha256": "2f30d48c1c7f22f861c9b659718a6756839156d6f56173e4b21b7704141cf0fc",
+      "local_sha256": "2f30d48c1c7f22f861c9b659718a6756839156d6f56173e4b21b7704141cf0fc",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/generators/CE_methods/NNCE.py",
+      "destination": "experiments/vendor/RobustX/robustx/generators/CE_methods/NNCE.py",
+      "source_sha256": "a254f8aa90b2158643bb062bbd2be049261a4ae9c6c42ddc86d3140ebc7b7d89",
+      "local_sha256": "a254f8aa90b2158643bb062bbd2be049261a4ae9c6c42ddc86d3140ebc7b7d89",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/generators/CE_methods/Wachter.py",
+      "destination": "experiments/vendor/RobustX/robustx/generators/CE_methods/Wachter.py",
+      "source_sha256": "0ea1cde28e5f12f3837983acddb1b54037857e97ee33a92d329b2eb52173084f",
+      "local_sha256": "0ea1cde28e5f12f3837983acddb1b54037857e97ee33a92d329b2eb52173084f",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/generators/CE_methods/__init__.py",
+      "destination": "experiments/vendor/RobustX/robustx/generators/CE_methods/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/generators/__init__.py",
+      "destination": "experiments/vendor/RobustX/robustx/generators/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/generators/robust_CE_methods/APAS.py",
+      "destination": "experiments/vendor/RobustX/robustx/generators/robust_CE_methods/APAS.py",
+      "source_sha256": "773d86584370d47584e6d5280ccd14352379cd6e2e05a87197a8475a1b567a32",
+      "local_sha256": "773d86584370d47584e6d5280ccd14352379cd6e2e05a87197a8475a1b567a32",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/generators/robust_CE_methods/ArgEnsembling.py",
+      "destination": "experiments/vendor/RobustX/robustx/generators/robust_CE_methods/ArgEnsembling.py",
+      "source_sha256": "99d4f7996fae4073cb8965a4810efc10b2cac54b0d7b0c553b2507789159fddb",
+      "local_sha256": "99d4f7996fae4073cb8965a4810efc10b2cac54b0d7b0c553b2507789159fddb",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/generators/robust_CE_methods/DiverseRobustCE.py",
+      "destination": "experiments/vendor/RobustX/robustx/generators/robust_CE_methods/DiverseRobustCE.py",
+      "source_sha256": "3014a162e8566b24ee69470eada19b090234a7bd1df4782f25583bfb8fff7342",
+      "local_sha256": "3014a162e8566b24ee69470eada19b090234a7bd1df4782f25583bfb8fff7342",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/generators/robust_CE_methods/MCER.py",
+      "destination": "experiments/vendor/RobustX/robustx/generators/robust_CE_methods/MCER.py",
+      "source_sha256": "89bcc8b0ed33476aad20eb9938b496c85d19339ae3ce58c13e81e8e7b1f27339",
+      "local_sha256": "89bcc8b0ed33476aad20eb9938b496c85d19339ae3ce58c13e81e8e7b1f27339",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/generators/robust_CE_methods/ModelMultiplicityMILP.py",
+      "destination": "experiments/vendor/RobustX/robustx/generators/robust_CE_methods/ModelMultiplicityMILP.py",
+      "source_sha256": "b1977bb729a20b8c4601da4b207f26bab0c269b22b6a18d1bfc625e907b6f580",
+      "local_sha256": "b1977bb729a20b8c4601da4b207f26bab0c269b22b6a18d1bfc625e907b6f580",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/generators/robust_CE_methods/PROPLACE.py",
+      "destination": "experiments/vendor/RobustX/robustx/generators/robust_CE_methods/PROPLACE.py",
+      "source_sha256": "bbb05abe56392ddd1d88050d5326b81156ec30db12f3f00684f3d0b84cc57c01",
+      "local_sha256": "bbb05abe56392ddd1d88050d5326b81156ec30db12f3f00684f3d0b84cc57c01",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/generators/robust_CE_methods/RNCE.py",
+      "destination": "experiments/vendor/RobustX/robustx/generators/robust_CE_methods/RNCE.py",
+      "source_sha256": "f420bf9b00e6fff12505888d70171db71db15d164d77d3888367a459e4ed137a",
+      "local_sha256": "f420bf9b00e6fff12505888d70171db71db15d164d77d3888367a459e4ed137a",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/generators/robust_CE_methods/ROAR.py",
+      "destination": "experiments/vendor/RobustX/robustx/generators/robust_CE_methods/ROAR.py",
+      "source_sha256": "c6a4635f66f52e9977b556839e6b022dcec30acbbc699709aec6bd2ea2086e8a",
+      "local_sha256": "c6a4635f66f52e9977b556839e6b022dcec30acbbc699709aec6bd2ea2086e8a",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/generators/robust_CE_methods/STCE.py",
+      "destination": "experiments/vendor/RobustX/robustx/generators/robust_CE_methods/STCE.py",
+      "source_sha256": "e2691d19bd5fdd7439478ff5a6141d8332482d98ae0b3bc41b47cdd543a6d535",
+      "local_sha256": "e2691d19bd5fdd7439478ff5a6141d8332482d98ae0b3bc41b47cdd543a6d535",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/generators/robust_CE_methods/__init__.py",
+      "destination": "experiments/vendor/RobustX/robustx/generators/robust_CE_methods/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/DefaultBenchmark.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/DefaultBenchmark.py",
+      "source_sha256": "40ed2b1a29fffce3908f948817f313cdcf4d5c90e9bc41710927486f04a145fc",
+      "local_sha256": "40ed2b1a29fffce3908f948817f313cdcf4d5c90e9bc41710927486f04a145fc",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/OptSolver.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/OptSolver.py",
+      "source_sha256": "6d9010c4c4888df63d5d7d38d79c59198cc47be8e1baeae0f28c13e4156a8e76",
+      "local_sha256": "6d9010c4c4888df63d5d7d38d79c59198cc47be8e1baeae0f28c13e4156a8e76",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/PyTorchConversions.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/PyTorchConversions.py",
+      "source_sha256": "87d0f904b7c6ba83064296e4e6e660266d2b4ddf258b15282f0780e4dbd55bd9",
+      "local_sha256": "87d0f904b7c6ba83064296e4e6e660266d2b4ddf258b15282f0780e4dbd55bd9",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/__init__.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/distance_functions/DistanceFunctions.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/distance_functions/DistanceFunctions.py",
+      "source_sha256": "9275f6715eaa14cf0648f8a8f2e09729bc9a226297e9ac1f8dc60c9c32670b2f",
+      "local_sha256": "9275f6715eaa14cf0648f8a8f2e09729bc9a226297e9ac1f8dc60c9c32670b2f",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/distance_functions/__init__.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/distance_functions/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/intabs/IntervalAbstractionPyTorch.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/intabs/IntervalAbstractionPyTorch.py",
+      "source_sha256": "4d0e136db6834241e2d43d13fb5e534610db2e5bf3f59c9e1cb481eb953a6015",
+      "local_sha256": "4d0e136db6834241e2d43d13fb5e534610db2e5bf3f59c9e1cb481eb953a6015",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/intabs/WeightBiasDictionary.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/intabs/WeightBiasDictionary.py",
+      "source_sha256": "ca030357fe3d5090b6bf5d37a8f864b707428e69c77a1bfda28a5fa1598c8e56",
+      "local_sha256": "ca030357fe3d5090b6bf5d37a8f864b707428e69c77a1bfda28a5fa1598c8e56",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/intabs/__init__.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/intabs/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/models/BaseModel.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/models/BaseModel.py",
+      "source_sha256": "ed10a24b0db3a01ceb7dba09771ff3e4eec9f73f8b2fdbef16e76fd867d148a5",
+      "local_sha256": "ed10a24b0db3a01ceb7dba09771ff3e4eec9f73f8b2fdbef16e76fd867d148a5",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/models/Models.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/models/Models.py",
+      "source_sha256": "ac6ec1607c8c544f6abb978bc56716ad8a49aa428500e29a77405b31ca9eca01",
+      "local_sha256": "ac6ec1607c8c544f6abb978bc56716ad8a49aa428500e29a77405b31ca9eca01",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/models/__init__.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/models/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/models/keras_models/SimpleKerasNNModel.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/models/keras_models/SimpleKerasNNModel.py",
+      "source_sha256": "1860cd5f534122a4d430fee092e014ec99542c5fe954f323699dda3f5200a47e",
+      "local_sha256": "1860cd5f534122a4d430fee092e014ec99542c5fe954f323699dda3f5200a47e",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/models/keras_models/__init__.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/models/keras_models/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/models/pytorch_models/CustomPyTorchModel.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/models/pytorch_models/CustomPyTorchModel.py",
+      "source_sha256": "d12307205c1f69295f4b4a5bbdfda066018f7ace1dfd31a0e584101c687e6bab",
+      "local_sha256": "d12307205c1f69295f4b4a5bbdfda066018f7ace1dfd31a0e584101c687e6bab",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/models/pytorch_models/SimpleNNModel.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/models/pytorch_models/SimpleNNModel.py",
+      "source_sha256": "5be260e2cac8ed9633ef0668415e1edef66c5ec387b02ffd9105ae0d8b9de1c4",
+      "local_sha256": "5be260e2cac8ed9633ef0668415e1edef66c5ec387b02ffd9105ae0d8b9de1c4",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/models/pytorch_models/__init__.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/models/pytorch_models/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/models/sklearn_models/DecisionTreeModel.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/models/sklearn_models/DecisionTreeModel.py",
+      "source_sha256": "6a230b6857f8815b24ac2c1476b0953579ed8d96eadb97dd64bfff9f7a11da80",
+      "local_sha256": "6a230b6857f8815b24ac2c1476b0953579ed8d96eadb97dd64bfff9f7a11da80",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/models/sklearn_models/LogisticRegressionModel.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/models/sklearn_models/LogisticRegressionModel.py",
+      "source_sha256": "4416b6bd9268456cd0cfdef5e274456fc80e46ce1e5d96bd926758ee48605d00",
+      "local_sha256": "4416b6bd9268456cd0cfdef5e274456fc80e46ce1e5d96bd926758ee48605d00",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/models/sklearn_models/SVMModel.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/models/sklearn_models/SVMModel.py",
+      "source_sha256": "ef2aaa26daf5f1b53e8640928e7c23f4d379afb81d58d357e1e9f12bb776ee57",
+      "local_sha256": "ef2aaa26daf5f1b53e8640928e7c23f4d379afb81d58d357e1e9f12bb776ee57",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/models/sklearn_models/SklearnModel.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/models/sklearn_models/SklearnModel.py",
+      "source_sha256": "f8180950cc669e502178d7ef127013ceaed0046eff4acf8723cced735598e0c7",
+      "local_sha256": "f8180950cc669e502178d7ef127013ceaed0046eff4acf8723cced735598e0c7",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/models/sklearn_models/__init__.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/models/sklearn_models/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/tasks/ClassificationTask.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/tasks/ClassificationTask.py",
+      "source_sha256": "bb5eb880a21d2dddc01ec81970cfe39de9479d315dc4281cbfb8560f260b2891",
+      "local_sha256": "bb5eb880a21d2dddc01ec81970cfe39de9479d315dc4281cbfb8560f260b2891",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/tasks/Task.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/tasks/Task.py",
+      "source_sha256": "5aebb8579c43939cbafab4f050eb58006a9f37249c2ac49255c23896e5dbb99b",
+      "local_sha256": "5aebb8579c43939cbafab4f050eb58006a9f37249c2ac49255c23896e5dbb99b",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/lib/tasks/__init__.py",
+      "destination": "experiments/vendor/RobustX/robustx/lib/tasks/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/model_evaluations/__init__.py",
+      "destination": "experiments/vendor/RobustX/robustx/model_evaluations/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/robustness_evaluations/ApproximateDeltaRobustnessEvaluator.py",
+      "destination": "experiments/vendor/RobustX/robustx/robustness_evaluations/ApproximateDeltaRobustnessEvaluator.py",
+      "source_sha256": "ea210d15cb63dc5008c51e29a1b408030bcb5387778cd006d43f9f6337d397b3",
+      "local_sha256": "ea210d15cb63dc5008c51e29a1b408030bcb5387778cd006d43f9f6337d397b3",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/robustness_evaluations/DeltaRobustnessEvaluator.py",
+      "destination": "experiments/vendor/RobustX/robustx/robustness_evaluations/DeltaRobustnessEvaluator.py",
+      "source_sha256": "db2d8843d229ab7e930e54b3c7eff0e2bbbd47899cd76c061668de0178937cf8",
+      "local_sha256": "db2d8843d229ab7e930e54b3c7eff0e2bbbd47899cd76c061668de0178937cf8",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/robustness_evaluations/InputChangesRobustnessEvaluator.py",
+      "destination": "experiments/vendor/RobustX/robustx/robustness_evaluations/InputChangesRobustnessEvaluator.py",
+      "source_sha256": "000f19b08e366579fe9d71ccfa4f6ad5279f0a82fc2ab7172a969e4d1c3ef599",
+      "local_sha256": "000f19b08e366579fe9d71ccfa4f6ad5279f0a82fc2ab7172a969e4d1c3ef599",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/robustness_evaluations/ModelChangesRobustnessEvaluator.py",
+      "destination": "experiments/vendor/RobustX/robustx/robustness_evaluations/ModelChangesRobustnessEvaluator.py",
+      "source_sha256": "1c44d26b74214b3127009f0e4261324f7057805d1914682b427a1bd7dca56696",
+      "local_sha256": "1c44d26b74214b3127009f0e4261324f7057805d1914682b427a1bd7dca56696",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/robustness_evaluations/ModelChangesRobustnessScorer.py",
+      "destination": "experiments/vendor/RobustX/robustx/robustness_evaluations/ModelChangesRobustnessScorer.py",
+      "source_sha256": "46c3414fa7cea07cc3dca86db434255187bd21a9938ddf1a5a9cac24a4450949",
+      "local_sha256": "46c3414fa7cea07cc3dca86db434255187bd21a9938ddf1a5a9cac24a4450949",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/robustness_evaluations/ModelChangesRobustnessSetEvaluator.py",
+      "destination": "experiments/vendor/RobustX/robustx/robustness_evaluations/ModelChangesRobustnessSetEvaluator.py",
+      "source_sha256": "84c87c0979a85224d9ce186fbf556c65cb97bc3bae8615f97553957f5aaa6129",
+      "local_sha256": "84c87c0979a85224d9ce186fbf556c65cb97bc3bae8615f97553957f5aaa6129",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/robustness_evaluations/ModelMultiplicityRobustnessEvaluator.py",
+      "destination": "experiments/vendor/RobustX/robustx/robustness_evaluations/ModelMultiplicityRobustnessEvaluator.py",
+      "source_sha256": "c97fdf4625eb0467407c8b2bba96d993be2bbadcf6cf3ac0559fb939a62ed20d",
+      "local_sha256": "c97fdf4625eb0467407c8b2bba96d993be2bbadcf6cf3ac0559fb939a62ed20d",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/robustness_evaluations/MultiplicityValidityRobustnessEvaluator.py",
+      "destination": "experiments/vendor/RobustX/robustx/robustness_evaluations/MultiplicityValidityRobustnessEvaluator.py",
+      "source_sha256": "02e3922761cebc88e358bd4b57db8ef538065a66cb86403abdf37c62a94bc8f7",
+      "local_sha256": "02e3922761cebc88e358bd4b57db8ef538065a66cb86403abdf37c62a94bc8f7",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/robustness_evaluations/SetDistanceRobustnessEvaluator.py",
+      "destination": "experiments/vendor/RobustX/robustx/robustness_evaluations/SetDistanceRobustnessEvaluator.py",
+      "source_sha256": "e5190f182bc1c30fccf7c3013f18eab60b6ab41d63c68963056d3b9285a44c1f",
+      "local_sha256": "e5190f182bc1c30fccf7c3013f18eab60b6ab41d63c68963056d3b9285a44c1f",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/robustness_evaluations/VaRRobustnessEvaluator.py",
+      "destination": "experiments/vendor/RobustX/robustx/robustness_evaluations/VaRRobustnessEvaluator.py",
+      "source_sha256": "92daec52b95cab5c3cb9220cc2dccf7ce1a69d3ecafe2df4976ee312881028b8",
+      "local_sha256": "92daec52b95cab5c3cb9220cc2dccf7ce1a69d3ecafe2df4976ee312881028b8",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/robustx/robustness_evaluations/__init__.py",
+      "destination": "experiments/vendor/RobustX/robustx/robustness_evaluations/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/LICENSE",
+      "destination": "experiments/vendor/RobustX/LICENSE",
+      "source_sha256": "9c8be1c6480ffa8d129f5de026b1ab74bfc73dafe4d5794ecdafc4fa58ab2eca",
+      "local_sha256": "9c8be1c6480ffa8d129f5de026b1ab74bfc73dafe4d5794ecdafc4fa58ab2eca",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/README.md",
+      "destination": "experiments/vendor/RobustX/README.md",
+      "source_sha256": "80a4b3175988ce3b360f4bcbdee193d7dd56cf0e5d8df01447c4f2f1c963e5c1",
+      "local_sha256": "80a4b3175988ce3b360f4bcbdee193d7dd56cf0e5d8df01447c4f2f1c963e5c1",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/pyproject.toml",
+      "destination": "experiments/vendor/RobustX/pyproject.toml",
+      "source_sha256": "b3aa5e5cd20bccea60d6b645cbddf31274f369dc10496699940bc2072f86a372",
+      "local_sha256": "b3aa5e5cd20bccea60d6b645cbddf31274f369dc10496699940bc2072f86a372",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/RobustX/setup.py",
+      "destination": "experiments/vendor/RobustX/setup.py",
+      "source_sha256": "9bd76de227402281cfe683ce0d8019304bca3283c49356f2c628333d337eed15",
+      "local_sha256": "9bd76de227402281cfe683ce0d8019304bca3283c49356f2c628333d337eed15",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/ellice/__init__.py",
+      "destination": "experiments/vendor/ellice/ellice/__init__.py",
+      "source_sha256": "9fee6b89a690a9d67390c6166dd2cc65e00ff81044b5917c69d0f8b18b55d912",
+      "local_sha256": "9fee6b89a690a9d67390c6166dd2cc65e00ff81044b5917c69d0f8b18b55d912",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/ellice/configs/__init__.py",
+      "destination": "experiments/vendor/ellice/ellice/configs/__init__.py",
+      "source_sha256": "aaa36139aa9b647edaa3cc9f4ffaa76872d7c8da41fa4fbc11b2646278ec6f12",
+      "local_sha256": "aaa36139aa9b647edaa3cc9f4ffaa76872d7c8da41fa4fbc11b2646278ec6f12",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/ellice/configs/algorithm_config.py",
+      "destination": "experiments/vendor/ellice/ellice/configs/algorithm_config.py",
+      "source_sha256": "b97170ac91975c2e9effe0e42b6b7061f878dccab4a19c15dfae689a90325515",
+      "local_sha256": "b97170ac91975c2e9effe0e42b6b7061f878dccab4a19c15dfae689a90325515",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/ellice/configs/generation_config.py",
+      "destination": "experiments/vendor/ellice/ellice/configs/generation_config.py",
+      "source_sha256": "bd6036fcbe955290d1f6127927ba29d543f6ee70958fec0696dfadd65ce5079c",
+      "local_sha256": "bd6036fcbe955290d1f6127927ba29d543f6ee70958fec0696dfadd65ce5079c",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/ellice/data.py",
+      "destination": "experiments/vendor/ellice/ellice/data.py",
+      "source_sha256": "6aa876a8aa7b820600e6cbb5e7abd5ccbcc66596335e3a3910aeb17d5736ab78",
+      "local_sha256": "6aa876a8aa7b820600e6cbb5e7abd5ccbcc66596335e3a3910aeb17d5736ab78",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/ellice/explainer.py",
+      "destination": "experiments/vendor/ellice/ellice/explainer.py",
+      "source_sha256": "a3ce0840f5b314c5b7c14e5fc4f8dd423363a2e774c7cf4dc42754883a705421",
+      "local_sha256": "a3ce0840f5b314c5b7c14e5fc4f8dd423363a2e774c7cf4dc42754883a705421",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/ellice/generators/__init__.py",
+      "destination": "experiments/vendor/ellice/ellice/generators/__init__.py",
+      "source_sha256": "1782210f05148a2526aff428eba1e02dcd83a8298a8c541a7f2c3a46630ee69b",
+      "local_sha256": "1782210f05148a2526aff428eba1e02dcd83a8298a8c541a7f2c3a46630ee69b",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/ellice/generators/base.py",
+      "destination": "experiments/vendor/ellice/ellice/generators/base.py",
+      "source_sha256": "288a30f7905438e210b9a4a07306a22ecdc430d0645ccd091c991132ed4b2c36",
+      "local_sha256": "288a30f7905438e210b9a4a07306a22ecdc430d0645ccd091c991132ed4b2c36",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/ellice/generators/continuous.py",
+      "destination": "experiments/vendor/ellice/ellice/generators/continuous.py",
+      "source_sha256": "7598bc185130308024fe015c204ca5db56a2ad787ea00c52055db470d4ec2463",
+      "local_sha256": "7598bc185130308024fe015c204ca5db56a2ad787ea00c52055db470d4ec2463",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/ellice/generators/data_supported.py",
+      "destination": "experiments/vendor/ellice/ellice/generators/data_supported.py",
+      "source_sha256": "5cb1210fb9ef2e4ee68eb2bc2224aa6a6db98334a34361d6c91d3349e42c63ec",
+      "local_sha256": "5cb1210fb9ef2e4ee68eb2bc2224aa6a6db98334a34361d6c91d3349e42c63ec",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/ellice/generators/sparse_continuous.py",
+      "destination": "experiments/vendor/ellice/ellice/generators/sparse_continuous.py",
+      "source_sha256": "230f3ef2993b31836e629414764a615b94b864fab85ff001d47960f3e2b1446f",
+      "local_sha256": "230f3ef2993b31836e629414764a615b94b864fab85ff001d47960f3e2b1446f",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/ellice/models/__init__.py",
+      "destination": "experiments/vendor/ellice/ellice/models/__init__.py",
+      "source_sha256": "761640c1673c6f93404bd8a60e0a740403128ded7b92c307946838305939fdcb",
+      "local_sha256": "761640c1673c6f93404bd8a60e0a740403128ded7b92c307946838305939fdcb",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/ellice/models/wrappers.py",
+      "destination": "experiments/vendor/ellice/ellice/models/wrappers.py",
+      "source_sha256": "ca01ed1218b818175a97598faee07e87f1b5e1da9dcc16fa4fbfc7f7818a50f7",
+      "local_sha256": "ca01ed1218b818175a97598faee07e87f1b5e1da9dcc16fa4fbfc7f7818a50f7",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/ellice/utils/__init__.py",
+      "destination": "experiments/vendor/ellice/ellice/utils/__init__.py",
+      "source_sha256": "55320413e47fe7f60e091495d21f47b8a324b95410d3a9af2ad1c07b502ffcaf",
+      "local_sha256": "55320413e47fe7f60e091495d21f47b8a324b95410d3a9af2ad1c07b502ffcaf",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/ellice/utils/config.py",
+      "destination": "experiments/vendor/ellice/ellice/utils/config.py",
+      "source_sha256": "0d89580c8f7aa4f4dd29b157266fcefc334af6eec1f186ca3f2e39f63d7e47fc",
+      "local_sha256": "0d89580c8f7aa4f4dd29b157266fcefc334af6eec1f186ca3f2e39f63d7e47fc",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/ellice/utils/helpers.py",
+      "destination": "experiments/vendor/ellice/ellice/utils/helpers.py",
+      "source_sha256": "991e42fe25f28ef478f62c3ec289e3ff869be30076bea458accc69daac80edaa",
+      "local_sha256": "991e42fe25f28ef478f62c3ec289e3ff869be30076bea458accc69daac80edaa",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/LICENSE",
+      "destination": "experiments/vendor/ellice/LICENSE",
+      "source_sha256": "97a6327009b5200d700c73577e49351ec64cf52050f232cdb54d0833d95e1a32",
+      "local_sha256": "97a6327009b5200d700c73577e49351ec64cf52050f232cdb54d0833d95e1a32",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/README.md",
+      "destination": "experiments/vendor/ellice/README.md",
+      "source_sha256": "d198280abca0da222d372048e41c1da9c49dfbcbe7cca4e9a7f541b547465a92",
+      "local_sha256": "d198280abca0da222d372048e41c1da9c49dfbcbe7cca4e9a7f541b547465a92",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/pyproject.toml",
+      "destination": "experiments/vendor/ellice/pyproject.toml",
+      "source_sha256": "0e6b9dfafc55a78c528983eda1b68002ad37eeb168cd4ed1a69017c5c14c797a",
+      "local_sha256": "0e6b9dfafc55a78c528983eda1b68002ad37eeb168cd4ed1a69017c5c14c797a",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/vendor/ellice/setup.py",
+      "destination": "experiments/vendor/ellice/setup.py",
+      "source_sha256": "d7b21932dc77487f1f4b51f478f77d0c4f028e5a8ff18bb04dd70a533c2bab2a",
+      "local_sha256": "d7b21932dc77487f1f4b51f478f77d0c4f028e5a8ff18bb04dd70a533c2bab2a",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/configs/diabetes_eta_coarse_070_bigshift.yaml",
+      "destination": "experiments/configs/historical/diabetes_eta_coarse_070_bigshift.yaml",
+      "source_sha256": "6b09049675d03bf00e731381c52a6fa391f577dd0ea6f952c60695a8e10b5af7",
+      "local_sha256": "6b09049675d03bf00e731381c52a6fa391f577dd0ea6f952c60695a8e10b5af7",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/configs/diabetes_wachter_in_range.yaml",
+      "destination": "experiments/configs/historical/diabetes_wachter_in_range.yaml",
+      "source_sha256": "0cbe8646dd18cd4ddceb52d3264883afdf383531cf7af786fc62899fd6395437",
+      "local_sha256": "0cbe8646dd18cd4ddceb52d3264883afdf383531cf7af786fc62899fd6395437",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/configs/heloc.yaml",
+      "destination": "experiments/configs/historical/heloc.yaml",
+      "source_sha256": "4c7567b528d37ee26964e265d8b4ba18d21a742e5d2c1be4992e2abc60241b3a",
+      "local_sha256": "4c7567b528d37ee26964e265d8b4ba18d21a742e5d2c1be4992e2abc60241b3a",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/configs/heloc_calibrated_in_range.yaml",
+      "destination": "experiments/configs/historical/heloc_calibrated_in_range.yaml",
+      "source_sha256": "3f85f7fb3b8b7b3de4243d96b39d6876eeadac756889f7d32f60449cdded0289",
+      "local_sha256": "3f85f7fb3b8b7b3de4243d96b39d6876eeadac756889f7d32f60449cdded0289",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/configs/heloc_calibrated_stress.yaml",
+      "destination": "experiments/configs/historical/heloc_calibrated_stress.yaml",
+      "source_sha256": "6d6440d5ca5fa94e56314aefda91aab1d9502bde151db41be952aad61f367cd5",
+      "local_sha256": "6d6440d5ca5fa94e56314aefda91aab1d9502bde151db41be952aad61f367cd5",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/configs/heloc_eta_coarse.yaml",
+      "destination": "experiments/configs/historical/heloc_eta_coarse.yaml",
+      "source_sha256": "38d5bb56ad5934db840fc7391ca9b3af9a00975f02d04e9dbf984fdeb2ad3cc5",
+      "local_sha256": "38d5bb56ad5934db840fc7391ca9b3af9a00975f02d04e9dbf984fdeb2ad3cc5",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/configs/heloc_eta_coarse_065.yaml",
+      "destination": "experiments/configs/historical/heloc_eta_coarse_065.yaml",
+      "source_sha256": "c51b08ce4c61870aba02c3e971e0c62d164ed7aa73d8b95cfdcb4a9b4e3e7add",
+      "local_sha256": "c51b08ce4c61870aba02c3e971e0c62d164ed7aa73d8b95cfdcb4a9b4e3e7add",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/configs/heloc_eta_coarse_070.yaml",
+      "destination": "experiments/configs/historical/heloc_eta_coarse_070.yaml",
+      "source_sha256": "d1a35fb03f3fce693c3de7d1f66ea1275db19ff93416b2528bbf734567745708",
+      "local_sha256": "d1a35fb03f3fce693c3de7d1f66ea1275db19ff93416b2528bbf734567745708",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/configs/heloc_eta_coarse_070_biggershift.yaml",
+      "destination": "experiments/configs/historical/heloc_eta_coarse_070_biggershift.yaml",
+      "source_sha256": "86e19937a62542dc5869ad118ab6af336e2edaf7e544ed4698619588688394a9",
+      "local_sha256": "86e19937a62542dc5869ad118ab6af336e2edaf7e544ed4698619588688394a9",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/configs/heloc_eta_coarse_070_bigshift.yaml",
+      "destination": "experiments/configs/historical/heloc_eta_coarse_070_bigshift.yaml",
+      "source_sha256": "75f5cc7215ad79faae2d94d62fc1a0208e66736601b78365a01cfee35617d3b7",
+      "local_sha256": "75f5cc7215ad79faae2d94d62fc1a0208e66736601b78365a01cfee35617d3b7",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/configs/heloc_eta_coarse_070_stress.yaml",
+      "destination": "experiments/configs/historical/heloc_eta_coarse_070_stress.yaml",
+      "source_sha256": "df31786a756cd13ab6304e93bb2816939992e458bf8f991515e80c0d668a80ee",
+      "local_sha256": "df31786a756cd13ab6304e93bb2816939992e458bf8f991515e80c0d668a80ee",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/configs/heloc_eta_fine.yaml",
+      "destination": "experiments/configs/historical/heloc_eta_fine.yaml",
+      "source_sha256": "72bf34431b9f92c518a5e96938c01c0d44fa3e364c4791627309d05715f193e2",
+      "local_sha256": "72bf34431b9f92c518a5e96938c01c0d44fa3e364c4791627309d05715f193e2",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/configs/heloc_realistic_base_in_range.yaml",
+      "destination": "experiments/configs/historical/heloc_realistic_base_in_range.yaml",
+      "source_sha256": "5cd95531c3036312df98dd68916b0c0bfe0f4520323bf34070d81739bff9d16e",
+      "local_sha256": "5cd95531c3036312df98dd68916b0c0bfe0f4520323bf34070d81739bff9d16e",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/configs/heloc_realistic_base_stress.yaml",
+      "destination": "experiments/configs/historical/heloc_realistic_base_stress.yaml",
+      "source_sha256": "752bd060171301643590210406c709c5e3efa0b7856aea8a1a17448f45ea862d",
+      "local_sha256": "752bd060171301643590210406c709c5e3efa0b7856aea8a1a17448f45ea862d",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/configs/heloc_wachter_in_range.yaml",
+      "destination": "experiments/configs/historical/heloc_wachter_in_range.yaml",
+      "source_sha256": "ca97705af7d7d66f30debc4c9d3e0bcd6e000b08c7970beb14cd323150a1b202",
+      "local_sha256": "ca97705af7d7d66f30debc4c9d3e0bcd6e000b08c7970beb14cd323150a1b202",
+      "modification": null
+    },
+    {
+      "source": "/home/xu.zhao/robust_ce/configs/heloc_wachter_stress.yaml",
+      "destination": "experiments/configs/historical/heloc_wachter_stress.yaml",
+      "source_sha256": "81664e499045b225d491832083e4fcc6f5c31ecb9e95fbeadc5c72cd3435e774",
+      "local_sha256": "81664e499045b225d491832083e4fcc6f5c31ecb9e95fbeadc5c72cd3435e774",
+      "modification": null
+    }
+  ],
+  "large_artifacts_copied": false
+}

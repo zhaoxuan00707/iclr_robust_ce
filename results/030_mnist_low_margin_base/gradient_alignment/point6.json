@@ -1,0 +1,19 @@
+{
+  "condition": "p052",
+  "split": "test",
+  "point": "r0",
+  "GPU": 6,
+  "nominal": 0.00012242671800777316,
+  "sensitivity": 0.010379576124250889,
+  "nominal_gradient_norm": 7.763402996059445e-05,
+  "sensitivity_gradient_norm": 0.007836644114901594,
+  "gradient_dot_product": 6.012007573790633e-07,
+  "cosine": 0.9881827388551979,
+  "weighted_gradient_ratio_r025": 25.235853783705817,
+  "full_gradient_decomposition_max_error": 4.3655745685100555e-11,
+  "Q_source": "/home/xu.zhao/robust_ce_results/iclr_runs/mnist_low_margin_base/20260924_v1/p052/test/r0_beta1.02/output.pt",
+  "Q_source_sha256": "6ace0d11189708883d0885dead8b9e20a3ecae0617f852a9ae114ca8f191a969",
+  "config_sha256": "999885ee0d8dab4afb3c6537f45ed0ec5c315f42523ccc48dc78694a0f77b6fb",
+  "checkpoint_sha256": "47a99579999b4ff4ebcd08f858886de45536797839f69615daa168e3986a2636",
+  "population_gradient": "flatten all64x64 latent support coordinates; unweighted sensitivity gradient; no geometry terms"
+}

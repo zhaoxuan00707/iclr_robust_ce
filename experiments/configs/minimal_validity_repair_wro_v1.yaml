@@ -1,0 +1,39 @@
+version: minimal_validity_repair_wro_v1
+task: tasks/004_baseline.md
+instance: /home/xu.zhao/robust_ce_results/single_budget_geodesic_wro_v1/20260915_single_budget_v1/heloc
+construction_bank: /home/xu.zhao/robust_ce_results/iclr_runs/favorable_region_geodesic_wro_v1/20260916_intrinsic_v1/heloc/evaluation_bank.json
+construction_bank_size: 5927
+radius_over_b_ref: 3
+beta_geo: [1.0, 1.05, 1.10, 1.20]
+metric: exact_unregularized_Euclidean_W2
+objective: max_model_population_mean_hinge_at_Q
+raw_constraints: geometry_augmented_Lagrangian_and_observed_feature_box_only
+optimizer:
+  steps: 120
+  learning_rate: 0.03
+  smooth_hinge_beta: 50
+  smooth_max_beta: 100
+  rho_initial: 1
+  dual_interval: 5
+  stall_interval: 20
+  feasibility_relative_tolerance: 0.000001
+initializations: [target, old_waypoint, random]
+historical_feasible_incumbents: preserved_and_rescored
+repair: first_valid_target_segment_crossing_ReLU_affine_pieces_then_bisection
+repair_alpha_tolerance: 0.0000001
+valid_supports: unchanged
+post_repair_geometry: exact_OT_required
+selection: expanded_training_bank_argmin_over_wholly_current_valid_repaired_outputs
+lambda_grid: 0_to_1_step_0.05
+fresh_discovery:
+  labels: [raw, repaired]
+  source_lambdas: [0.25, 0.50, 0.75]
+  replications: 3
+  truncated_steps: 60
+  unroll_K: 5
+  full_refinement_steps: 10
+  radial_fractions: [0.25, 0.5, 0.75, 1.0]
+  full_update_seed: 700001
+secondary_diagnostic: minimal_final_output_repair_of_frozen_historical_continuous_paths
+secondary_limit: no_targeted_fresh_discovery_on_secondary_outputs
+confirmation: retrospective_only

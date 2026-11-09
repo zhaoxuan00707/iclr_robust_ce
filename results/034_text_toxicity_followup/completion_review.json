@@ -1,0 +1,28 @@
+{
+  "independent_outputs": 32,
+  "future_models": 48,
+  "raw_artifact_hashes": 247,
+  "unit_tests": 5,
+  "pdf_pages": 8,
+  "figures_visually_checked": true,
+  "raw_outputs_unchanged": true,
+  "headline": {
+    "selected_r": 0.0,
+    "selected_beta": 1.5,
+    "base_test_FV": 0.8541666666666666,
+    "selected_test_FV": 0.9947916666666666,
+    "selected_vs_base_changed_sentences": 7,
+    "r025_vs_r0_changed_sentences": 0,
+    "base_cost": 0.3916467268242055,
+    "selected_cost": 0.6307174787646623,
+    "base_sensitivity": 1.0814324639864772,
+    "selected_sensitivity": 0.023938177082524,
+    "selected_vs_base_lexical_changes": 7,
+    "r025_vs_r0_lexical_changes": 0
+  },
+  "status": "complete",
+  "search_bottleneck_reduced": true,
+  "meaning_preserving_detoxification_established": false,
+  "selected_unique_outputs": 7,
+  "positive_radius_FV_gain_established": false
+}

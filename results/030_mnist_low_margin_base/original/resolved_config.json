@@ -1,0 +1,91 @@
+{
+  "task": "tasks/016_mnist_low_margin_base.md",
+  "authority": "paper/iclr_robust_ce-62.pdf Section 3",
+  "checkpoint": "/mnt/big_disk/xu.zhao/robust_ce_results/mnist_roar_latent_calibrated/payload.pt",
+  "old_run": "/home/xu.zhao/robust_ce_results/stylemnist_grace_v1/20260916_full_v1",
+  "data_dir": "/mnt/big_disk/xu.zhao/robust_ce_data",
+  "seed": 0,
+  "train_size": 256,
+  "factual_count": 64,
+  "target_count": 64,
+  "r_grid": [
+    0,
+    0.05,
+    0.1,
+    0.25
+  ],
+  "beta_grid": [
+    1.02
+  ],
+  "update": {
+    "steps": 3,
+    "lr": 0.01,
+    "batch_norm": "frozen",
+    "dropout": "disabled",
+    "optimizer": "full-batch gradient descent"
+  },
+  "solver": {
+    "steps": 800,
+    "primal_lr": 20,
+    "rho": 1,
+    "feas_relative": 1e-05,
+    "obj_relative": 1e-06
+  },
+  "future": {
+    "families": [
+      "rotation",
+      "translation",
+      "noise"
+    ],
+    "strengths": [
+      15,
+      2,
+      0.08
+    ],
+    "severities": [
+      0.5,
+      1,
+      1.5,
+      2
+    ],
+    "realizations": 3,
+    "cal_seed": 71000,
+    "test_seed": 81000
+  },
+  "geometry": "64-dimensional encoder latent Euclidean W2; M=n; uniform masses; per-split D",
+  "projection": "identity on latent R^64; frozen decoder maps to pixels; no validity repair",
+  "selection": "mean calibration FV across severity .5,1,1.5,2; ties pixel cost, r, beta",
+  "pilot_limitations": "single checkpoint; 256-example update distribution; T=3 is complete prescribed update, not full-epoch retraining; nonsmooth CNN; historical asset reuse",
+  "gpu_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "parent_run": "/home/xu.zhao/robust_ce_results/iclr_runs/mnist_weaker_classifier/20260924_v1/strong",
+  "base_latent": "retain generator code, never Enc(Base)",
+  "smooth_hinge": {
+    "kind": "softplus",
+    "temperature": 0.05,
+    "argument": "0.5 - predicted probability",
+    "authority": "User clarification 2026-09-24; overrides hard hinge in PDF numerical implementation"
+  },
+  "conditions": {
+    "original": null,
+    "p052": 0.52,
+    "p0505": 0.505,
+    "p05001": 0.5001
+  },
+  "boundary": {
+    "intervals": 4096,
+    "bisections": 24,
+    "tolerance": 0.0001
+  },
+  "stopping": "fixed800_updates",
+  "condition": "original",
+  "target_probability": null
+}

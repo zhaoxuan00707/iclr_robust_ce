@@ -1,0 +1,249 @@
+{
+  "xl/worksheets/sheet2.xml": [
+    [
+      "MaxDelq2PublicRecLast12M"
+    ],
+    [
+      "value\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0meaning\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0"
+    ],
+    [
+      "0",
+      "derogatory comment"
+    ],
+    [
+      "1",
+      "120+ days delinquent"
+    ],
+    [
+      "2",
+      "90 days delinquent"
+    ],
+    [
+      "3",
+      "60 days delinquent"
+    ],
+    [
+      "4",
+      "30 days delinquent"
+    ],
+    [
+      "5, 6",
+      "unknown delinquency"
+    ],
+    [
+      "7",
+      "current and never delinquent"
+    ],
+    [
+      "8, 9",
+      "all other"
+    ],
+    [
+      "MaxDelqEver"
+    ],
+    [
+      "value\u00a0\u00a0\u00a0\u00a0\u00a0meaning"
+    ],
+    [
+      "1",
+      "No such value"
+    ],
+    [
+      "2",
+      "derogatory comment"
+    ],
+    [
+      "3",
+      "120+ days delinquent"
+    ],
+    [
+      "4",
+      "90 days delinquent"
+    ],
+    [
+      "5",
+      "60 days delinquent"
+    ],
+    [
+      "6",
+      "30 days delinquent"
+    ],
+    [
+      "7",
+      "unknown delinquency"
+    ],
+    [
+      "8",
+      "current and never delinquent"
+    ],
+    [
+      "9",
+      "all other"
+    ]
+  ],
+  "xl/worksheets/sheet3.xml": [
+    [
+      "-9 No Bureau Record or No Investigation"
+    ],
+    [
+      "-8 No Usable/Valid Trades or Inquiries"
+    ],
+    [
+      "-7 Condition not Met (e.g. No Inquiries, No Delinquencies) "
+    ]
+  ],
+  "xl/worksheets/sheet1.xml": [
+    [
+      "Variable Names",
+      "Description",
+      "Monotonicity Constraint (with respect to probability of bad = 1)",
+      "Role"
+    ],
+    [
+      "RiskPerformance",
+      "Paid as negotiated flag (12-36 Months). String of Good and Bad",
+      "target"
+    ],
+    [
+      "ExternalRiskEstimate",
+      "Consolidated version of risk markers",
+      "Monotonically Decreasing",
+      "predictor"
+    ],
+    [
+      "MSinceOldestTradeOpen",
+      "Months Since Oldest Trade Open",
+      "Monotonically Decreasing",
+      "predictor"
+    ],
+    [
+      "MSinceMostRecentTradeOpen",
+      "Months Since Most Recent Trade Open",
+      "Monotonically Decreasing",
+      "predictor"
+    ],
+    [
+      "AverageMInFile",
+      "Average Months in File",
+      "Monotonically Decreasing",
+      "predictor"
+    ],
+    [
+      "NumSatisfactoryTrades",
+      "Number Satisfactory Trades",
+      "Monotonically Decreasing",
+      "predictor"
+    ],
+    [
+      "NumTrades60Ever2DerogPubRec",
+      "Number Trades 60+ Ever",
+      "Monotonically Increasing",
+      "predictor"
+    ],
+    [
+      "NumTrades90Ever2DerogPubRec",
+      "Number Trades 90+ Ever",
+      "Monotonically Increasing",
+      "predictor"
+    ],
+    [
+      "PercentTradesNeverDelq",
+      "Percent Trades Never Delinquent",
+      "Monotonically Decreasing",
+      "predictor"
+    ],
+    [
+      "MSinceMostRecentDelq",
+      "Months Since Most Recent Delinquency",
+      "Monotonically Decreasing",
+      "predictor"
+    ],
+    [
+      "MaxDelq2PublicRecLast12M",
+      "Max Delq/Public Records Last 12 Months. See tab \"MaxDelq\" for each category",
+      "Values 0-7 are monotonically decreasing",
+      "predictor"
+    ],
+    [
+      "MaxDelqEver",
+      "Max Delinquency Ever. See tab \"MaxDelq\" for each category",
+      "Values 2-8 are monotonically decreasing",
+      "predictor"
+    ],
+    [
+      "NumTotalTrades",
+      "Number of Total Trades (total number of credit accounts)",
+      "No constraint",
+      "predictor"
+    ],
+    [
+      "NumTradesOpeninLast12M",
+      "Number of Trades Open in Last 12 Months",
+      "Monotonically Increasing",
+      "predictor"
+    ],
+    [
+      "PercentInstallTrades",
+      "Percent Installment Trades",
+      "No constraint",
+      "predictor"
+    ],
+    [
+      "MSinceMostRecentInqexcl7days",
+      "Months Since Most Recent Inq excl 7days",
+      "Monotonically Decreasing",
+      "predictor"
+    ],
+    [
+      "NumInqLast6M",
+      "Number of Inq Last 6 Months",
+      "Monotonically Increasing",
+      "predictor"
+    ],
+    [
+      "NumInqLast6Mexcl7days",
+      "Number of Inq Last 6 Months excl 7days. Excluding the last 7 days removes inquiries that are likely due to price comparision shopping.",
+      "Monotonically Increasing",
+      "predictor"
+    ],
+    [
+      "NetFractionRevolvingBurden",
+      "Net Fraction Revolving Burden. This is revolving balance divided by credit limit",
+      "Monotonically Increasing",
+      "predictor"
+    ],
+    [
+      "NetFractionInstallBurden",
+      "Net Fraction Installment Burden. This is installment balance divided by original loan amount",
+      "Monotonically Increasing",
+      "predictor"
+    ],
+    [
+      "NumRevolvingTradesWBalance",
+      "Number Revolving Trades with Balance",
+      "No constraint",
+      "predictor"
+    ],
+    [
+      "NumInstallTradesWBalance",
+      "Number Installment Trades with Balance",
+      "No constraint",
+      "predictor"
+    ],
+    [
+      "NumBank2NatlTradesWHighUtilization",
+      "Number Bank/Natl Trades w high utilization ratio",
+      "Monotonically Increasing",
+      "predictor"
+    ],
+    [
+      "PercentTradesWBalance",
+      "Percent Trades with Balance",
+      "No constraint",
+      "predictor"
+    ],
+    [
+      "*For a more detailed example of the monotonicity contraint, please see the \"challenge rules\" page"
+    ]
+  ]
+}

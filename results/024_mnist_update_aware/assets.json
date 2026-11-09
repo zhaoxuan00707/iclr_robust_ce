@@ -1,0 +1,19 @@
+{
+  "train_n": 256,
+  "cal_n": 64,
+  "test_n": 64,
+  "target_n": 64,
+  "pixel_space": false,
+  "latent_dim": 64,
+  "target_current_validity": 1.0,
+  "cal_base_seconds": 0.5954429134726524,
+  "disjoint_cal_train_ids": true,
+  "cal_test_disjoint_by_official_MNIST_split": true,
+  "checkpoint_training_split_provenance": "historical source defaults, exact original invocation unknown",
+  "cal_original_base_validity": 1.0,
+  "cal_decoded_base_validity": 0.0625,
+  "cal_decode_pixel_gap": 1.8545259237289429,
+  "test_original_base_validity": 1.0,
+  "test_decoded_base_validity": 0.125,
+  "test_decode_pixel_gap": 1.7127666473388672
+}

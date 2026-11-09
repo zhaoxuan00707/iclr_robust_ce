@@ -1,0 +1,4 @@
+split,factuals,base_count,Q_count
+train,128,128,3336
+cal,128,128,3336
+test,128,128,3336

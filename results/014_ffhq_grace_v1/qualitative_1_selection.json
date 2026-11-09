@@ -1,0 +1,20 @@
+{
+  "source_run": "/home/xu.zhao/robust_ce_results/ffhq_grace_v1/20260916_full_v1",
+  "selection": "Three lowest native-1024 factual-to-GRACE SqueezeNet LPIPS; ties by test index",
+  "post_hoc": true,
+  "candidate_count": 8,
+  "selected_test_indices_in_row_order": [
+    1,
+    3,
+    7
+  ],
+  "future_validity_used_for_selection": false,
+  "all_beta_outputs_identical": true,
+  "rendering": "Original frozen StyleGAN3, constant noise, saved W codes; no optimization rerun",
+  "source_sha256": {
+    "test_factuals.pt": "5ddc6cd9d12e9841f3aacaa47cea6be777f28771250aa921860dfc7f1d3e762c",
+    "frozen.pt": "d8dc6bc32a24db7b62f335cf2a2549e765b60020548f1de02a319f8c4c91fde2",
+    "test_factual_ids.npy": "b8e0a626b8ad2c7cfd585859b7cf725ec3ccecfa6f7ba948ee5b2d12fa330ba8"
+  },
+  "command": "PYTHONPATH=/tmp/ffhq_grace_deps:/tmp/galaxy_grace_deps CUDA_VISIBLE_DEVICES=2 /home/xu.zhao/miniforge3/envs/wm_gpu/bin/python experiments/027_ffhq_qualitative_subset.py"
+}

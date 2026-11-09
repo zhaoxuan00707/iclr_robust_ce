@@ -1,0 +1,11 @@
+{
+  "dataset": "german",
+  "classifier": "logistic",
+  "epsilon": 0.01,
+  "n": 43,
+  "native_robust_success": 43,
+  "FV": 1.0,
+  "cost": 10.739941596984863,
+  "raw": "/home/xu.zhao/robust_ce_results/iclr_runs/ellice_convergence/20260925_feasible_native_v1",
+  "protocol": "Separate calibration-feasibility-gated follow-up; original Table100 selection unchanged"
+}

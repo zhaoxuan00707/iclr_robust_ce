@@ -1,0 +1,82 @@
+{
+  "raw_run": "/home/xu.zhao/robust_ce_results/iclr_runs/ffhq_update_aware/20260924_v1",
+  "source_sha256": {
+    "/home/xu.zhao/robust_ce_results/iclr_runs/ffhq_update_aware/20260924_v1/population.pt": "70da7bbabe1932383d83ba35324c483695299e673e2a645415b6069156284274",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/ffhq_update_aware/20260924_v1/smile/selection.json": "1bc763755f9af534852c20eb22355ecafc42fe6229212bce66f5c88f922c9223",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/ffhq_update_aware/20260924_v1/smile/test/r0_beta1.02/output.pt": "c8aacc84edf6b5337e03556a0d84b5ec6a15e76b0c7fac27f155fa83af6be2f4"
+  },
+  "selected_method": "r0_beta1.02",
+  "selected_r": 0.0,
+  "beta": 1.02,
+  "indices": [
+    7,
+    5,
+    1,
+    4
+  ],
+  "factual_ids": [
+    "test:seed20280938",
+    "test:seed20280934",
+    "test:seed20280921",
+    "test:seed20280930"
+  ],
+  "selection": "Post-hoc illustrative selection: user-requested ID7 plus IDs5,1,4 showing comparatively strong lower-face changes; not representative or used to choose hyperparameters",
+  "approximate_lower_face_ROI_xyxy": [
+    65,
+    130,
+    165,
+    195
+  ],
+  "ROI_caveat": "Exploratory rectangle, not anatomical segmentation; it includes surrounding skin. Used only for example selection, never to mask or alter images/heatmaps.",
+  "candidate_scores": [
+    {
+      "index": 0,
+      "lower_face_mean_absolute_difference": 0.018561968579888344,
+      "lower_face_fraction_of_total_difference": 0.05192800983786583
+    },
+    {
+      "index": 1,
+      "lower_face_mean_absolute_difference": 0.028976459056138992,
+      "lower_face_fraction_of_total_difference": 0.15396365523338318
+    },
+    {
+      "index": 2,
+      "lower_face_mean_absolute_difference": 0.01765167899429798,
+      "lower_face_fraction_of_total_difference": 0.08824273943901062
+    },
+    {
+      "index": 3,
+      "lower_face_mean_absolute_difference": 0.022994454950094223,
+      "lower_face_fraction_of_total_difference": 0.08388307690620422
+    },
+    {
+      "index": 4,
+      "lower_face_mean_absolute_difference": 0.030002711340785027,
+      "lower_face_fraction_of_total_difference": 0.1399451643228531
+    },
+    {
+      "index": 5,
+      "lower_face_mean_absolute_difference": 0.03920769691467285,
+      "lower_face_fraction_of_total_difference": 0.1038326546549797
+    },
+    {
+      "index": 6,
+      "lower_face_mean_absolute_difference": 0.018282780423760414,
+      "lower_face_fraction_of_total_difference": 0.032837990671396255
+    },
+    {
+      "index": 7,
+      "lower_face_mean_absolute_difference": 0.03829990699887276,
+      "lower_face_fraction_of_total_difference": 0.07659336924552917
+    }
+  ],
+  "heatmap": "mean RGB absolute value of selected minus Base",
+  "scale_scope": "linear shared scale, zero to maximum over all eight test differences",
+  "limits": [
+    0,
+    0.9369745850563049
+  ],
+  "overall_title": false,
+  "figure": "/home/xu.zhao/iclr_robust_ce/figures/ffhq_update_aware/four_mouth_examples_no_title.pdf",
+  "inputs_unchanged": true
+}

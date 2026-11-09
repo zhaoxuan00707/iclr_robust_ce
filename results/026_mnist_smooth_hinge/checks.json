@@ -1,0 +1,280 @@
+{
+  "output_checks": [
+    {
+      "split": "cal",
+      "method": "r0.25_beta1",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 4.231542221210225,
+      "feasible": false,
+      "converged": false,
+      "stop_reason": "iteration_limit"
+    },
+    {
+      "split": "cal",
+      "method": "r0.25_beta1.05",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 1.386388782096523,
+      "feasible": true,
+      "converged": true,
+      "stop_reason": "feasible_objective_tolerance"
+    },
+    {
+      "split": "cal",
+      "method": "r0.25_beta1.1",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 1.386388782096523,
+      "feasible": true,
+      "converged": true,
+      "stop_reason": "feasible_objective_tolerance"
+    },
+    {
+      "split": "cal",
+      "method": "r0.25_beta1.2",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 1.386388782096523,
+      "feasible": true,
+      "converged": true,
+      "stop_reason": "feasible_objective_tolerance"
+    },
+    {
+      "split": "cal",
+      "method": "r0.5_beta1",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 5.163014476973855,
+      "feasible": false,
+      "converged": false,
+      "stop_reason": "iteration_limit"
+    },
+    {
+      "split": "cal",
+      "method": "r0.5_beta1.05",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 1.7653446708422407,
+      "feasible": true,
+      "converged": true,
+      "stop_reason": "feasible_objective_tolerance"
+    },
+    {
+      "split": "cal",
+      "method": "r0.5_beta1.1",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 1.7653446708422407,
+      "feasible": true,
+      "converged": true,
+      "stop_reason": "feasible_objective_tolerance"
+    },
+    {
+      "split": "cal",
+      "method": "r0.5_beta1.2",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 1.7653446708422407,
+      "feasible": true,
+      "converged": true,
+      "stop_reason": "feasible_objective_tolerance"
+    },
+    {
+      "split": "cal",
+      "method": "r0_beta1",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 1.4577494763506023,
+      "feasible": true,
+      "converged": false,
+      "stop_reason": "iteration_limit"
+    },
+    {
+      "split": "cal",
+      "method": "r0_beta1.05",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 0.7017543853463626,
+      "feasible": true,
+      "converged": true,
+      "stop_reason": "feasible_objective_tolerance"
+    },
+    {
+      "split": "cal",
+      "method": "r0_beta1.1",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 0.7017543853463626,
+      "feasible": true,
+      "converged": true,
+      "stop_reason": "feasible_objective_tolerance"
+    },
+    {
+      "split": "cal",
+      "method": "r0_beta1.2",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 0.7017543853463626,
+      "feasible": true,
+      "converged": true,
+      "stop_reason": "feasible_objective_tolerance"
+    },
+    {
+      "split": "test",
+      "method": "r0.25_beta1",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 3.9031589333350345,
+      "feasible": false,
+      "converged": false,
+      "stop_reason": "iteration_limit"
+    },
+    {
+      "split": "test",
+      "method": "r0.25_beta1.05",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 1.1746275369347763,
+      "feasible": true,
+      "converged": true,
+      "stop_reason": "feasible_objective_tolerance"
+    },
+    {
+      "split": "test",
+      "method": "r0.25_beta1.1",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 1.1750564673026342,
+      "feasible": true,
+      "converged": true,
+      "stop_reason": "feasible_objective_tolerance"
+    },
+    {
+      "split": "test",
+      "method": "r0.25_beta1.2",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 1.1746275369347763,
+      "feasible": true,
+      "converged": true,
+      "stop_reason": "feasible_objective_tolerance"
+    },
+    {
+      "split": "test",
+      "method": "r0.5_beta1",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 5.038264033217027,
+      "feasible": false,
+      "converged": false,
+      "stop_reason": "iteration_limit"
+    },
+    {
+      "split": "test",
+      "method": "r0.5_beta1.05",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 1.536438083987323,
+      "feasible": true,
+      "converged": true,
+      "stop_reason": "feasible_objective_tolerance"
+    },
+    {
+      "split": "test",
+      "method": "r0.5_beta1.1",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 1.536438083987323,
+      "feasible": true,
+      "converged": true,
+      "stop_reason": "feasible_objective_tolerance"
+    },
+    {
+      "split": "test",
+      "method": "r0.5_beta1.2",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 1.536438083987323,
+      "feasible": true,
+      "converged": true,
+      "stop_reason": "feasible_objective_tolerance"
+    },
+    {
+      "split": "test",
+      "method": "r0_beta1",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 1.2678178772561024,
+      "feasible": false,
+      "converged": false,
+      "stop_reason": "iteration_limit"
+    },
+    {
+      "split": "test",
+      "method": "r0_beta1.05",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 0.5896052883295458,
+      "feasible": true,
+      "converged": true,
+      "stop_reason": "feasible_objective_tolerance"
+    },
+    {
+      "split": "test",
+      "method": "r0_beta1.1",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 0.5896052883295458,
+      "feasible": true,
+      "converged": true,
+      "stop_reason": "feasible_objective_tolerance"
+    },
+    {
+      "split": "test",
+      "method": "r0_beta1.2",
+      "permutation": true,
+      "Q_preserved": true,
+      "exact_geometry_verified": true,
+      "base_to_Q_W2": 0.5896052883295458,
+      "feasible": true,
+      "converged": true,
+      "stop_reason": "feasible_objective_tolerance"
+    }
+  ],
+  "GPU_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "all_input_hashes_preserved": true,
+  "tests_passed": 14
+}

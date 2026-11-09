@@ -1,0 +1,10 @@
+{
+  "numerical_gate_passed": false,
+  "selected_editor": null,
+  "required_passing_factuals": 6,
+  "qualitative_review_required": true,
+  "final_test_accessed": false,
+  "future_models_accessed": false,
+  "GRACE_started": false,
+  "thresholds_relaxed": false
+}

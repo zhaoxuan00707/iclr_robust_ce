@@ -1,0 +1,38 @@
+{
+  "figure": "/home/xu.zhao/iclr_robust_ce/face visualization.pdf",
+  "raw_run": "/home/xu.zhao/robust_ce_results/iclr_runs/ffhq_update_aware/20260924_v1",
+  "source_sha256": {
+    "/home/xu.zhao/robust_ce_results/iclr_runs/ffhq_update_aware/20260924_v1/population.pt": "70da7bbabe1932383d83ba35324c483695299e673e2a645415b6069156284274",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/ffhq_update_aware/20260924_v1/smile/test/r0_beta1.02/output.pt": "c8aacc84edf6b5337e03556a0d84b5ec6a15e76b0c7fac27f155fa83af6be2f4",
+    "/home/xu.zhao/robust_ce_results/iclr_runs/ffhq_update_aware/20260924_v1/smile/test/r0.25_beta1.02/output.pt": "4d73e03170256878af0d385169dbbc4c716fe886b8a0ea818870cd4e0af4bddc"
+  },
+  "indices": [
+    7,
+    5,
+    1,
+    4
+  ],
+  "columns": [
+    "Factual",
+    "Base",
+    "Nominal",
+    "GRACE",
+    "Delta2"
+  ],
+  "nominal_r": 0,
+  "grace_r": 0.25,
+  "beta": 1.02,
+  "calibration_selected_r": 0,
+  "note": "GRACE column displays the positive-radius comparison r=.25, not the calibration-selected r=0.",
+  "Delta2": "mean RGB absolute difference between r=.25 and r=0",
+  "limits": [
+    0,
+    1.0
+  ],
+  "scale_scope": "user-prescribed fixed scale",
+  "overall_title": false,
+  "colorbar_label": null,
+  "font_size_pt": 22.371428571428574,
+  "font_size_to_tile_width": 0.14285714285714285,
+  "inputs_unchanged": true
+}

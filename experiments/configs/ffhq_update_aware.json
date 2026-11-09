@@ -1,0 +1,55 @@
+{
+  "task": "tasks/018_ffhq_update_aware.md",
+  "parent": "/home/xu.zhao/robust_ce_results/ffhq_grace_v1/20260916_full_v1",
+  "seed": 1801,
+  "train_per_class": 16,
+  "r_grid": [
+    0,
+    0.25,
+    1,
+    4
+  ],
+  "beta_grid": [
+    1.02,
+    1.1
+  ],
+  "update": {
+    "steps": 3,
+    "lr": 0.0001,
+    "parameters": "original CLIP visual projection768x512",
+    "loss": "cross entropy"
+  },
+  "temperature": 0.05,
+  "microbatch": 2,
+  "solver": {
+    "steps": 160,
+    "primal_lr": 5,
+    "rho": 1,
+    "gradient_clip": 0.2,
+    "feas_relative": 1e-05
+  },
+  "future": {
+    "severities": [
+      0.5,
+      1,
+      1.5,
+      2
+    ],
+    "realizations": 2,
+    "cal_seed": 191000,
+    "test_seed": 201000
+  },
+  "gpu_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "targets": {
+    "smile": 0
+  }
+}

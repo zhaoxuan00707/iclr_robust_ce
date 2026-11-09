@@ -1,0 +1,8 @@
+method,Future_Validity,Argmax_Validity,Cost,Phi_hat_r,Construction_Seconds,Seconds_per_test_CF,Runtime_Convention
+Base,0.5078125,0.5703125,13.53320598602295,0.32645055279135704,129.73300476372242,4.054156398866326,sum generator GPU seconds for both splits
+GRACE_beta1.00,0.6484375,0.6796875,19.403358459472656,0.09195367805659765,2184.2389578819275,68.25746743381023,shared complete pipeline wall seconds; do not sum rows
+GRACE_beta1.05,0.75,0.75,15.862740516662598,0.0,2184.2389578819275,68.25746743381023,shared complete pipeline wall seconds; do not sum rows
+GRACE_beta1.10,0.75,0.75,15.862740516662598,0.0,2184.2389578819275,68.25746743381023,shared complete pipeline wall seconds; do not sum rows
+GRACE_beta1.20,0.75,0.75,15.862740516662598,0.0,2184.2389578819275,68.25746743381023,shared complete pipeline wall seconds; do not sum rows
+GRACE_selected,0.7421875,0.7421875,17.08691692352295,0.0036721052601933,2184.2389578819275,68.25746743381023,shared complete pipeline wall seconds; do not sum rows
+LeapFactual,0.6875,0.6875,18.824387550354004,0.12647122703492636,156.98060904443264,4.90564403263852,sum generator GPU seconds for both splits

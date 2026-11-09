@@ -1,0 +1,33 @@
+{
+  "source": "iclr_robust_ce-88.pdf",
+  "source_sha256": "79adb595997466ad64ac8b7c94dc1442a7b0277ec7d3c9a273644a87b2dc8abf",
+  "renderer": "Poppler pdftoppm; scale-to 5000 pixels; PNG; no content modification",
+  "figures": [
+    {
+      "file": "grace_two_anchor_geometry.png",
+      "paper_figure": 2,
+      "pdf_page": 4,
+      "crop_pixels": [
+        2300,
+        2485,
+        900,
+        550
+      ],
+      "sha256": "862cf1de0c3d1210ca801b303ccf79fa6181ab35e3ad38c5298d13565f53b6d0",
+      "bytes": 77848
+    },
+    {
+      "file": "shared_model_shift.png",
+      "paper_figure": 1,
+      "pdf_page": 1,
+      "crop_pixels": [
+        2060,
+        2750,
+        1130,
+        580
+      ],
+      "sha256": "e14f8009f4896c2d077a5ff62ba95e68d92008d5b916370830ef92424a3176f4",
+      "bytes": 91928
+    }
+  ]
+}
