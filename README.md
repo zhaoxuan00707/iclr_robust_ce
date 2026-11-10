@@ -135,7 +135,6 @@ experiments/src/lift_ce/        Authoritative research implementation
 experiments/configs/           Experiment configurations
 experiments/tests/             Numerical and integration checks
 experiments/vendor/            Third-party baseline sources and licenses
-results/                       Lightweight metrics, audits, and provenance
 figures/                       Experiment plots and qualitative results
 ```
 
