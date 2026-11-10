@@ -1,3 +1,0 @@
-job,source_hashes,base_subset,assignment,metrics,per_future,geometry_recomputed,geometry_feasible
-diabetes_seed3_n10_r3_population,True,True,True,True,True,True,True
-diabetes_seed3_n10_r3_individual,True,True,True,True,True,True,True

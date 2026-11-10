@@ -1,9 +1,0 @@
-{
-  "r_star": 1.0,
-  "r_index": 0,
-  "beta_geo_star": 1.0,
-  "selected_utc": "2026-09-16T21:40:48.398002+00:00",
-  "future_outcomes_used": false,
-  "rule": "minimum maximum calibration-model mean hinge rounded to1e-6; ties lower pixel224L2, r, beta",
-  "calibration_sha256": "bd38b5d85e2167193d5d00a4d5ecbd30076cdc7009c1bad900b3fd751a9a2f91"
-}

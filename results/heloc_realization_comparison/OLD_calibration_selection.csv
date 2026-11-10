@@ -1,5 +1,0 @@
-beta_geo,method,r_over_b_ref,lambda,bank_hinge,exact_ties,tie_rule
-1.0,OLD-native-replayed,3,0.65,0.47956231012672407,[0.65],smallest lambda among exact numerical minima
-1.05,OLD-native-replayed,3,0.65,0.40717079968982306,[0.65],smallest lambda among exact numerical minima
-1.1,OLD-native-replayed,3,0.65,0.3686416145297978,[0.65],smallest lambda among exact numerical minima
-1.2,OLD-native-replayed,3,0.6,0.3138978158037806,[0.6],smallest lambda among exact numerical minima

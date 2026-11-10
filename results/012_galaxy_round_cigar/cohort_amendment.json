@@ -1,8 +1,0 @@
-{
-  "reason": "Cigar class has zero original training-complement calibration images",
-  "policy": "For Cigar source only, first16 seeded test samples reserved for calibration; next16 for final testing; no overlap, no outcome selection. Original f0 used old test folder for validation, as already disclosed.",
-  "source_code": "/home/xu.zhao/iclr_robust_ce/experiments/023_prepare_cigar_calibration.py",
-  "source_sha256": "466f8e641ce34a2cac565d827880b6e0c553922ce7b2a53c63014459affa5a54",
-  "utc": "2026-09-16T19:59:57.852123+00:00",
-  "original_test_cigar_count": 33
-}

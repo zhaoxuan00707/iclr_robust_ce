@@ -1,3 +1,0 @@
-pair,split,n,decode_max_error,decode_pixel_L2,factual_replay_max_error,current_validity,historical_current_validity,factual_target_validity,pixel_cost
-smile,cal,8,0.005853533744812012,0.05912057310342789,0.006004452705383301,1.0,1.0,0.0,48.54542922973633
-smile,test,8,0.00506940484046936,0.04637758061289787,0.003482729196548462,0.875,0.875,0.0,38.74411392211914

@@ -1,8 +1,0 @@
-{
-  "construction_wall_seconds": 2184.2389578819275,
-  "construction_wall_seconds_per_test_cf": 68.25746743381023,
-  "construction_GPU_hours": 1.667844516105122,
-  "future_GPU_hours": 0.05283463769488864,
-  "all_worker_GPU_hours": 1.7223665057288275,
-  "runtime_scope": "full grid and configured-task pipeline including compatible baseline; shared costs counted once; pretrained training and final future evaluation excluded from construction"
-}

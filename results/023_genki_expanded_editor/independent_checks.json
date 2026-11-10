@@ -1,5 +1,0 @@
-{
-  "all_six_exact_geometry_checks_passed": true,
-  "all_six_coordinate_bounds_and_inactive_dimensions_verified": true,
-  "all_48_ArcFace_and_FaceNet_embedding_dot_products_verified": true
-}

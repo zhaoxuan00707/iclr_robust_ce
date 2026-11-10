@@ -1,1 +1,0 @@
-The fixed first-factual grid was inspected after completion. Larger-beta columns look very similar; the returned images change elongation and neighboring light structures. Small decoded thumbnails alone do not establish astrophysical morphology validity. No examples or settings were selected using this review.

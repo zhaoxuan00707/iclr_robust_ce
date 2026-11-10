@@ -1,8 +1,0 @@
-{
-  "wall_seconds": 3246.931555747986,
-  "optimization_worker_hours": 6.863690073183841,
-  "max_memory_GiB": 2.3449206352233887,
-  "all_saved_feasible": true,
-  "all_final_feasible": false,
-  "retained_last_iteration": 6
-}

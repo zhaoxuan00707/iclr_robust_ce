@@ -1,8 +1,0 @@
-{
-  "factual_positive": 1,
-  "edited_positive": 4,
-  "negative_to_positive_pairs": 3,
-  "mean_paired_probability_change": 0.229661304038018,
-  "generated_face_ground_truth_available": false,
-  "old_edits_selected_using_original_CLIP": true
-}

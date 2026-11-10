@@ -1,7 +1,0 @@
-{
-  "evaluator": "/home/xu.zhao/iclr_robust_ce/experiments/055_finalize_mnist_update_aware.py",
-  "evaluator_sha256": "3671107975f94f6bdf095c576c746f16be1a1238bed651690370d21a26365c81",
-  "core_sha256": "4c8f040c74770491c8778e968a86231aaa62a435fc47de32a57b82365798ed25",
-  "change": "Detach computed baseline scalar metrics; no changes to objective values, optimization, images, models or selection",
-  "cuda_visible_devices": "1"
-}

@@ -1,9 +1,0 @@
-factual_index,assistant_descriptive_observation
-0,Small mouth changes; added GRACE change is subtle; background and accessories appear stable.
-1,Base makes a clearer mouth change; GRACE adds a small change; hair and background appear stable.
-2,Base changes mouth/teeth visibly; GRACE remains close to Base; all future models reject the selected output.
-3,"Factual already appears smile-like; edits are subtle. This is a classifier-defined source label, not a verified non-smile."
-4,Mouth changes from factual to Base; GRACE changes little; background appears stable.
-5,Factual already appears smile-like; GRACE further changes the mouth modestly. Semantic source label remains uncertain.
-6,Only small expression changes; no successful future-model transition; background appears stable.
-7,Visible mouth/teeth change in Base; little added GRACE change; no successful future-model transition.
