@@ -2,7 +2,7 @@
 
 **Anonymous submission · Under review at ICLR 2027**
 
-[Paper](iclr_robust_ce-88.pdf) · [Reproduction guide](docs/reproducibility.md) · [Wachter example](deliverables/grace-wachter/README.md)
+[Reproduction guide](docs/reproducibility.md) · [Wachter example](deliverables/grace-wachter/README.md)
 
 GRACE (**Geometrically Restricted Adversarially robust Counterfactual Explanations**) is a post-hoc framework for refining a population of counterfactual explanations (CFs). It builds on existing generators, including Wachter and DiCE, and optimizes their future validity under a shared model-update mechanism while constraining how far the CF population moves.
 
@@ -137,7 +137,6 @@ experiments/tests/             Numerical and integration checks
 experiments/vendor/            Third-party baseline sources and licenses
 results/                       Lightweight metrics, audits, and provenance
 figures/                       Experiment plots and qualitative results
-paper/                         LaTeX manuscript sources
 ```
 
 The [experiment archive](experiments/README.md) also documents earlier research workflows. Use the update-aware entry points in the reproduction guide for the method described here. Large data, checkpoints, and raw runs are intentionally external to Git.
